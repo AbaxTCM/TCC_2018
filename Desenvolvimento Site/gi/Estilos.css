@@ -1,0 +1,86 @@
+body {
+   background-color:#ffe6cc
+}
+
+ #centro img{
+	 height: 340px;
+	 width: 1280px;
+	top:0px;
+	 margin-top:0px;
+ }
+ #espaco{
+	 height:900px;
+	 width: 1px;
+ }	 
+ #centro{
+	 top:-520px;
+	 margin-top:-100px;
+	 position: relative;
+	 margin-left:2.5%;
+	 height: 440px;
+	 width: 1280px;
+	 display:inline-block;
+ }
+ #esquerda{
+	 z-index:0;
+	 opacity: 0.3;
+     filter: alpha(opacity=50);
+	 height:900px;
+	 width: 100px;
+	 display:inline-block;
+	 background-image:url('barrado.jpeg');
+	 background-size:100%;
+ }
+ #direita{
+	 opacity: 0.3;
+     filter: alpha(opacity=50);
+	 margin-left:2.5%;
+	 height:900px;
+	 width: 100px;
+
+	 display:inline-block;
+	 background-image:url('barrado.jpeg');
+	
+	 background-size:100%;
+ }
+ #botoes{
+	 margin-left:45%;
+ }
+ #barra{
+	 top:0%;
+	 margin-top:0%;
+	 margin-left:0%;
+	 left:0%;
+	 z-index:1;
+	 width:100%;
+	 position:fixed;
+	 background-color: #333;
+ }
+ 
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+ 
+ .p{
+	 
+ }

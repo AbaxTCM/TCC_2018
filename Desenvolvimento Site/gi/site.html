@@ -1,0 +1,63 @@
+<!doctype HTML>
+<html lang="pt-br">
+
+	<head>
+	<meta http-equiv="Content-Type" content="text/html;charset="utf-8" name="viewport" content="width=device=width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="Estilos.css"/>
+	</head>
+	<body>
+	<header>
+	<nav id="barra">
+	<ul>
+       <li><a class="Home" href="#home">Home</a></li>
+       <li><a href="#Contato">Contato</a></li>
+       <li><a href="#Quem">Quem Somos</a></li>
+       <li><a href="#Metodologia">Metodologia</a></li>
+    </ul>
+	</nav>
+	</header>
+		<section id="esquerda"></section>
+		
+		
+		
+		<section id="centro">
+		<center>
+			<img src="img1.png" name="slide"/>
+    	</center>
+	    </section>
+		
+		
+		
+		<section id="direita"> </section>
+		
+		
+	    <script language="JavaScript">
+			
+			var contador = 1;
+			var img1="img1.png";
+			var img2="img2.png";
+			var img3="img3.png";
+			var img4="img4.png";
+			var img5="img5.png";
+			Exibindo();
+			
+			function Exibindo()
+			{
+				if (!document.images)
+					return;
+				
+				document.images["slide"].src=eval("img"+contador);
+				
+				if (contador < 5)
+					contador++;
+				else
+					contador=1;
+				setTimeout("Exibindo()",3000);
+			}
+
+		</script>
+	
+		
+		
+	</body>
+</html>
