@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SistemaPet
 {
-    public partial class Form1 : Form
+    public partial class TelaSplash : Form
     {
-        public Form1()
+        public TelaSplash()
         {
             InitializeComponent();
             pgbCarregamentoSplash.Style = ProgressBarStyle.Continuous;
