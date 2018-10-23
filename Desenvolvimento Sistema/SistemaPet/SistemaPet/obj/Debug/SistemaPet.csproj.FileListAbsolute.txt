@@ -18,3 +18,13 @@ C:\Users\2binfo\Desktop\Rafael\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj
 C:\Users\2binfo\Desktop\Rafael\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CoreCompileInputs.cache
 C:\Users\2binfo\Desktop\Rafael\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
 C:\Users\2binfo\Desktop\Rafael\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
+C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe.config
+C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe
+C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.pdb
+C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csprojAssemblyReference.cache
+C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.Form1.resources
+C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.Properties.Resources.resources
+C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.GenerateResource.cache
+C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CoreCompileInputs.cache
+C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
+C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
