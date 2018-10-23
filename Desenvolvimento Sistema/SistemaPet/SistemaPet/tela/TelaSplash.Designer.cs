@@ -77,6 +77,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(239)))));
             this.ClientSize = new System.Drawing.Size(482, 571);
+            this.ControlBox = false;
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pgbCarregamentoSplash);
             this.Controls.Add(this.pictureBox1);

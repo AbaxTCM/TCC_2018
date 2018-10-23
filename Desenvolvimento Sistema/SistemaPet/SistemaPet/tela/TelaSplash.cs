@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SistemaPet.tela;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace SistemaPet
 {
     public partial class TelaSplash : Form
     {
+        Form telaLogin = new TelaLogin();
         public TelaSplash()
         {
             InitializeComponent();
@@ -29,6 +31,8 @@ namespace SistemaPet
             if(pgbCarregamentoSplash.Value == 100)
             {
                 timer1.Enabled = false;
+                telaLogin.Show();
+                this.Hide();
             }
         } 
     }

@@ -46,10 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TelaSplash.cs">
+    <Compile Include="tela\TelaLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TelaSplash.Designer.cs">
+    <Compile Include="tela\TelaLogin.Designer.cs">
+      <DependentUpon>TelaLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tela\TelaSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tela\TelaSplash.Designer.cs">
       <DependentUpon>TelaSplash.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -60,7 +66,10 @@
     <Compile Include="tela\Design.Designer.cs">
       <DependentUpon>Design.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="TelaSplash.resx">
+    <EmbeddedResource Include="tela\TelaLogin.resx">
+      <DependentUpon>TelaLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tela\TelaSplash.resx">
       <DependentUpon>TelaSplash.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
