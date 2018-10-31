@@ -40,3 +40,15 @@ C:\Users\2binfo\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\Siste
 C:\Users\2binfo\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CoreCompileInputs.cache
 C:\Users\2binfo\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
 C:\Users\2binfo\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe.config
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.pdb
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csprojAssemblyReference.cache
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaLogin.resources
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.TelaSplash.resources
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.Properties.Resources.resources
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.Design.resources
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.GenerateResource.cache
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CoreCompileInputs.cache
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
