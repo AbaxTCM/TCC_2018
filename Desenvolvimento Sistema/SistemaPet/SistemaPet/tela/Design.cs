@@ -8,51 +8,61 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace SistemaPet.tela
 {
     public partial class Design : Form
     {
-        int LarguraPainel;
-        Boolean Esconder;
-
+        
         public Design()
         {
             InitializeComponent();
-            LarguraPainel = mpPainelMenu.Width;
-            Esconder = false;
-        }
+            
+          }
 
-        private void mlbMenuTopo_Click(object sender, EventArgs e)
+        private void btnMenu_Click(object sender, EventArgs e)
         {
             
         }
 
-        private void mbEsconder_Click(object sender, EventArgs e)
+        private void btnMenu_Click_1(object sender, EventArgs e)
         {
-            if(Esconder) mbEsconder.Text = "-";
-            else mbEsconder.Text = "+";
-            timerMenu.Start();
+            if(mpPainelMenu.Width == 215)
+            {
+                mpPainelMenu.Width = 61;
+            }
+            else
+            {
+                mpPainelMenu.Width = 215;
+            }
         }
 
-        private void timerMenu_Tick(object sender, EventArgs e)
+        private void pbFechar_Click(object sender, EventArgs e)
         {
-            if (Esconder) {
-                mpPainelMenu.Width = mpPainelMenu.Width + 50;
-                if(mpPainelMenu.Width >= LarguraPainel) {
-                    timerMenu.Stop();
-                    Esconder = false;
-                    this.Refresh();
-                }
-            }
-            else {
-                mpPainelMenu.Width = mpPainelMenu.Width - 50;
-                if(mpPainelMenu.Width <= 50)
-                {
-                    timerMenu.Stop();
-                    Esconder = true;
-                    this.Refresh();
-                }
-            }
+            Application.Exit();
         }
+
+        private void pbMaximizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            pbMaximizar.Visible = false;
+            pbrestaurar.Visible = true;
+        }
+
+        private void pbrestaurar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            pbMaximizar.Visible = true;
+            pbrestaurar.Visible = false;
+        }
+
+        private void pbMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+
+
+ 
     }
 }
