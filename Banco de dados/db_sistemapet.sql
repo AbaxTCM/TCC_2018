@@ -12,7 +12,7 @@ numrua_func int not null,
 bairro_func varchar (30),
 cidade_func varchar (50)
 )
-go
+
 
 create table tb_adestrador (
 id_ad int primary key identity,
@@ -20,9 +20,7 @@ nome_ad varchar (50) not null,
 fone_ad varchar (15),
 email_ad varchar(50) not null
 )
-go
 
-go
 
 create table tb_dono(
 id_dono int primary key identity,
