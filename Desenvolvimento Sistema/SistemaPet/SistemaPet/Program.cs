@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SistemaPet.tela;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace SistemaPet
         {
             //Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TelaSplash());
+            Application.Run(new Design());
         }
     }
 }
