@@ -55,6 +55,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bd\Conexao.cs" />
+    <Compile Include="dominio\Adestrador.cs" />
+    <Compile Include="dominio\Dono.cs" />
+    <Compile Include="dominio\Funcionario.cs" />
+    <Compile Include="dominio\Pet.cs" />
+    <Compile Include="dominio\Usuario.cs" />
     <Compile Include="tela\TelaLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,9 +114,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bd\" />
     <Folder Include="controlador\" />
-    <Folder Include="dominio\" />
     <Folder Include="util\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
