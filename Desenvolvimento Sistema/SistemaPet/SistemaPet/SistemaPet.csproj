@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="bd\Conexao.cs" />
+    <Compile Include="controlador\ControladorTelaCadastro.cs" />
     <Compile Include="dominio\Adestrador.cs" />
     <Compile Include="dominio\Dono.cs" />
     <Compile Include="dominio\Funcionario.cs" />
@@ -123,7 +124,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="controlador\" />
     <Folder Include="util\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

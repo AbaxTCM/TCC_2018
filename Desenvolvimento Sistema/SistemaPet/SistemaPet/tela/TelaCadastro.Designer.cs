@@ -34,7 +34,7 @@
             this.lblCpfAdestrador = new MetroFramework.Controls.MetroLabel();
             this.btnCancelarAdestrador = new MetroFramework.Controls.MetroButton();
             this.btnSalvarAdestrador = new MetroFramework.Controls.MetroButton();
-            this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
+            this.cmbEstadoAdestrador = new MetroFramework.Controls.MetroComboBox();
             this.lblEstadoAdestrador = new MetroFramework.Controls.MetroLabel();
             this.lblNumAdestrador = new MetroFramework.Controls.MetroLabel();
             this.txtNumAdestrador = new MetroFramework.Controls.MetroTextBox();
@@ -47,13 +47,12 @@
             this.lblEmailAdestrador = new MetroFramework.Controls.MetroLabel();
             this.txtEmailAdestrador = new MetroFramework.Controls.MetroTextBox();
             this.lblTelAdestrador = new MetroFramework.Controls.MetroLabel();
-            this.txtTelAdestrador = new MetroFramework.Controls.MetroTextBox();
             this.lblNomeAdestrador = new MetroFramework.Controls.MetroLabel();
             this.txtNomeAdestrador = new MetroFramework.Controls.MetroTextBox();
             this.tbpDono = new MetroFramework.Controls.MetroTabPage();
             this.btnCancelarDono = new MetroFramework.Controls.MetroButton();
             this.btnSalvarDono = new MetroFramework.Controls.MetroButton();
-            this.metroComboBox2 = new MetroFramework.Controls.MetroComboBox();
+            this.cmbEstadoDono = new MetroFramework.Controls.MetroComboBox();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
@@ -70,6 +69,7 @@
             this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
             this.metroTextBox7 = new MetroFramework.Controls.MetroTextBox();
             this.lblCadastro = new System.Windows.Forms.Label();
+            this.txtTelAdestrador = new MetroFramework.Controls.MetroTextBox();
             this.tbcUsuario.SuspendLayout();
             this.tbpAdestrador.SuspendLayout();
             this.tbpDono.SuspendLayout();
@@ -92,7 +92,7 @@
             this.tbpAdestrador.Controls.Add(this.lblCpfAdestrador);
             this.tbpAdestrador.Controls.Add(this.btnCancelarAdestrador);
             this.tbpAdestrador.Controls.Add(this.btnSalvarAdestrador);
-            this.tbpAdestrador.Controls.Add(this.metroComboBox1);
+            this.tbpAdestrador.Controls.Add(this.cmbEstadoAdestrador);
             this.tbpAdestrador.Controls.Add(this.lblEstadoAdestrador);
             this.tbpAdestrador.Controls.Add(this.lblNumAdestrador);
             this.tbpAdestrador.Controls.Add(this.txtNumAdestrador);
@@ -123,6 +123,7 @@
             // mtbCpfAdestrador
             // 
             this.mtbCpfAdestrador.Location = new System.Drawing.Point(191, 274);
+            this.mtbCpfAdestrador.Mask = "000.000.000-00";
             this.mtbCpfAdestrador.Name = "mtbCpfAdestrador";
             this.mtbCpfAdestrador.Size = new System.Drawing.Size(285, 22);
             this.mtbCpfAdestrador.TabIndex = 4;
@@ -144,6 +145,7 @@
             this.btnCancelarAdestrador.TabIndex = 11;
             this.btnCancelarAdestrador.Text = "CANCELAR";
             this.btnCancelarAdestrador.UseSelectable = true;
+            this.btnCancelarAdestrador.Click += new System.EventHandler(this.btnCancelarAdestrador_Click);
             // 
             // btnSalvarAdestrador
             // 
@@ -153,12 +155,13 @@
             this.btnSalvarAdestrador.TabIndex = 10;
             this.btnSalvarAdestrador.Text = "SALVAR";
             this.btnSalvarAdestrador.UseSelectable = true;
+            this.btnSalvarAdestrador.Click += new System.EventHandler(this.btnSalvarAdestrador_Click);
             // 
-            // metroComboBox1
+            // cmbEstadoAdestrador
             // 
-            this.metroComboBox1.FormattingEnabled = true;
-            this.metroComboBox1.ItemHeight = 24;
-            this.metroComboBox1.Items.AddRange(new object[] {
+            this.cmbEstadoAdestrador.FormattingEnabled = true;
+            this.cmbEstadoAdestrador.ItemHeight = 24;
+            this.cmbEstadoAdestrador.Items.AddRange(new object[] {
             "AC",
             "AL",
             "AP",
@@ -186,11 +189,11 @@
             "SP",
             "SE",
             "TO"});
-            this.metroComboBox1.Location = new System.Drawing.Point(602, 339);
-            this.metroComboBox1.Name = "metroComboBox1";
-            this.metroComboBox1.Size = new System.Drawing.Size(121, 30);
-            this.metroComboBox1.TabIndex = 9;
-            this.metroComboBox1.UseSelectable = true;
+            this.cmbEstadoAdestrador.Location = new System.Drawing.Point(602, 339);
+            this.cmbEstadoAdestrador.Name = "cmbEstadoAdestrador";
+            this.cmbEstadoAdestrador.Size = new System.Drawing.Size(121, 30);
+            this.cmbEstadoAdestrador.TabIndex = 9;
+            this.cmbEstadoAdestrador.UseSelectable = true;
             // 
             // lblEstadoAdestrador
             // 
@@ -405,36 +408,6 @@
             this.lblTelAdestrador.TabIndex = 5;
             this.lblTelAdestrador.Text = "Telefone:";
             // 
-            // txtTelAdestrador
-            // 
-            // 
-            // 
-            // 
-            this.txtTelAdestrador.CustomButton.Image = null;
-            this.txtTelAdestrador.CustomButton.Location = new System.Drawing.Point(263, 1);
-            this.txtTelAdestrador.CustomButton.Name = "";
-            this.txtTelAdestrador.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtTelAdestrador.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtTelAdestrador.CustomButton.TabIndex = 1;
-            this.txtTelAdestrador.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtTelAdestrador.CustomButton.UseSelectable = true;
-            this.txtTelAdestrador.CustomButton.Visible = false;
-            this.txtTelAdestrador.Lines = new string[0];
-            this.txtTelAdestrador.Location = new System.Drawing.Point(191, 136);
-            this.txtTelAdestrador.MaxLength = 32767;
-            this.txtTelAdestrador.Name = "txtTelAdestrador";
-            this.txtTelAdestrador.PasswordChar = '\0';
-            this.txtTelAdestrador.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtTelAdestrador.SelectedText = "";
-            this.txtTelAdestrador.SelectionLength = 0;
-            this.txtTelAdestrador.SelectionStart = 0;
-            this.txtTelAdestrador.ShortcutsEnabled = true;
-            this.txtTelAdestrador.Size = new System.Drawing.Size(285, 23);
-            this.txtTelAdestrador.TabIndex = 2;
-            this.txtTelAdestrador.UseSelectable = true;
-            this.txtTelAdestrador.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtTelAdestrador.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
             // lblNomeAdestrador
             // 
             this.lblNomeAdestrador.AutoSize = true;
@@ -478,7 +451,7 @@
             // 
             this.tbpDono.Controls.Add(this.btnCancelarDono);
             this.tbpDono.Controls.Add(this.btnSalvarDono);
-            this.tbpDono.Controls.Add(this.metroComboBox2);
+            this.tbpDono.Controls.Add(this.cmbEstadoDono);
             this.tbpDono.Controls.Add(this.metroLabel2);
             this.tbpDono.Controls.Add(this.metroLabel3);
             this.tbpDono.Controls.Add(this.metroTextBox1);
@@ -514,6 +487,7 @@
             this.btnCancelarDono.TabIndex = 38;
             this.btnCancelarDono.Text = "CANCELAR";
             this.btnCancelarDono.UseSelectable = true;
+            this.btnCancelarDono.Click += new System.EventHandler(this.btnCancelarDono_Click);
             // 
             // btnSalvarDono
             // 
@@ -523,12 +497,13 @@
             this.btnSalvarDono.TabIndex = 36;
             this.btnSalvarDono.Text = "SALVAR";
             this.btnSalvarDono.UseSelectable = true;
+            this.btnSalvarDono.Click += new System.EventHandler(this.btnSalvarDono_Click);
             // 
-            // metroComboBox2
+            // cmbEstadoDono
             // 
-            this.metroComboBox2.FormattingEnabled = true;
-            this.metroComboBox2.ItemHeight = 24;
-            this.metroComboBox2.Items.AddRange(new object[] {
+            this.cmbEstadoDono.FormattingEnabled = true;
+            this.cmbEstadoDono.ItemHeight = 24;
+            this.cmbEstadoDono.Items.AddRange(new object[] {
             "AC",
             "AL",
             "AP",
@@ -556,11 +531,11 @@
             "SP",
             "SE",
             "TO"});
-            this.metroComboBox2.Location = new System.Drawing.Point(602, 278);
-            this.metroComboBox2.Name = "metroComboBox2";
-            this.metroComboBox2.Size = new System.Drawing.Size(121, 30);
-            this.metroComboBox2.TabIndex = 35;
-            this.metroComboBox2.UseSelectable = true;
+            this.cmbEstadoDono.Location = new System.Drawing.Point(602, 278);
+            this.cmbEstadoDono.Name = "cmbEstadoDono";
+            this.cmbEstadoDono.Size = new System.Drawing.Size(121, 30);
+            this.cmbEstadoDono.TabIndex = 35;
+            this.cmbEstadoDono.UseSelectable = true;
             // 
             // metroLabel2
             // 
@@ -854,6 +829,36 @@
             this.lblCadastro.TabIndex = 1;
             this.lblCadastro.Text = "Cadastro";
             // 
+            // txtTelAdestrador
+            // 
+            // 
+            // 
+            // 
+            this.txtTelAdestrador.CustomButton.Image = null;
+            this.txtTelAdestrador.CustomButton.Location = new System.Drawing.Point(263, 1);
+            this.txtTelAdestrador.CustomButton.Name = "";
+            this.txtTelAdestrador.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txtTelAdestrador.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtTelAdestrador.CustomButton.TabIndex = 1;
+            this.txtTelAdestrador.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtTelAdestrador.CustomButton.UseSelectable = true;
+            this.txtTelAdestrador.CustomButton.Visible = false;
+            this.txtTelAdestrador.Lines = new string[0];
+            this.txtTelAdestrador.Location = new System.Drawing.Point(191, 136);
+            this.txtTelAdestrador.MaxLength = 32767;
+            this.txtTelAdestrador.Name = "txtTelAdestrador";
+            this.txtTelAdestrador.PasswordChar = '\0';
+            this.txtTelAdestrador.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtTelAdestrador.SelectedText = "";
+            this.txtTelAdestrador.SelectionLength = 0;
+            this.txtTelAdestrador.SelectionStart = 0;
+            this.txtTelAdestrador.ShortcutsEnabled = true;
+            this.txtTelAdestrador.Size = new System.Drawing.Size(285, 23);
+            this.txtTelAdestrador.TabIndex = 2;
+            this.txtTelAdestrador.UseSelectable = true;
+            this.txtTelAdestrador.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtTelAdestrador.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
             // TelaCadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -879,7 +884,7 @@
 
         private MetroFramework.Controls.MetroTabControl tbcUsuario;
         private MetroFramework.Controls.MetroTabPage tbpAdestrador;
-        private MetroFramework.Controls.MetroComboBox metroComboBox1;
+        private MetroFramework.Controls.MetroComboBox cmbEstadoAdestrador;
         private MetroFramework.Controls.MetroLabel lblEstadoAdestrador;
         private MetroFramework.Controls.MetroLabel lblNumAdestrador;
         private MetroFramework.Controls.MetroTextBox txtNumAdestrador;
@@ -892,7 +897,6 @@
         private MetroFramework.Controls.MetroLabel lblEmailAdestrador;
         private MetroFramework.Controls.MetroTextBox txtEmailAdestrador;
         private MetroFramework.Controls.MetroLabel lblTelAdestrador;
-        private MetroFramework.Controls.MetroTextBox txtTelAdestrador;
         private MetroFramework.Controls.MetroLabel lblNomeAdestrador;
         private MetroFramework.Controls.MetroTextBox txtNomeAdestrador;
         private MetroFramework.Controls.MetroTabPage tbpDono;
@@ -903,7 +907,7 @@
         private MetroFramework.Controls.MetroButton btnSalvarAdestrador;
         private MetroFramework.Controls.MetroButton btnCancelarDono;
         private MetroFramework.Controls.MetroButton btnSalvarDono;
-        private MetroFramework.Controls.MetroComboBox metroComboBox2;
+        private MetroFramework.Controls.MetroComboBox cmbEstadoDono;
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private MetroFramework.Controls.MetroLabel metroLabel3;
         private MetroFramework.Controls.MetroTextBox metroTextBox1;
@@ -919,5 +923,6 @@
         private MetroFramework.Controls.MetroTextBox metroTextBox6;
         private MetroFramework.Controls.MetroLabel metroLabel9;
         private MetroFramework.Controls.MetroTextBox metroTextBox7;
+        private MetroFramework.Controls.MetroTextBox txtTelAdestrador;
     }
 }
