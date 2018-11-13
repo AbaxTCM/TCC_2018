@@ -40,11 +40,6 @@ namespace SistemaPet.tela
 
         private void btnSalvarDono_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnCancelarDono_Click(object sender, EventArgs e)
-        {
             Dono dono = new Dono();
             dono.Nome = txtNomeAdestrador.Text;
             dono.Telefone = txtTelAdestrador.Text;
@@ -54,6 +49,10 @@ namespace SistemaPet.tela
             dono.Bairro = txtBairroAdestrador.Text;
             dono.Cidade = txtCidadeAdestrador.Text;
             dono.Estado = cmbEstadoAdestrador.Text;
+        }
+
+        private void btnCancelarDono_Click(object sender, EventArgs e)
+        {
 
         }
     }
