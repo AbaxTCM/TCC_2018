@@ -27,13 +27,13 @@ namespace SistemaPet.tela
             adestrador.Nome = txtNomeAdestrador.Text;
             adestrador.Telefone = txtTelAdestrador.Text;
             adestrador.Email = txtEmailAdestrador.Text;
-            adestrador.Cpf = int.Parse(mtbCpfAdestrador.Text);
             adestrador.Rua = txtRuaAdestrador.Text;
             adestrador.NumCasa = int.Parse(txtNumAdestrador.Text);
             adestrador.Bairro = txtBairroAdestrador.Text;
             adestrador.Cidade = txtCidadeAdestrador.Text;
             adestrador.Estado = cmbEstadoAdestrador.Text;
             adestrador.Senha = int.Parse(txtSenhaAdestrador.Text);
+            adestrador.Cpf = int.Parse(mtbCpfAdestrador.Text);
 
             controladorCadastro.InserirAdestrador(adestrador);
         }
@@ -41,14 +41,14 @@ namespace SistemaPet.tela
         private void btnSalvarDono_Click(object sender, EventArgs e)
         {
             Dono dono = new Dono();
-            dono.Nome = txtNomeAdestrador.Text;
-            dono.Telefone = txtTelAdestrador.Text;
-            dono.Email = txtEmailAdestrador.Text;
-            dono.Rua = txtRuaAdestrador.Text;
-            dono.NumCasa = int.Parse(txtNumAdestrador.Text);
-            dono.Bairro = txtBairroAdestrador.Text;
-            dono.Cidade = txtCidadeAdestrador.Text;
-            dono.Estado = cmbEstadoAdestrador.Text;
+            dono.Nome = txtNomeDono.Text;
+            dono.Telefone = txtTelDono.Text;
+            dono.Email = txtEmailDono.Text;
+            dono.Rua = txtRuaDono.Text;
+            dono.NumCasa = int.Parse(txtNumDono.Text);
+            dono.Bairro = txtBairroDono.Text;
+            dono.Cidade = txtCidadeDono.Text;
+            dono.Estado = cmbEstadoDono.Text;
             dono.Senha = int.Parse(txtSenhaDono.Text);
 
             controladorCadastro.InserirDono(dono);
