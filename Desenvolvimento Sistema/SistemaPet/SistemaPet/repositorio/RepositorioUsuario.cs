@@ -1,7 +1,7 @@
-﻿using MySql.Data.MySqlClient;
-using SistemaPet.dominio;
+﻿using SistemaPet.dominio;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -17,7 +17,7 @@ namespace SistemaPet.repositorio
         {
             try
             {
-                MySqlCommand cmd = new MySqlCommand("insert into Usuario values " +
+                SqlCommand cmd = new SqlCommand("insert into Usuario values " +
                     "(@nome_usuario," +
                     "@telefone_usuario," +
                     "@email_usuario," +
@@ -53,7 +53,38 @@ namespace SistemaPet.repositorio
 
         public void updgradeDono(Dono dono)
         {
+            try
+            {
+                SqlCommand cmd = new SqlCommand("update Usuario set " +
+                    "Nome = @nome_usuario, " +
+                    "Telefone = @telefone_usuario, " +
+                    "Email = @email_usuario, " +
+                    "Rua = @rua_usuario, " +
+                    "NumCasa = @numero_casaUsuario," +
+                    "Bairro = @bairro_usuario," +
+                    "Cidade = @cidade_usuario," +
+                    "Estado = @estado_usuario," +
+                    "Senha = @senha_usuario");
 
+                cmd.Parameters.Add("@id_dono", SqlDbType.VarChar).Value = dono.IdDono;
+                cmd.Parameters.Add("@nome_usuario", SqlDbType.VarChar).Value = dono.Nome;
+                cmd.Parameters.Add("@telefone_usuario", SqlDbType.VarChar).Value = dono.Telefone;
+                cmd.Parameters.Add("@email_usuario", SqlDbType.VarChar).Value = dono.Email;
+                cmd.Parameters.Add("@rua_usuario", SqlDbType.VarChar).Value = dono.Rua;
+                cmd.Parameters.Add("@numero_casaUsuario", SqlDbType.Int).Value = dono.NumCasa;
+                cmd.Parameters.Add("@bairro_usuario", SqlDbType.VarChar).Value = dono.Bairro;
+                cmd.Parameters.Add("@cidade_usuario", SqlDbType.VarChar).Value = dono.Cidade;
+                cmd.Parameters.Add("@estado_usuario", SqlDbType.VarChar).Value = dono.Estado;
+                cmd.Parameters.Add("@senha_usuario", SqlDbType.Int).Value = dono.Senha;
+            }
+            catch(Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                conn.desconectarBD();
+            }
         }
 
         public void deleteDono(Dono dono)
@@ -65,7 +96,7 @@ namespace SistemaPet.repositorio
         {
             try
             {
-                MySqlCommand cmd = new MySqlCommand("insert into Usuario values " +
+                SqlCommand cmd = new SqlCommand("insert into Usuario values " +
                     "(@nome_usuario," +
                     "@telefone_usuario," +
                     "@email_usuario," +
@@ -88,7 +119,7 @@ namespace SistemaPet.repositorio
 
                 cmd.ExecuteNonQuery();
 
-                cmd = new MySqlCommand("insert into Adestrador values " +
+                cmd = new SqlCommand("insert into Adestrador values " +
                     "(@cpf_adestrador); select @@IDENTITY;", conn.conectarBD());
                 cmd.Parameters.AddWithValue("@cpf_adestrador", adestrador.Cpf);
 

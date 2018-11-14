@@ -1,5 +1,4 @@
-﻿using MySql.Data.MySqlClient;
-using System;
+﻿using System;
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
@@ -7,9 +6,9 @@ using System.Windows.Forms;
 public class Conexao
 {
 
-    MySqlConnection conn = new MySqlConnection("SERVER=31.170.160.59;PORT=3306;DATABASE=id7841393_db_sistemapet;UID=abaxtcm@gmail.com;PASSWORD=abax2018;");
+    SqlConnection conn = new SqlConnection("User ID=sa;Initial Catalog=db_sistemapet;Data Source=LAB2PC03\\SA;Password=1234567");
 
-    public MySqlConnection conectarBD()
+    public SqlConnection conectarBD()
     {
         try
         {
@@ -23,7 +22,7 @@ public class Conexao
 
     }
 
-    public MySqlConnection desconectarBD()
+    public SqlConnection desconectarBD()
     {
         try
         {
