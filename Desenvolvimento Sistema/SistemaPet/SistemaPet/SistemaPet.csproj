@@ -62,6 +62,7 @@
     <Compile Include="dominio\Funcionario.cs" />
     <Compile Include="dominio\Pet.cs" />
     <Compile Include="dominio\Usuario.cs" />
+    <Compile Include="repositorio\RepositorioUsuario.cs" />
     <Compile Include="tela\TelaCadastro.cs">
       <SubType>Form</SubType>
     </Compile>

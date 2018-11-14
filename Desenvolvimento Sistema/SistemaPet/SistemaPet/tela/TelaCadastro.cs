@@ -1,4 +1,5 @@
-﻿using SistemaPet.dominio;
+﻿using SistemaPet.controlador;
+using SistemaPet.dominio;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +14,7 @@ namespace SistemaPet.tela
 {
     public partial class TelaCadastro : Form
     {
+        ControladorTelaCadastro controladorCadastro = new ControladorTelaCadastro();
         public TelaCadastro()
         {
             InitializeComponent();
@@ -32,6 +34,8 @@ namespace SistemaPet.tela
             adestrador.Cidade = txtCidadeAdestrador.Text;
             adestrador.Estado = cmbEstadoAdestrador.Text;
             adestrador.Senha = int.Parse(txtSenhaAdestrador.Text);
+
+            controladorCadastro.InserirAdestrador(adestrador);
         }
 
         private void btnSalvarDono_Click(object sender, EventArgs e)
@@ -46,6 +50,8 @@ namespace SistemaPet.tela
             dono.Cidade = txtCidadeAdestrador.Text;
             dono.Estado = cmbEstadoAdestrador.Text;
             dono.Senha = int.Parse(txtSenhaDono.Text);
+
+            controladorCadastro.InserirDono(dono);
         }
 
         private void btnCancelarAdestrador_Click(object sender, EventArgs e)
