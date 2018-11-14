@@ -31,11 +31,7 @@ namespace SistemaPet.tela
             adestrador.Bairro = txtBairroAdestrador.Text;
             adestrador.Cidade = txtCidadeAdestrador.Text;
             adestrador.Estado = cmbEstadoAdestrador.Text;
-        }
-
-        private void btnCancelarAdestrador_Click(object sender, EventArgs e)
-        {
-
+            adestrador.Senha = int.Parse(txtSenhaAdestrador.Text);
         }
 
         private void btnSalvarDono_Click(object sender, EventArgs e)
@@ -49,6 +45,12 @@ namespace SistemaPet.tela
             dono.Bairro = txtBairroAdestrador.Text;
             dono.Cidade = txtCidadeAdestrador.Text;
             dono.Estado = cmbEstadoAdestrador.Text;
+            dono.Senha = int.Parse(txtSenhaDono.Text);
+        }
+
+        private void btnCancelarAdestrador_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void btnCancelarDono_Click(object sender, EventArgs e)
