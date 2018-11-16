@@ -119,6 +119,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="tela\Design.resx">
       <DependentUpon>Design.cs</DependentUpon>
@@ -139,6 +140,36 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="util\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-silhouette-branco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart_branco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opened-door-aperture-branco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pet-branco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-handshake-branco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-handshake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opened-door-aperture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-silhouette.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

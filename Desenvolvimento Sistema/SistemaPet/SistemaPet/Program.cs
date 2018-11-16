@@ -17,8 +17,8 @@ namespace SistemaPet
         {
             //Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Design());
-            Application.Run(new TelaCadastro());
+            Application.Run(new Design());
+            //Application.Run(new TelaCadastro());
         }
     }
 }
