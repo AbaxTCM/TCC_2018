@@ -130,3 +130,4 @@ C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\Sistema
 C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CopyComplete
 C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
 C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
+C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaPerfil.resources
