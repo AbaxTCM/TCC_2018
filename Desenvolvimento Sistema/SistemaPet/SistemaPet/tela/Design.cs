@@ -12,9 +12,11 @@ using System.Windows.Forms;
 
 namespace SistemaPet.tela
 {
+    
     public partial class Design : Form
     {
-        
+        TelaPerfil telaPerfil = new TelaPerfil();
+
         public Design()
         {
             InitializeComponent();
@@ -125,6 +127,44 @@ namespace SistemaPet.tela
         {
             btnSair.ForeColor = Color.FromArgb(0, 255, 255, 255);
             btnSair.Image = Resources.opened_door_aperture_branco;
+        }
+
+        // Nova FUNC
+
+            private void AbrirPainelPerfil(object formFilho)
+            {
+                if (this.mpPainelConteudo.Controls.Count >0)            
+                    this.mpPainelConteudo.Controls.RemoveAt(0);
+            Form formPerfil = formFilho as Form;
+            formPerfil.TopLevel = false;
+            formPerfil.Dock = DockStyle.Fill;
+            this.mpPainelConteudo.Controls.Add(formPerfil);
+            this.mpPainelConteudo.Tag = formFilho;
+            formPerfil.Show();
+
+            }
+
+        private void AbrirPainelPets(object formFilho)
+        {
+            if (this.mpPainelConteudo.Controls.Count > 0)
+                this.mpPainelConteudo.Controls.RemoveAt(0);
+            Form formPet = formFilho as Form;
+            formPet.TopLevel = false;
+            formPet.Dock = DockStyle.Fill;
+            this.mpPainelConteudo.Controls.Add(formPet);
+            this.mpPainelConteudo.Tag = formFilho;
+            formPet.Show();
+
+        }
+
+        private void btnPerfil_Click(object sender, EventArgs e)
+        {
+            AbrirPainelPerfil(new TelaPerfil());
+        }
+
+        private void btnPets_Click(object sender, EventArgs e)
+        {
+            AbrirPainelPets(new TelaPet()); // Não esquecer de Criar depois um FORM para o PAINELPETS: TelaPets(FORM)
         }
     }
 }

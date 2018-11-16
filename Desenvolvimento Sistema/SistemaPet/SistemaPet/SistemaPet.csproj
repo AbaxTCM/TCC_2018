@@ -94,6 +94,12 @@
     <Compile Include="tela\TelaPerfil.Designer.cs">
       <DependentUpon>TelaPerfil.cs</DependentUpon>
     </Compile>
+    <Compile Include="tela\TelaPet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tela\TelaPet.Designer.cs">
+      <DependentUpon>TelaPet.cs</DependentUpon>
+    </Compile>
     <Compile Include="tela\TelaSplash.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="tela\TelaPerfil.resx">
       <DependentUpon>TelaPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tela\TelaPet.resx">
+      <DependentUpon>TelaPet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tela\TelaSplash.resx">
       <DependentUpon>TelaSplash.cs</DependentUpon>
