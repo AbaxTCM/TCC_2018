@@ -76,6 +76,12 @@
     <Compile Include="dominio\Pet.cs" />
     <Compile Include="dominio\Usuario.cs" />
     <Compile Include="repositorio\RepositorioUsuario.cs" />
+    <Compile Include="tela\TelaAdestrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tela\TelaAdestrador.Designer.cs">
+      <DependentUpon>TelaAdestrador.cs</DependentUpon>
+    </Compile>
     <Compile Include="tela\TelaCadastro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     <Compile Include="tela\Design.Designer.cs">
       <DependentUpon>Design.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="tela\TelaAdestrador.resx">
+      <DependentUpon>TelaAdestrador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="tela\TelaCadastro.resx">
       <DependentUpon>TelaCadastro.cs</DependentUpon>
     </EmbeddedResource>

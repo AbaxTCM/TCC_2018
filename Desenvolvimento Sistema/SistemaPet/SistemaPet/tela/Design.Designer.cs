@@ -82,6 +82,8 @@
             this.mpTopoMeio.VerticalScrollbarBarColor = true;
             this.mpTopoMeio.VerticalScrollbarHighlightOnWheel = false;
             this.mpTopoMeio.VerticalScrollbarSize = 10;
+            this.mpTopoMeio.Paint += new System.Windows.Forms.PaintEventHandler(this.mpTopoMeio_Paint);
+            this.mpTopoMeio.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mpTopoMeio_MouseMove);
             // 
             // pbMinimizar
             // 
@@ -162,7 +164,7 @@
             this.mpPainelMenu.HorizontalScrollbarSize = 10;
             this.mpPainelMenu.Location = new System.Drawing.Point(0, 0);
             this.mpPainelMenu.Name = "mpPainelMenu";
-            this.mpPainelMenu.Size = new System.Drawing.Size(215, 549);
+            this.mpPainelMenu.Size = new System.Drawing.Size(215, 634);
             this.mpPainelMenu.TabIndex = 4;
             this.mpPainelMenu.UseCustomBackColor = true;
             this.mpPainelMenu.UseCustomForeColor = true;
@@ -178,10 +180,11 @@
             this.btnSair.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSair.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnSair.Image = global::SistemaPet.Properties.Resources.opened_door_aperture_branco;
-            this.btnSair.Location = new System.Drawing.Point(68, 444);
-            this.btnSair.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSair.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.btnSair.Location = new System.Drawing.Point(0, 559);
+            this.btnSair.Margin = new System.Windows.Forms.Padding(2);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(142, 85);
+            this.btnSair.Size = new System.Drawing.Size(210, 55);
             this.btnSair.TabIndex = 5;
             this.btnSair.Text = "SAIR";
             this.btnSair.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -196,10 +199,11 @@
             this.btnComprar.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnComprar.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnComprar.Image = global::SistemaPet.Properties.Resources.shopping_cart_branco;
-            this.btnComprar.Location = new System.Drawing.Point(68, 354);
-            this.btnComprar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnComprar.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.btnComprar.Location = new System.Drawing.Point(0, 345);
+            this.btnComprar.Margin = new System.Windows.Forms.Padding(2);
             this.btnComprar.Name = "btnComprar";
-            this.btnComprar.Size = new System.Drawing.Size(142, 85);
+            this.btnComprar.Size = new System.Drawing.Size(210, 55);
             this.btnComprar.TabIndex = 4;
             this.btnComprar.Text = "COMPRAR";
             this.btnComprar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -214,14 +218,16 @@
             this.btnAdestradores.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdestradores.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnAdestradores.Image = global::SistemaPet.Properties.Resources.icon_handshake_branco;
-            this.btnAdestradores.Location = new System.Drawing.Point(68, 264);
-            this.btnAdestradores.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAdestradores.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.btnAdestradores.Location = new System.Drawing.Point(0, 274);
+            this.btnAdestradores.Margin = new System.Windows.Forms.Padding(2);
             this.btnAdestradores.Name = "btnAdestradores";
-            this.btnAdestradores.Size = new System.Drawing.Size(142, 85);
+            this.btnAdestradores.Size = new System.Drawing.Size(210, 55);
             this.btnAdestradores.TabIndex = 3;
-            this.btnAdestradores.Text = "ADESTRADORES";
+            this.btnAdestradores.Text = "     ADESTRADORES";
             this.btnAdestradores.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAdestradores.UseVisualStyleBackColor = true;
+            this.btnAdestradores.Click += new System.EventHandler(this.btnAdestradores_Click);
             this.btnAdestradores.MouseEnter += new System.EventHandler(this.btnAdestradores_MouseEnter);
             this.btnAdestradores.MouseLeave += new System.EventHandler(this.btnAdestradores_MouseLeave);
             // 
@@ -232,10 +238,11 @@
             this.btnPets.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPets.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnPets.Image = global::SistemaPet.Properties.Resources.pet_branco;
-            this.btnPets.Location = new System.Drawing.Point(68, 174);
-            this.btnPets.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPets.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.btnPets.Location = new System.Drawing.Point(0, 199);
+            this.btnPets.Margin = new System.Windows.Forms.Padding(2);
             this.btnPets.Name = "btnPets";
-            this.btnPets.Size = new System.Drawing.Size(142, 85);
+            this.btnPets.Size = new System.Drawing.Size(210, 55);
             this.btnPets.TabIndex = 2;
             this.btnPets.Text = "MEUS PETS";
             this.btnPets.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -251,10 +258,11 @@
             this.btnPerfil.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPerfil.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnPerfil.Image = global::SistemaPet.Properties.Resources.user_silhouette_branco;
-            this.btnPerfil.Location = new System.Drawing.Point(68, 84);
-            this.btnPerfil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPerfil.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.btnPerfil.Location = new System.Drawing.Point(2, 129);
+            this.btnPerfil.Margin = new System.Windows.Forms.Padding(2);
             this.btnPerfil.Name = "btnPerfil";
-            this.btnPerfil.Size = new System.Drawing.Size(142, 85);
+            this.btnPerfil.Size = new System.Drawing.Size(210, 55);
             this.btnPerfil.TabIndex = 1;
             this.btnPerfil.Text = "PERFIL";
             this.btnPerfil.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -281,7 +289,7 @@
             this.mpPainelConteudo.HorizontalScrollbarSize = 10;
             this.mpPainelConteudo.Location = new System.Drawing.Point(215, 60);
             this.mpPainelConteudo.Name = "mpPainelConteudo";
-            this.mpPainelConteudo.Size = new System.Drawing.Size(969, 489);
+            this.mpPainelConteudo.Size = new System.Drawing.Size(969, 574);
             this.mpPainelConteudo.TabIndex = 5;
             this.mpPainelConteudo.VerticalScrollbarBarColor = true;
             this.mpPainelConteudo.VerticalScrollbarHighlightOnWheel = false;
@@ -292,12 +300,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(239)))));
-            this.ClientSize = new System.Drawing.Size(1184, 549);
+            this.ClientSize = new System.Drawing.Size(1184, 634);
             this.ControlBox = false;
             this.Controls.Add(this.mpPainelConteudo);
             this.Controls.Add(this.mpTopoMeio);
             this.Controls.Add(this.mpPainelMenu);
+            this.MaximizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(1100, 600);
             this.Name = "Design";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.msmEstiloMenu)).EndInit();
             this.mpTopoMeio.ResumeLayout(false);

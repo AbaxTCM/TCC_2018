@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace SistemaPet.tela
 {
-    public partial class TelaPerfil : Form
+    public partial class TelaAdestrador : Form
     {
-        public TelaPerfil()
+        public TelaAdestrador()
         {
             InitializeComponent();
-        }
-
-        private void TelaPerfil_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

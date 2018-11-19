@@ -30,20 +30,33 @@
         {
             this.ptbImagemPerfil = new System.Windows.Forms.PictureBox();
             this.lblNomePerfil = new System.Windows.Forms.Label();
-            this.lblTelefonePerfil = new System.Windows.Forms.Label();
             this.lblEmailPerfil = new System.Windows.Forms.Label();
-            this.lblRuaPerfil = new System.Windows.Forms.Label();
-            this.lblCidadePerfil = new System.Windows.Forms.Label();
+            this.lblTelefonePerfil = new System.Windows.Forms.Label();
             this.lblEstadoPerfil = new System.Windows.Forms.Label();
+            this.lblCidadePerfil = new System.Windows.Forms.Label();
             this.lblBairroPerfil = new System.Windows.Forms.Label();
+            this.lblRuaPerfil = new System.Windows.Forms.Label();
             this.lblNumCasaPerfil = new System.Windows.Forms.Label();
+            this.mtbTrocarImagemPerfil = new MetroFramework.Controls.MetroButton();
+            this.txbNomePerfil = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txbIdPerfil = new System.Windows.Forms.TextBox();
+            this.lblIdPerfil = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ptbImagemPerfil)).BeginInit();
             this.SuspendLayout();
             // 
             // ptbImagemPerfil
             // 
-            this.ptbImagemPerfil.Location = new System.Drawing.Point(24, 26);
-            this.ptbImagemPerfil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ptbImagemPerfil.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ptbImagemPerfil.Location = new System.Drawing.Point(159, 71);
+            this.ptbImagemPerfil.Margin = new System.Windows.Forms.Padding(2);
             this.ptbImagemPerfil.Name = "ptbImagemPerfil";
             this.ptbImagemPerfil.Size = new System.Drawing.Size(129, 152);
             this.ptbImagemPerfil.TabIndex = 0;
@@ -52,109 +65,218 @@
             // lblNomePerfil
             // 
             this.lblNomePerfil.AutoSize = true;
-            this.lblNomePerfil.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomePerfil.Location = new System.Drawing.Point(165, 39);
-            this.lblNomePerfil.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNomePerfil.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.lblNomePerfil.Location = new System.Drawing.Point(323, 127);
             this.lblNomePerfil.Name = "lblNomePerfil";
-            this.lblNomePerfil.Size = new System.Drawing.Size(77, 20);
-            this.lblNomePerfil.TabIndex = 1;
-            this.lblNomePerfil.Text = "##Nome##";
-            // 
-            // lblTelefonePerfil
-            // 
-            this.lblTelefonePerfil.AutoSize = true;
-            this.lblTelefonePerfil.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTelefonePerfil.Location = new System.Drawing.Point(165, 93);
-            this.lblTelefonePerfil.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblTelefonePerfil.Name = "lblTelefonePerfil";
-            this.lblTelefonePerfil.Size = new System.Drawing.Size(93, 20);
-            this.lblTelefonePerfil.TabIndex = 2;
-            this.lblTelefonePerfil.Text = "##Telefone##";
+            this.lblNomePerfil.Size = new System.Drawing.Size(55, 19);
+            this.lblNomePerfil.TabIndex = 9;
+            this.lblNomePerfil.Text = "Nome:";
             // 
             // lblEmailPerfil
             // 
             this.lblEmailPerfil.AutoSize = true;
-            this.lblEmailPerfil.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmailPerfil.Location = new System.Drawing.Point(165, 66);
-            this.lblEmailPerfil.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblEmailPerfil.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.lblEmailPerfil.Location = new System.Drawing.Point(323, 160);
             this.lblEmailPerfil.Name = "lblEmailPerfil";
-            this.lblEmailPerfil.Size = new System.Drawing.Size(74, 20);
-            this.lblEmailPerfil.TabIndex = 3;
-            this.lblEmailPerfil.Text = "##Email##";
+            this.lblEmailPerfil.Size = new System.Drawing.Size(50, 19);
+            this.lblEmailPerfil.TabIndex = 10;
+            this.lblEmailPerfil.Text = "Email:";
             // 
-            // lblRuaPerfil
+            // lblTelefonePerfil
             // 
-            this.lblRuaPerfil.AutoSize = true;
-            this.lblRuaPerfil.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRuaPerfil.Location = new System.Drawing.Point(28, 243);
-            this.lblRuaPerfil.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblRuaPerfil.Name = "lblRuaPerfil";
-            this.lblRuaPerfil.Size = new System.Drawing.Size(64, 20);
-            this.lblRuaPerfil.TabIndex = 4;
-            this.lblRuaPerfil.Text = "##Rua##";
-            // 
-            // lblCidadePerfil
-            // 
-            this.lblCidadePerfil.AutoSize = true;
-            this.lblCidadePerfil.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCidadePerfil.Location = new System.Drawing.Point(106, 188);
-            this.lblCidadePerfil.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblCidadePerfil.Name = "lblCidadePerfil";
-            this.lblCidadePerfil.Size = new System.Drawing.Size(84, 20);
-            this.lblCidadePerfil.TabIndex = 5;
-            this.lblCidadePerfil.Text = "##Cidade##";
+            this.lblTelefonePerfil.AutoSize = true;
+            this.lblTelefonePerfil.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.lblTelefonePerfil.Location = new System.Drawing.Point(323, 195);
+            this.lblTelefonePerfil.Name = "lblTelefonePerfil";
+            this.lblTelefonePerfil.Size = new System.Drawing.Size(71, 19);
+            this.lblTelefonePerfil.TabIndex = 11;
+            this.lblTelefonePerfil.Text = "Telefone:";
             // 
             // lblEstadoPerfil
             // 
             this.lblEstadoPerfil.AutoSize = true;
-            this.lblEstadoPerfil.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstadoPerfil.Location = new System.Drawing.Point(28, 188);
-            this.lblEstadoPerfil.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblEstadoPerfil.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.lblEstadoPerfil.Location = new System.Drawing.Point(168, 276);
             this.lblEstadoPerfil.Name = "lblEstadoPerfil";
-            this.lblEstadoPerfil.Size = new System.Drawing.Size(83, 20);
-            this.lblEstadoPerfil.TabIndex = 6;
-            this.lblEstadoPerfil.Text = "##Estado##";
+            this.lblEstadoPerfil.Size = new System.Drawing.Size(58, 19);
+            this.lblEstadoPerfil.TabIndex = 12;
+            this.lblEstadoPerfil.Text = "Estado:";
+            // 
+            // lblCidadePerfil
+            // 
+            this.lblCidadePerfil.AutoSize = true;
+            this.lblCidadePerfil.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.lblCidadePerfil.Location = new System.Drawing.Point(323, 276);
+            this.lblCidadePerfil.Name = "lblCidadePerfil";
+            this.lblCidadePerfil.Size = new System.Drawing.Size(60, 19);
+            this.lblCidadePerfil.TabIndex = 13;
+            this.lblCidadePerfil.Text = "Cidade:";
             // 
             // lblBairroPerfil
             // 
             this.lblBairroPerfil.AutoSize = true;
-            this.lblBairroPerfil.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBairroPerfil.Location = new System.Drawing.Point(28, 215);
-            this.lblBairroPerfil.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblBairroPerfil.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.lblBairroPerfil.Location = new System.Drawing.Point(168, 305);
             this.lblBairroPerfil.Name = "lblBairroPerfil";
-            this.lblBairroPerfil.Size = new System.Drawing.Size(76, 20);
-            this.lblBairroPerfil.TabIndex = 7;
-            this.lblBairroPerfil.Text = "##Bairro##";
+            this.lblBairroPerfil.Size = new System.Drawing.Size(54, 19);
+            this.lblBairroPerfil.TabIndex = 14;
+            this.lblBairroPerfil.Text = "Bairro:";
+            // 
+            // lblRuaPerfil
+            // 
+            this.lblRuaPerfil.AutoSize = true;
+            this.lblRuaPerfil.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.lblRuaPerfil.Location = new System.Drawing.Point(168, 334);
+            this.lblRuaPerfil.Name = "lblRuaPerfil";
+            this.lblRuaPerfil.Size = new System.Drawing.Size(39, 19);
+            this.lblRuaPerfil.TabIndex = 15;
+            this.lblRuaPerfil.Text = "Rua:";
             // 
             // lblNumCasaPerfil
             // 
             this.lblNumCasaPerfil.AutoSize = true;
-            this.lblNumCasaPerfil.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumCasaPerfil.Location = new System.Drawing.Point(28, 271);
-            this.lblNumCasaPerfil.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNumCasaPerfil.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.lblNumCasaPerfil.Location = new System.Drawing.Point(168, 363);
             this.lblNumCasaPerfil.Name = "lblNumCasaPerfil";
-            this.lblNumCasaPerfil.Size = new System.Drawing.Size(98, 20);
-            this.lblNumCasaPerfil.TabIndex = 8;
-            this.lblNumCasaPerfil.Text = "##NumCasa##";
+            this.lblNumCasaPerfil.Size = new System.Drawing.Size(64, 19);
+            this.lblNumCasaPerfil.TabIndex = 16;
+            this.lblNumCasaPerfil.Text = "NºCasa:";
+            // 
+            // mtbTrocarImagemPerfil
+            // 
+            this.mtbTrocarImagemPerfil.DisplayFocus = true;
+            this.mtbTrocarImagemPerfil.FontSize = MetroFramework.MetroButtonSize.Tall;
+            this.mtbTrocarImagemPerfil.FontWeight = MetroFramework.MetroButtonWeight.Regular;
+            this.mtbTrocarImagemPerfil.Location = new System.Drawing.Point(159, 228);
+            this.mtbTrocarImagemPerfil.Name = "mtbTrocarImagemPerfil";
+            this.mtbTrocarImagemPerfil.Size = new System.Drawing.Size(129, 23);
+            this.mtbTrocarImagemPerfil.TabIndex = 17;
+            this.mtbTrocarImagemPerfil.Text = "Alterar Imagem";
+            this.mtbTrocarImagemPerfil.UseSelectable = true;
+            // 
+            // txbNomePerfil
+            // 
+            this.txbNomePerfil.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.txbNomePerfil.Location = new System.Drawing.Point(384, 119);
+            this.txbNomePerfil.Name = "txbNomePerfil";
+            this.txbNomePerfil.Size = new System.Drawing.Size(256, 27);
+            this.txbNomePerfil.TabIndex = 18;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.textBox1.Location = new System.Drawing.Point(384, 152);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(256, 27);
+            this.textBox1.TabIndex = 19;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.textBox2.Location = new System.Drawing.Point(400, 187);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(240, 27);
+            this.textBox2.TabIndex = 20;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.textBox3.Location = new System.Drawing.Point(384, 268);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(256, 27);
+            this.textBox3.TabIndex = 21;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.textBox4.Location = new System.Drawing.Point(223, 268);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(94, 27);
+            this.textBox4.TabIndex = 22;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.textBox5.Location = new System.Drawing.Point(223, 297);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(417, 27);
+            this.textBox5.TabIndex = 23;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.textBox6.Location = new System.Drawing.Point(223, 326);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(417, 27);
+            this.textBox6.TabIndex = 24;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.textBox7.Location = new System.Drawing.Point(238, 355);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(402, 27);
+            this.textBox7.TabIndex = 25;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Leelawadee", 20F);
+            this.label1.Location = new System.Drawing.Point(369, 221);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(233, 32);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "Dados Cadastrais :";
+            // 
+            // txbIdPerfil
+            // 
+            this.txbIdPerfil.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.txbIdPerfil.Location = new System.Drawing.Point(384, 86);
+            this.txbIdPerfil.Name = "txbIdPerfil";
+            this.txbIdPerfil.Size = new System.Drawing.Size(256, 27);
+            this.txbIdPerfil.TabIndex = 28;
+            // 
+            // lblIdPerfil
+            // 
+            this.lblIdPerfil.AutoSize = true;
+            this.lblIdPerfil.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.lblIdPerfil.Location = new System.Drawing.Point(323, 94);
+            this.lblIdPerfil.Name = "lblIdPerfil";
+            this.lblIdPerfil.Size = new System.Drawing.Size(27, 19);
+            this.lblIdPerfil.TabIndex = 27;
+            this.lblIdPerfil.Text = "ID:";
             // 
             // TelaPerfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(509, 330);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txbIdPerfil);
+            this.Controls.Add(this.lblIdPerfil);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txbNomePerfil);
+            this.Controls.Add(this.mtbTrocarImagemPerfil);
             this.Controls.Add(this.lblNumCasaPerfil);
-            this.Controls.Add(this.lblBairroPerfil);
-            this.Controls.Add(this.lblEstadoPerfil);
-            this.Controls.Add(this.lblCidadePerfil);
             this.Controls.Add(this.lblRuaPerfil);
-            this.Controls.Add(this.lblEmailPerfil);
+            this.Controls.Add(this.lblBairroPerfil);
+            this.Controls.Add(this.lblCidadePerfil);
+            this.Controls.Add(this.lblEstadoPerfil);
             this.Controls.Add(this.lblTelefonePerfil);
+            this.Controls.Add(this.lblEmailPerfil);
             this.Controls.Add(this.lblNomePerfil);
             this.Controls.Add(this.ptbImagemPerfil);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "TelaPerfil";
             this.Text = "TelaPerfil";
+            this.Load += new System.EventHandler(this.TelaPerfil_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ptbImagemPerfil)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -165,12 +287,24 @@
 
         private System.Windows.Forms.PictureBox ptbImagemPerfil;
         private System.Windows.Forms.Label lblNomePerfil;
-        private System.Windows.Forms.Label lblTelefonePerfil;
         private System.Windows.Forms.Label lblEmailPerfil;
-        private System.Windows.Forms.Label lblRuaPerfil;
-        private System.Windows.Forms.Label lblCidadePerfil;
+        private System.Windows.Forms.Label lblTelefonePerfil;
         private System.Windows.Forms.Label lblEstadoPerfil;
+        private System.Windows.Forms.Label lblCidadePerfil;
         private System.Windows.Forms.Label lblBairroPerfil;
+        private System.Windows.Forms.Label lblRuaPerfil;
         private System.Windows.Forms.Label lblNumCasaPerfil;
+        private MetroFramework.Controls.MetroButton mtbTrocarImagemPerfil;
+        private System.Windows.Forms.TextBox txbNomePerfil;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txbIdPerfil;
+        private System.Windows.Forms.Label lblIdPerfil;
     }
 }
