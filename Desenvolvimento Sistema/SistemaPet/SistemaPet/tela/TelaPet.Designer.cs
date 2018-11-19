@@ -39,6 +39,7 @@
             this.lblTipoPet = new System.Windows.Forms.Label();
             this.lblRacaPet = new System.Windows.Forms.Label();
             this.lblNomePet = new System.Windows.Forms.Label();
+            this.btnIncluirPet = new MetroFramework.Controls.MetroButton();
             this.ptbImagemPet = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbImagemPet)).BeginInit();
@@ -53,10 +54,10 @@
             this.tipoPet,
             this.racaPet,
             this.generoPet});
-            this.dataGridView1.Location = new System.Drawing.Point(261, 267);
+            this.dataGridView1.Location = new System.Drawing.Point(166, 267);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(543, 275);
+            this.dataGridView1.Size = new System.Drawing.Size(726, 175);
             this.dataGridView1.TabIndex = 0;
             // 
             // idPet
@@ -134,6 +135,16 @@
             this.lblNomePet.TabIndex = 10;
             this.lblNomePet.Text = "##Nome##";
             // 
+            // btnIncluirPet
+            // 
+            this.btnIncluirPet.Location = new System.Drawing.Point(466, 458);
+            this.btnIncluirPet.Name = "btnIncluirPet";
+            this.btnIncluirPet.Size = new System.Drawing.Size(139, 47);
+            this.btnIncluirPet.TabIndex = 18;
+            this.btnIncluirPet.Text = "Incluir";
+            this.btnIncluirPet.UseSelectable = true;
+            this.btnIncluirPet.Click += new System.EventHandler(this.btnIncluirPet_Click);
+            // 
             // ptbImagemPet
             // 
             this.ptbImagemPet.Location = new System.Drawing.Point(32, 31);
@@ -148,6 +159,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.btnIncluirPet);
             this.Controls.Add(this.lblAvaliacaoPet);
             this.Controls.Add(this.lblGeneroPet);
             this.Controls.Add(this.lblTipoPet);
@@ -180,5 +192,6 @@
         private System.Windows.Forms.Label lblRacaPet;
         private System.Windows.Forms.Label lblNomePet;
         private System.Windows.Forms.PictureBox ptbImagemPet;
+        private MetroFramework.Controls.MetroButton btnIncluirPet;
     }
 }
