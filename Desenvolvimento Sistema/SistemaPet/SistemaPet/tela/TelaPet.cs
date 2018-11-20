@@ -16,11 +16,5 @@ namespace SistemaPet.tela
         {
             InitializeComponent();
         }
-
-        private void btnIncluirPet_Click(object sender, EventArgs e)
-        {
-            TelaCadastroPet cadastroPet = new TelaCadastroPet();
-            cadastroPet.Show();
-        }
     }
 }
