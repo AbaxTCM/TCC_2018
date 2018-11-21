@@ -70,12 +70,14 @@
   <ItemGroup>
     <Compile Include="bd\Conexao.cs" />
     <Compile Include="controlador\ControladorTelaCadastro.cs" />
+    <Compile Include="controlador\ControladorTelaLogin.cs" />
     <Compile Include="dominio\Adestrador.cs" />
     <Compile Include="dominio\Dono.cs" />
     <Compile Include="dominio\Funcionario.cs" />
     <Compile Include="dominio\Pet.cs" />
     <Compile Include="dominio\Usuario.cs" />
-    <Compile Include="repositorio\RepositorioUsuario.cs" />
+    <Compile Include="repositorio\RepositorioAdestrador.cs" />
+    <Compile Include="repositorio\RepositorioDono.cs" />
     <Compile Include="tela\TelaAdestrador.cs">
       <SubType>Form</SubType>
     </Compile>

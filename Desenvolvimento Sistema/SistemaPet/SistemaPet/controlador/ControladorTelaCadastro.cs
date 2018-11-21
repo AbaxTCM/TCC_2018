@@ -10,7 +10,8 @@ namespace SistemaPet.controlador
 {
     class ControladorTelaCadastro
     {
-        RepositorioUsuario repositorioUsuario = new RepositorioUsuario();
+        RepositorioDono repositorioDono = new RepositorioDono();
+        RepositorioAdestrador repositorioAdestrador = new RepositorioAdestrador();
         public ControladorTelaCadastro()
         {
 
@@ -18,12 +19,12 @@ namespace SistemaPet.controlador
 
         public void InserirDono(Dono dono)
         {
-            repositorioUsuario.salvarDono(dono);
+            repositorioDono.salvarDono(dono);
         }
 
         public void InserirAdestrador(Adestrador adestrador)
         {
-            repositorioUsuario.salvarAdestrador(adestrador);
+            repositorioAdestrador.salvarAdestrador(adestrador);
         }
     }
 }

@@ -56,7 +56,7 @@ namespace SistemaPet.tela
 
         private void btnCancelarAdestrador_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void btnCancelarDono_Click(object sender, EventArgs e)

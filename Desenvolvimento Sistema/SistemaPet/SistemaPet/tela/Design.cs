@@ -263,5 +263,10 @@ namespace SistemaPet.tela
         {
             AbrirFormnoPainel<TelaAdestrador>();
         }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
