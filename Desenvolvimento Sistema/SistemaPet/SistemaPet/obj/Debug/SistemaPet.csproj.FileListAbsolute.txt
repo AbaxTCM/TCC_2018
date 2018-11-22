@@ -163,3 +163,5 @@ C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\S
 C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CopyComplete
 C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
 C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
+C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaAdestrador.resources
+C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaPet.resources

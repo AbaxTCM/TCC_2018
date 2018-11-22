@@ -28,43 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txbIdPet = new System.Windows.Forms.TextBox();
+            this.txtIdPet = new System.Windows.Forms.TextBox();
             this.lblIdPet = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txbIdAdestradorPet = new System.Windows.Forms.TextBox();
-            this.txbIdAdestramentoPet = new System.Windows.Forms.TextBox();
-            this.txbAvaliacaoPet = new System.Windows.Forms.TextBox();
-            this.txbGeneroPet = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.txbTipoPet = new System.Windows.Forms.TextBox();
-            this.txbNomePet = new System.Windows.Forms.TextBox();
+            this.txtRacaPet = new System.Windows.Forms.TextBox();
+            this.txtNomePet = new System.Windows.Forms.TextBox();
             this.mtbTrocarImagemPet = new MetroFramework.Controls.MetroButton();
-            this.lblIdAdestradorPet = new System.Windows.Forms.Label();
-            this.lblIdAdestramentoPet = new System.Windows.Forms.Label();
             this.lblAvaliacaoPet = new System.Windows.Forms.Label();
             this.lblGeneroPet = new System.Windows.Forms.Label();
             this.lblRacaPet = new System.Windows.Forms.Label();
             this.lblTipoPet = new System.Windows.Forms.Label();
             this.lblNomePet = new System.Windows.Forms.Label();
             this.ptbImagemPet = new System.Windows.Forms.PictureBox();
+            this.btnAlterarPet = new MetroFramework.Controls.MetroButton();
+            this.btnSalvarPet = new MetroFramework.Controls.MetroButton();
+            this.rtbAvaliacaoPet = new System.Windows.Forms.RichTextBox();
+            this.btnMeusPets = new MetroFramework.Controls.MetroButton();
+            this.cmbTipoPet = new MetroFramework.Controls.MetroComboBox();
+            this.cmbGeneroPet = new MetroFramework.Controls.MetroComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.ptbImagemPet)).BeginInit();
             this.SuspendLayout();
             // 
-            // txbIdPet
+            // txtIdPet
             // 
-            this.txbIdPet.Font = new System.Drawing.Font("Leelawadee", 12F);
-            this.txbIdPet.Location = new System.Drawing.Point(384, 85);
-            this.txbIdPet.Name = "txbIdPet";
-            this.txbIdPet.Size = new System.Drawing.Size(256, 27);
-            this.txbIdPet.TabIndex = 49;
+            this.txtIdPet.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.txtIdPet.Location = new System.Drawing.Point(512, 105);
+            this.txtIdPet.Margin = new System.Windows.Forms.Padding(4);
+            this.txtIdPet.Name = "txtIdPet";
+            this.txtIdPet.ReadOnly = true;
+            this.txtIdPet.Size = new System.Drawing.Size(340, 31);
+            this.txtIdPet.TabIndex = 49;
             // 
             // lblIdPet
             // 
             this.lblIdPet.AutoSize = true;
             this.lblIdPet.Font = new System.Drawing.Font("Leelawadee", 12F);
-            this.lblIdPet.Location = new System.Drawing.Point(323, 93);
+            this.lblIdPet.Location = new System.Drawing.Point(431, 114);
+            this.lblIdPet.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIdPet.Name = "lblIdPet";
-            this.lblIdPet.Size = new System.Drawing.Size(53, 19);
+            this.lblIdPet.Size = new System.Drawing.Size(66, 24);
             this.lblIdPet.TabIndex = 48;
             this.lblIdPet.Text = "ID Pet:";
             // 
@@ -72,107 +74,54 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Leelawadee", 20F);
-            this.label1.Location = new System.Drawing.Point(369, 220);
+            this.label1.Location = new System.Drawing.Point(492, 271);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(233, 32);
+            this.label1.Size = new System.Drawing.Size(291, 41);
             this.label1.TabIndex = 47;
             this.label1.Text = "Dados Cadastrais :";
             // 
-            // txbIdAdestradorPet
+            // txtRacaPet
             // 
-            this.txbIdAdestradorPet.Font = new System.Drawing.Font("Leelawadee", 12F);
-            this.txbIdAdestradorPet.Location = new System.Drawing.Point(303, 354);
-            this.txbIdAdestradorPet.Name = "txbIdAdestradorPet";
-            this.txbIdAdestradorPet.Size = new System.Drawing.Size(365, 27);
-            this.txbIdAdestradorPet.TabIndex = 46;
+            this.txtRacaPet.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.txtRacaPet.Location = new System.Drawing.Point(533, 229);
+            this.txtRacaPet.Margin = new System.Windows.Forms.Padding(4);
+            this.txtRacaPet.Name = "txtRacaPet";
+            this.txtRacaPet.ReadOnly = true;
+            this.txtRacaPet.Size = new System.Drawing.Size(319, 31);
+            this.txtRacaPet.TabIndex = 41;
             // 
-            // txbIdAdestramentoPet
+            // txtNomePet
             // 
-            this.txbIdAdestramentoPet.Font = new System.Drawing.Font("Leelawadee", 12F);
-            this.txbIdAdestramentoPet.Location = new System.Drawing.Point(303, 325);
-            this.txbIdAdestramentoPet.Name = "txbIdAdestramentoPet";
-            this.txbIdAdestramentoPet.Size = new System.Drawing.Size(366, 27);
-            this.txbIdAdestramentoPet.TabIndex = 45;
-            // 
-            // txbAvaliacaoPet
-            // 
-            this.txbAvaliacaoPet.Font = new System.Drawing.Font("Leelawadee", 12F);
-            this.txbAvaliacaoPet.Location = new System.Drawing.Point(252, 296);
-            this.txbAvaliacaoPet.Name = "txbAvaliacaoPet";
-            this.txbAvaliacaoPet.Size = new System.Drawing.Size(417, 27);
-            this.txbAvaliacaoPet.TabIndex = 44;
-            // 
-            // txbGeneroPet
-            // 
-            this.txbGeneroPet.Font = new System.Drawing.Font("Leelawadee", 12F);
-            this.txbGeneroPet.Location = new System.Drawing.Point(252, 267);
-            this.txbGeneroPet.Name = "txbGeneroPet";
-            this.txbGeneroPet.Size = new System.Drawing.Size(128, 27);
-            this.txbGeneroPet.TabIndex = 43;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Leelawadee", 12F);
-            this.textBox2.Location = new System.Drawing.Point(400, 186);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(240, 27);
-            this.textBox2.TabIndex = 41;
-            // 
-            // txbTipoPet
-            // 
-            this.txbTipoPet.Font = new System.Drawing.Font("Leelawadee", 12F);
-            this.txbTipoPet.Location = new System.Drawing.Point(384, 151);
-            this.txbTipoPet.Name = "txbTipoPet";
-            this.txbTipoPet.Size = new System.Drawing.Size(256, 27);
-            this.txbTipoPet.TabIndex = 40;
-            // 
-            // txbNomePet
-            // 
-            this.txbNomePet.Font = new System.Drawing.Font("Leelawadee", 12F);
-            this.txbNomePet.Location = new System.Drawing.Point(384, 118);
-            this.txbNomePet.Name = "txbNomePet";
-            this.txbNomePet.Size = new System.Drawing.Size(256, 27);
-            this.txbNomePet.TabIndex = 39;
+            this.txtNomePet.Font = new System.Drawing.Font("Leelawadee", 12F);
+            this.txtNomePet.Location = new System.Drawing.Point(512, 145);
+            this.txtNomePet.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNomePet.Name = "txtNomePet";
+            this.txtNomePet.ReadOnly = true;
+            this.txtNomePet.Size = new System.Drawing.Size(340, 31);
+            this.txtNomePet.TabIndex = 39;
             // 
             // mtbTrocarImagemPet
             // 
             this.mtbTrocarImagemPet.DisplayFocus = true;
             this.mtbTrocarImagemPet.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.mtbTrocarImagemPet.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.mtbTrocarImagemPet.Location = new System.Drawing.Point(159, 227);
+            this.mtbTrocarImagemPet.Location = new System.Drawing.Point(212, 279);
+            this.mtbTrocarImagemPet.Margin = new System.Windows.Forms.Padding(4);
             this.mtbTrocarImagemPet.Name = "mtbTrocarImagemPet";
-            this.mtbTrocarImagemPet.Size = new System.Drawing.Size(129, 23);
+            this.mtbTrocarImagemPet.Size = new System.Drawing.Size(172, 28);
             this.mtbTrocarImagemPet.TabIndex = 38;
             this.mtbTrocarImagemPet.Text = "Alterar Imagem";
             this.mtbTrocarImagemPet.UseSelectable = true;
-            // 
-            // lblIdAdestradorPet
-            // 
-            this.lblIdAdestradorPet.AutoSize = true;
-            this.lblIdAdestradorPet.Font = new System.Drawing.Font("Leelawadee", 12F);
-            this.lblIdAdestradorPet.Location = new System.Drawing.Point(168, 362);
-            this.lblIdAdestradorPet.Name = "lblIdAdestradorPet";
-            this.lblIdAdestradorPet.Size = new System.Drawing.Size(108, 19);
-            this.lblIdAdestradorPet.TabIndex = 37;
-            this.lblIdAdestradorPet.Text = "ID Adestrador:";
-            // 
-            // lblIdAdestramentoPet
-            // 
-            this.lblIdAdestramentoPet.AutoSize = true;
-            this.lblIdAdestramentoPet.Font = new System.Drawing.Font("Leelawadee", 12F);
-            this.lblIdAdestramentoPet.Location = new System.Drawing.Point(168, 333);
-            this.lblIdAdestramentoPet.Name = "lblIdAdestramentoPet";
-            this.lblIdAdestramentoPet.Size = new System.Drawing.Size(129, 19);
-            this.lblIdAdestramentoPet.TabIndex = 36;
-            this.lblIdAdestramentoPet.Text = "ID Adestramento:";
             // 
             // lblAvaliacaoPet
             // 
             this.lblAvaliacaoPet.AutoSize = true;
             this.lblAvaliacaoPet.Font = new System.Drawing.Font("Leelawadee", 12F);
-            this.lblAvaliacaoPet.Location = new System.Drawing.Point(168, 304);
+            this.lblAvaliacaoPet.Location = new System.Drawing.Point(224, 404);
+            this.lblAvaliacaoPet.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAvaliacaoPet.Name = "lblAvaliacaoPet";
-            this.lblAvaliacaoPet.Size = new System.Drawing.Size(78, 19);
+            this.lblAvaliacaoPet.Size = new System.Drawing.Size(98, 24);
             this.lblAvaliacaoPet.TabIndex = 35;
             this.lblAvaliacaoPet.Text = "Avaliação:";
             // 
@@ -180,9 +129,10 @@
             // 
             this.lblGeneroPet.AutoSize = true;
             this.lblGeneroPet.Font = new System.Drawing.Font("Leelawadee", 12F);
-            this.lblGeneroPet.Location = new System.Drawing.Point(168, 275);
+            this.lblGeneroPet.Location = new System.Drawing.Point(224, 336);
+            this.lblGeneroPet.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGeneroPet.Name = "lblGeneroPet";
-            this.lblGeneroPet.Size = new System.Drawing.Size(63, 19);
+            this.lblGeneroPet.Size = new System.Drawing.Size(78, 24);
             this.lblGeneroPet.TabIndex = 33;
             this.lblGeneroPet.Text = "Genero:";
             // 
@@ -190,9 +140,10 @@
             // 
             this.lblRacaPet.AutoSize = true;
             this.lblRacaPet.Font = new System.Drawing.Font("Leelawadee", 12F);
-            this.lblRacaPet.Location = new System.Drawing.Point(323, 194);
+            this.lblRacaPet.Location = new System.Drawing.Point(431, 239);
+            this.lblRacaPet.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRacaPet.Name = "lblRacaPet";
-            this.lblRacaPet.Size = new System.Drawing.Size(45, 19);
+            this.lblRacaPet.Size = new System.Drawing.Size(55, 24);
             this.lblRacaPet.TabIndex = 32;
             this.lblRacaPet.Text = "Raça:";
             // 
@@ -200,9 +151,10 @@
             // 
             this.lblTipoPet.AutoSize = true;
             this.lblTipoPet.Font = new System.Drawing.Font("Leelawadee", 12F);
-            this.lblTipoPet.Location = new System.Drawing.Point(323, 159);
+            this.lblTipoPet.Location = new System.Drawing.Point(431, 196);
+            this.lblTipoPet.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTipoPet.Name = "lblTipoPet";
-            this.lblTipoPet.Size = new System.Drawing.Size(42, 19);
+            this.lblTipoPet.Size = new System.Drawing.Size(53, 24);
             this.lblTipoPet.TabIndex = 31;
             this.lblTipoPet.Text = "Tipo:";
             // 
@@ -210,40 +162,119 @@
             // 
             this.lblNomePet.AutoSize = true;
             this.lblNomePet.Font = new System.Drawing.Font("Leelawadee", 12F);
-            this.lblNomePet.Location = new System.Drawing.Point(323, 126);
+            this.lblNomePet.Location = new System.Drawing.Point(431, 155);
+            this.lblNomePet.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNomePet.Name = "lblNomePet";
-            this.lblNomePet.Size = new System.Drawing.Size(55, 19);
+            this.lblNomePet.Size = new System.Drawing.Size(68, 24);
             this.lblNomePet.TabIndex = 30;
             this.lblNomePet.Text = "Nome:";
             // 
             // ptbImagemPet
             // 
             this.ptbImagemPet.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ptbImagemPet.Location = new System.Drawing.Point(159, 70);
-            this.ptbImagemPet.Margin = new System.Windows.Forms.Padding(2);
+            this.ptbImagemPet.Location = new System.Drawing.Point(212, 86);
+            this.ptbImagemPet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ptbImagemPet.Name = "ptbImagemPet";
-            this.ptbImagemPet.Size = new System.Drawing.Size(129, 152);
+            this.ptbImagemPet.Size = new System.Drawing.Size(171, 187);
             this.ptbImagemPet.TabIndex = 29;
             this.ptbImagemPet.TabStop = false;
             // 
+            // btnAlterarPet
+            // 
+            this.btnAlterarPet.Location = new System.Drawing.Point(496, 579);
+            this.btnAlterarPet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAlterarPet.Name = "btnAlterarPet";
+            this.btnAlterarPet.Size = new System.Drawing.Size(139, 47);
+            this.btnAlterarPet.TabIndex = 50;
+            this.btnAlterarPet.Text = "ALTERAR";
+            this.btnAlterarPet.UseSelectable = true;
+            this.btnAlterarPet.Click += new System.EventHandler(this.btnAlterarPet_Click);
+            // 
+            // btnSalvarPet
+            // 
+            this.btnSalvarPet.Location = new System.Drawing.Point(496, 579);
+            this.btnSalvarPet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSalvarPet.Name = "btnSalvarPet";
+            this.btnSalvarPet.Size = new System.Drawing.Size(139, 47);
+            this.btnSalvarPet.TabIndex = 51;
+            this.btnSalvarPet.Text = "SALVAR";
+            this.btnSalvarPet.UseSelectable = true;
+            this.btnSalvarPet.Visible = false;
+            this.btnSalvarPet.Click += new System.EventHandler(this.btnSalvarPet_Click);
+            // 
+            // rtbAvaliacaoPet
+            // 
+            this.rtbAvaliacaoPet.Location = new System.Drawing.Point(329, 407);
+            this.rtbAvaliacaoPet.Name = "rtbAvaliacaoPet";
+            this.rtbAvaliacaoPet.ReadOnly = true;
+            this.rtbAvaliacaoPet.Size = new System.Drawing.Size(613, 123);
+            this.rtbAvaliacaoPet.TabIndex = 52;
+            this.rtbAvaliacaoPet.Text = "";
+            // 
+            // btnMeusPets
+            // 
+            this.btnMeusPets.Location = new System.Drawing.Point(644, 579);
+            this.btnMeusPets.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnMeusPets.Name = "btnMeusPets";
+            this.btnMeusPets.Size = new System.Drawing.Size(139, 47);
+            this.btnMeusPets.TabIndex = 53;
+            this.btnMeusPets.Text = "MEUS PETS";
+            this.btnMeusPets.UseSelectable = true;
+            this.btnMeusPets.Click += new System.EventHandler(this.btnMeusPets_Click);
+            // 
+            // cmbTipoPet
+            // 
+            this.cmbTipoPet.AutoCompleteCustomSource.AddRange(new string[] {
+            "Pequeno",
+            "Médio",
+            "Grande"});
+            this.cmbTipoPet.Enabled = false;
+            this.cmbTipoPet.FormattingEnabled = true;
+            this.cmbTipoPet.ItemHeight = 24;
+            this.cmbTipoPet.Items.AddRange(new object[] {
+            "Pequeno",
+            "Médio",
+            "Grande"});
+            this.cmbTipoPet.Location = new System.Drawing.Point(533, 192);
+            this.cmbTipoPet.Name = "cmbTipoPet";
+            this.cmbTipoPet.Size = new System.Drawing.Size(319, 30);
+            this.cmbTipoPet.TabIndex = 56;
+            this.cmbTipoPet.UseSelectable = true;
+            // 
+            // cmbGeneroPet
+            // 
+            this.cmbGeneroPet.AutoCompleteCustomSource.AddRange(new string[] {
+            "Fêmea",
+            "Macho"});
+            this.cmbGeneroPet.Enabled = false;
+            this.cmbGeneroPet.FormattingEnabled = true;
+            this.cmbGeneroPet.ItemHeight = 24;
+            this.cmbGeneroPet.Items.AddRange(new object[] {
+            "Fêmea",
+            "Macho"});
+            this.cmbGeneroPet.Location = new System.Drawing.Point(329, 329);
+            this.cmbGeneroPet.Name = "cmbGeneroPet";
+            this.cmbGeneroPet.Size = new System.Drawing.Size(319, 30);
+            this.cmbGeneroPet.TabIndex = 57;
+            this.cmbGeneroPet.UseSelectable = true;
+            // 
             // TelaPet
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txbIdPet);
+            this.ClientSize = new System.Drawing.Size(1120, 662);
+            this.Controls.Add(this.cmbGeneroPet);
+            this.Controls.Add(this.cmbTipoPet);
+            this.Controls.Add(this.btnMeusPets);
+            this.Controls.Add(this.rtbAvaliacaoPet);
+            this.Controls.Add(this.btnAlterarPet);
+            this.Controls.Add(this.btnSalvarPet);
+            this.Controls.Add(this.txtIdPet);
             this.Controls.Add(this.lblIdPet);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txbIdAdestradorPet);
-            this.Controls.Add(this.txbIdAdestramentoPet);
-            this.Controls.Add(this.txbAvaliacaoPet);
-            this.Controls.Add(this.txbGeneroPet);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.txbTipoPet);
-            this.Controls.Add(this.txbNomePet);
+            this.Controls.Add(this.txtRacaPet);
+            this.Controls.Add(this.txtNomePet);
             this.Controls.Add(this.mtbTrocarImagemPet);
-            this.Controls.Add(this.lblIdAdestradorPet);
-            this.Controls.Add(this.lblIdAdestramentoPet);
             this.Controls.Add(this.lblAvaliacaoPet);
             this.Controls.Add(this.lblGeneroPet);
             this.Controls.Add(this.lblRacaPet);
@@ -251,6 +282,7 @@
             this.Controls.Add(this.lblNomePet);
             this.Controls.Add(this.ptbImagemPet);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "TelaPet";
             this.Text = "TelaPet";
             ((System.ComponentModel.ISupportInitialize)(this.ptbImagemPet)).EndInit();
@@ -261,24 +293,23 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txbIdPet;
+        private System.Windows.Forms.TextBox txtIdPet;
         private System.Windows.Forms.Label lblIdPet;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txbIdAdestradorPet;
-        private System.Windows.Forms.TextBox txbIdAdestramentoPet;
-        private System.Windows.Forms.TextBox txbAvaliacaoPet;
-        private System.Windows.Forms.TextBox txbGeneroPet;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox txbTipoPet;
-        private System.Windows.Forms.TextBox txbNomePet;
+        private System.Windows.Forms.TextBox txtRacaPet;
+        private System.Windows.Forms.TextBox txtNomePet;
         private MetroFramework.Controls.MetroButton mtbTrocarImagemPet;
-        private System.Windows.Forms.Label lblIdAdestradorPet;
-        private System.Windows.Forms.Label lblIdAdestramentoPet;
         private System.Windows.Forms.Label lblAvaliacaoPet;
         private System.Windows.Forms.Label lblGeneroPet;
         private System.Windows.Forms.Label lblRacaPet;
         private System.Windows.Forms.Label lblTipoPet;
         private System.Windows.Forms.Label lblNomePet;
         private System.Windows.Forms.PictureBox ptbImagemPet;
+        private MetroFramework.Controls.MetroButton btnAlterarPet;
+        private MetroFramework.Controls.MetroButton btnSalvarPet;
+        private System.Windows.Forms.RichTextBox rtbAvaliacaoPet;
+        private MetroFramework.Controls.MetroButton btnMeusPets;
+        private MetroFramework.Controls.MetroComboBox cmbTipoPet;
+        private MetroFramework.Controls.MetroComboBox cmbGeneroPet;
     }
 }

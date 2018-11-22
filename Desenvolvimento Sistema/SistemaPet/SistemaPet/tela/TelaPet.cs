@@ -16,5 +16,35 @@ namespace SistemaPet.tela
         {
             InitializeComponent();
         }
+
+        private void btnSalvarPet_Click(object sender, EventArgs e)
+        {
+            btnSalvarPet.Hide();
+            btnAlterarPet.Show();
+            btnMeusPets.Enabled = true;
+
+            txtNomePet.ReadOnly = true;
+            cmbTipoPet.Enabled = false;
+            txtRacaPet.ReadOnly = true;
+            cmbGeneroPet.Enabled = false;
+        }
+
+        private void btnAlterarPet_Click(object sender, EventArgs e)
+        {
+            btnAlterarPet.Hide();
+            btnSalvarPet.Show();
+            btnMeusPets.Enabled = false;
+
+            txtNomePet.ReadOnly = false;
+            cmbTipoPet.Enabled = true;
+            txtRacaPet.ReadOnly = false;
+            cmbGeneroPet.Enabled = true;
+            txtNomePet.Focus();
+        }
+
+        private void btnMeusPets_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
