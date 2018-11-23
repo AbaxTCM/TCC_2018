@@ -71,6 +71,7 @@
     <Compile Include="bd\Conexao.cs" />
     <Compile Include="controlador\ControladorTelaCadastro.cs" />
     <Compile Include="controlador\ControladorTelaLogin.cs" />
+    <Compile Include="controlador\ControladorTelaPerfil.cs" />
     <Compile Include="controlador\ControladorTelaPet.cs" />
     <Compile Include="dominio\Adestrador.cs" />
     <Compile Include="dominio\Dono.cs" />

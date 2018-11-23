@@ -31,7 +31,7 @@
             this.tbcUsuario = new MetroFramework.Controls.MetroTabControl();
             this.tbpPet = new MetroFramework.Controls.MetroTabPage();
             this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
-            this.txtIdPet = new MetroFramework.Controls.MetroTextBox();
+            this.txtIdDono = new MetroFramework.Controls.MetroTextBox();
             this.lblAvaliacao = new MetroFramework.Controls.MetroLabel();
             this.rtbAvaliacao = new System.Windows.Forms.RichTextBox();
             this.cmbGeneroPet = new MetroFramework.Controls.MetroComboBox();
@@ -90,6 +90,8 @@
             this.txtTelDono = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
             this.txtNomeDono = new MetroFramework.Controls.MetroTextBox();
+            this.cmbTipoPet = new MetroFramework.Controls.MetroComboBox();
+            this.lblTipoPet = new MetroFramework.Controls.MetroLabel();
             this.tbcUsuario.SuspendLayout();
             this.tbpPet.SuspendLayout();
             this.tbpAdestrador.SuspendLayout();
@@ -104,15 +106,17 @@
             this.tbcUsuario.Location = new System.Drawing.Point(11, 11);
             this.tbcUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.tbcUsuario.Name = "tbcUsuario";
-            this.tbcUsuario.SelectedIndex = 2;
+            this.tbcUsuario.SelectedIndex = 0;
             this.tbcUsuario.Size = new System.Drawing.Size(822, 455);
             this.tbcUsuario.TabIndex = 0;
             this.tbcUsuario.UseSelectable = true;
             // 
             // tbpPet
             // 
+            this.tbpPet.Controls.Add(this.lblTipoPet);
+            this.tbpPet.Controls.Add(this.cmbTipoPet);
             this.tbpPet.Controls.Add(this.metroLabel10);
-            this.tbpPet.Controls.Add(this.txtIdPet);
+            this.tbpPet.Controls.Add(this.txtIdDono);
             this.tbpPet.Controls.Add(this.lblAvaliacao);
             this.tbpPet.Controls.Add(this.rtbAvaliacao);
             this.tbpPet.Controls.Add(this.cmbGeneroPet);
@@ -145,37 +149,37 @@
             this.metroLabel10.TabIndex = 69;
             this.metroLabel10.Text = "ID Dono:";
             // 
-            // txtIdPet
+            // txtIdDono
             // 
             // 
             // 
             // 
-            this.txtIdPet.CustomButton.Image = null;
-            this.txtIdPet.CustomButton.Location = new System.Drawing.Point(196, 1);
-            this.txtIdPet.CustomButton.Margin = new System.Windows.Forms.Padding(2);
-            this.txtIdPet.CustomButton.Name = "";
-            this.txtIdPet.CustomButton.Size = new System.Drawing.Size(17, 17);
-            this.txtIdPet.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtIdPet.CustomButton.TabIndex = 1;
-            this.txtIdPet.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtIdPet.CustomButton.UseSelectable = true;
-            this.txtIdPet.CustomButton.Visible = false;
-            this.txtIdPet.Lines = new string[0];
-            this.txtIdPet.Location = new System.Drawing.Point(300, 175);
-            this.txtIdPet.Margin = new System.Windows.Forms.Padding(2);
-            this.txtIdPet.MaxLength = 32767;
-            this.txtIdPet.Name = "txtIdPet";
-            this.txtIdPet.PasswordChar = '\0';
-            this.txtIdPet.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtIdPet.SelectedText = "";
-            this.txtIdPet.SelectionLength = 0;
-            this.txtIdPet.SelectionStart = 0;
-            this.txtIdPet.ShortcutsEnabled = true;
-            this.txtIdPet.Size = new System.Drawing.Size(214, 19);
-            this.txtIdPet.TabIndex = 68;
-            this.txtIdPet.UseSelectable = true;
-            this.txtIdPet.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtIdPet.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtIdDono.CustomButton.Image = null;
+            this.txtIdDono.CustomButton.Location = new System.Drawing.Point(196, 1);
+            this.txtIdDono.CustomButton.Margin = new System.Windows.Forms.Padding(2);
+            this.txtIdDono.CustomButton.Name = "";
+            this.txtIdDono.CustomButton.Size = new System.Drawing.Size(17, 17);
+            this.txtIdDono.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtIdDono.CustomButton.TabIndex = 1;
+            this.txtIdDono.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtIdDono.CustomButton.UseSelectable = true;
+            this.txtIdDono.CustomButton.Visible = false;
+            this.txtIdDono.Lines = new string[0];
+            this.txtIdDono.Location = new System.Drawing.Point(300, 175);
+            this.txtIdDono.Margin = new System.Windows.Forms.Padding(2);
+            this.txtIdDono.MaxLength = 32767;
+            this.txtIdDono.Name = "txtIdDono";
+            this.txtIdDono.PasswordChar = '\0';
+            this.txtIdDono.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtIdDono.SelectedText = "";
+            this.txtIdDono.SelectionLength = 0;
+            this.txtIdDono.SelectionStart = 0;
+            this.txtIdDono.ShortcutsEnabled = true;
+            this.txtIdDono.Size = new System.Drawing.Size(214, 19);
+            this.txtIdDono.TabIndex = 68;
+            this.txtIdDono.UseSelectable = true;
+            this.txtIdDono.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtIdDono.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // lblAvaliacao
             // 
@@ -202,7 +206,7 @@
             this.cmbGeneroPet.Items.AddRange(new object[] {
             "M",
             "F"});
-            this.cmbGeneroPet.Location = new System.Drawing.Point(376, 101);
+            this.cmbGeneroPet.Location = new System.Drawing.Point(309, 98);
             this.cmbGeneroPet.Name = "cmbGeneroPet";
             this.cmbGeneroPet.Size = new System.Drawing.Size(62, 29);
             this.cmbGeneroPet.TabIndex = 65;
@@ -211,7 +215,7 @@
             // lblGenero
             // 
             this.lblGenero.AutoSize = true;
-            this.lblGenero.Location = new System.Drawing.Point(315, 104);
+            this.lblGenero.Location = new System.Drawing.Point(248, 101);
             this.lblGenero.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblGenero.Name = "lblGenero";
             this.lblGenero.Size = new System.Drawing.Size(55, 19);
@@ -220,7 +224,7 @@
             // 
             // btnCancelarPet
             // 
-            this.btnCancelarPet.Location = new System.Drawing.Point(465, 356);
+            this.btnCancelarPet.Location = new System.Drawing.Point(464, 356);
             this.btnCancelarPet.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancelarPet.Name = "btnCancelarPet";
             this.btnCancelarPet.Size = new System.Drawing.Size(104, 38);
@@ -230,7 +234,7 @@
             // 
             // btnSalvarPet
             // 
-            this.btnSalvarPet.Location = new System.Drawing.Point(266, 356);
+            this.btnSalvarPet.Location = new System.Drawing.Point(265, 356);
             this.btnSalvarPet.Margin = new System.Windows.Forms.Padding(2);
             this.btnSalvarPet.Name = "btnSalvarPet";
             this.btnSalvarPet.Size = new System.Drawing.Size(104, 38);
@@ -1317,6 +1321,30 @@
             this.txtNomeDono.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtNomeDono.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
+            // cmbTipoPet
+            // 
+            this.cmbTipoPet.FormattingEnabled = true;
+            this.cmbTipoPet.ItemHeight = 23;
+            this.cmbTipoPet.Items.AddRange(new object[] {
+            "Pequeno",
+            "Médio",
+            "Grande"});
+            this.cmbTipoPet.Location = new System.Drawing.Point(469, 98);
+            this.cmbTipoPet.Name = "cmbTipoPet";
+            this.cmbTipoPet.Size = new System.Drawing.Size(89, 29);
+            this.cmbTipoPet.TabIndex = 70;
+            this.cmbTipoPet.UseSelectable = true;
+            // 
+            // lblTipoPet
+            // 
+            this.lblTipoPet.AutoSize = true;
+            this.lblTipoPet.Location = new System.Drawing.Point(423, 101);
+            this.lblTipoPet.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTipoPet.Name = "lblTipoPet";
+            this.lblTipoPet.Size = new System.Drawing.Size(38, 19);
+            this.lblTipoPet.TabIndex = 71;
+            this.lblTipoPet.Text = "Tipo:";
+            // 
             // TelaCadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1402,6 +1430,8 @@
         private System.Windows.Forms.RichTextBox rtbAvaliacao;
         private MetroFramework.Controls.MetroLabel lblAvaliacao;
         private MetroFramework.Controls.MetroLabel metroLabel10;
-        private MetroFramework.Controls.MetroTextBox txtIdPet;
+        private MetroFramework.Controls.MetroTextBox txtIdDono;
+        private MetroFramework.Controls.MetroLabel lblTipoPet;
+        private MetroFramework.Controls.MetroComboBox cmbTipoPet;
     }
 }

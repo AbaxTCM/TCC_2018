@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SistemaPet.controlador;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -46,12 +47,19 @@ namespace SistemaPet.tela
             DataTable dtb = new DataTable();
             Design telaPrincipal = new Design();
             sda.Fill(dtb);
+            int idUser = 0;
             try
             {
                 if (dtb.Rows.Count == 1)
                 {
                     this.Hide();
                     telaPrincipal.Show();
+                    SqlCommand cmd = new SqlCommand("select id_adestrador from Adestrador where email_adestrador = '" + txtLogin.Text + "' and senha_adestrador = '" + txtSenha.Text + "'", conn.conectarBD());
+                    SqlDataReader dr = cmd.ExecuteReader();
+                    while (dr.Read())
+                    {
+                        idUser = Convert.ToInt16(dr[0]);
+                    }
                 }
                 else
                 {
@@ -62,6 +70,12 @@ namespace SistemaPet.tela
                     {
                         this.Hide();
                         telaPrincipal.Show();
+                        SqlCommand cmd = new SqlCommand("select id_dono from Dono where email_dono = '" + txtLogin.Text + "' and senha_dono = '" + txtSenha.Text + "'", conn.conectarBD());
+                        SqlDataReader dr = cmd.ExecuteReader();
+                        while (dr.Read())
+                        {
+                            idUser = Convert.ToInt16(dr[0]);
+                        }
                     }
                     else
                     {
@@ -73,6 +87,11 @@ namespace SistemaPet.tela
             catch (Exception err)
             {
                 MessageBox.Show("Erro: " + err);
+            }
+            finally
+            {
+                ControladorTelaPerfil controladorPerfil = new ControladorTelaPerfil();
+                controladorPerfil.obterRegistros(idUser);
             }
         }
     }

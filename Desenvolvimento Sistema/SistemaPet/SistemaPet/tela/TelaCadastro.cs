@@ -69,9 +69,10 @@ namespace SistemaPet.tela
         {
             Pet pet = new Pet();
             pet.NomePet = txtNomePet.Text;
+            pet.TipoPet = cmbTipoPet.Text;
             pet.RacaPet = txtRacaPet.Text;
             pet.GeneroPet = cmbGeneroPet.Text;
-            pet.IdPet = int.Parse(txtIdPet.Text);
+            pet.IdPet = int.Parse(txtIdDono.Text);
             pet.AvaliacaoPet = rtbAvaliacao.Text;
 
             controladorPet.InserirPet(pet);
