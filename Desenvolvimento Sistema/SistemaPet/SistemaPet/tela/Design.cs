@@ -268,5 +268,15 @@ namespace SistemaPet.tela
         {
             Application.Exit();
         }
+
+        private void btnComprar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            AbrirFormnoPainel<TelaCadastro>();
+        }
     }
 }

@@ -1,167 +1,24 @@
-C:\Users\2binfo\source\repos\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe.config
-C:\Users\2binfo\source\repos\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe
-C:\Users\2binfo\source\repos\SistemaPet\SistemaPet\bin\Debug\SistemaPet.pdb
-C:\Users\2binfo\source\repos\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csprojAssemblyReference.cache
-C:\Users\2binfo\source\repos\SistemaPet\SistemaPet\obj\Debug\SistemaPet.Form1.resources
-C:\Users\2binfo\source\repos\SistemaPet\SistemaPet\obj\Debug\SistemaPet.Properties.Resources.resources
-C:\Users\2binfo\source\repos\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.GenerateResource.cache
-C:\Users\2binfo\source\repos\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CoreCompileInputs.cache
-C:\Users\2binfo\source\repos\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
-C:\Users\2binfo\source\repos\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
-C:\Users\2binfo\Desktop\Rafael\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe.config
-C:\Users\2binfo\Desktop\Rafael\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe
-C:\Users\2binfo\Desktop\Rafael\SistemaPet\SistemaPet\bin\Debug\SistemaPet.pdb
-C:\Users\2binfo\Desktop\Rafael\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csprojAssemblyReference.cache
-C:\Users\2binfo\Desktop\Rafael\SistemaPet\SistemaPet\obj\Debug\SistemaPet.Form1.resources
-C:\Users\2binfo\Desktop\Rafael\SistemaPet\SistemaPet\obj\Debug\SistemaPet.Properties.Resources.resources
-C:\Users\2binfo\Desktop\Rafael\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.GenerateResource.cache
-C:\Users\2binfo\Desktop\Rafael\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CoreCompileInputs.cache
-C:\Users\2binfo\Desktop\Rafael\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
-C:\Users\2binfo\Desktop\Rafael\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
-C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe.config
-C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe
-C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.pdb
-C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csprojAssemblyReference.cache
-C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.Form1.resources
-C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.Properties.Resources.resources
-C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.GenerateResource.cache
-C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CoreCompileInputs.cache
-C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
-C:\Users\2binfo\Desktop\GIT WILLIAN\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
-C:\Users\2binfo\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe.config
-C:\Users\2binfo\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe
-C:\Users\2binfo\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.pdb
-C:\Users\2binfo\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csprojAssemblyReference.cache
-C:\Users\2binfo\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaLogin.resources
-C:\Users\2binfo\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.TelaSplash.resources
-C:\Users\2binfo\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.Properties.Resources.resources
-C:\Users\2binfo\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.Design.resources
-C:\Users\2binfo\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.GenerateResource.cache
-C:\Users\2binfo\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CoreCompileInputs.cache
-C:\Users\2binfo\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
-C:\Users\2binfo\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
-<<<<<<< HEAD
-C:\Users\Ricardo\Desktop\TCC\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe.config
-C:\Users\Ricardo\Desktop\TCC\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe
-C:\Users\Ricardo\Desktop\TCC\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.pdb
-C:\Users\Ricardo\Desktop\TCC\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.Design.dll
-C:\Users\Ricardo\Desktop\TCC\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.dll
-C:\Users\Ricardo\Desktop\TCC\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\Ricardo\Desktop\TCC\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csprojAssemblyReference.cache
-C:\Users\Ricardo\Desktop\TCC\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaLogin.resources
-C:\Users\Ricardo\Desktop\TCC\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.TelaSplash.resources
-C:\Users\Ricardo\Desktop\TCC\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.Properties.Resources.resources
-C:\Users\Ricardo\Desktop\TCC\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.Design.resources
-C:\Users\Ricardo\Desktop\TCC\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.GenerateResource.cache
-C:\Users\Ricardo\Desktop\TCC\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CoreCompileInputs.cache
-C:\Users\Ricardo\Desktop\TCC\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CopyComplete
-C:\Users\Ricardo\Desktop\TCC\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
-C:\Users\Ricardo\Desktop\TCC\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
-=======
 C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe.config
 C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe
 C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.pdb
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\Google.Protobuf.dll
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.Design.dll
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.dll
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MySql.Data.dll
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\Google.Protobuf.xml
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MySql.Data.xml
 C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csprojAssemblyReference.cache
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaAdestrador.resources
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaCadastro.resources
 C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaLogin.resources
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaPerfil.resources
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaPet.resources
 C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.TelaSplash.resources
 C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.Properties.Resources.resources
 C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.Design.resources
 C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.GenerateResource.cache
 C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CoreCompileInputs.cache
+C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CopyComplete
 C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
 C:\Users\2binfo\Desktop\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
->>>>>>> d5570d5fc4f9dfc1d6830e8dfeb46ad3f5bc642c
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe.config
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.pdb
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.Design.dll
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.dll
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csprojAssemblyReference.cache
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaLogin.resources
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.TelaSplash.resources
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.Properties.Resources.resources
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.Design.resources
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.GenerateResource.cache
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CoreCompileInputs.cache
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CopyComplete
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe.config
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.pdb
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.Design.dll
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.dll
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csprojAssemblyReference.cache
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaLogin.resources
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.TelaSplash.resources
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.Properties.Resources.resources
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.Design.resources
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.GenerateResource.cache
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CoreCompileInputs.cache
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CopyComplete
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
->>>>>>> cf42da6a5bc89cfdcadf7779fba1cd02699badea
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaCadastro.resources
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\Google.Protobuf.dll
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MySql.Data.dll
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\Google.Protobuf.xml
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MySql.Data.xml
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe.config
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.pdb
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\Google.Protobuf.dll
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.Design.dll
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.dll
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MySql.Data.dll
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\Google.Protobuf.xml
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MySql.Data.xml
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csprojAssemblyReference.cache
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaCadastro.resources
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaLogin.resources
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.TelaSplash.resources
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.Properties.Resources.resources
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.Design.resources
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.GenerateResource.cache
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CoreCompileInputs.cache
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CopyComplete
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
-C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaPerfil.resources
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\Google.Protobuf.dll
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MySql.Data.dll
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\Google.Protobuf.xml
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MySql.Data.xml
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaCadastro.resources
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaPerfil.resources
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaPet.resources
-C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaAdestrador.resources
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe.config
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.pdb
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\Google.Protobuf.dll
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.Design.dll
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.dll
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MySql.Data.dll
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\Google.Protobuf.xml
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\MySql.Data.xml
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csprojAssemblyReference.cache
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaAdestrador.resources
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaCadastro.resources
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaLogin.resources
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaPerfil.resources
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaPet.resources
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.TelaSplash.resources
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.Properties.Resources.resources
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.Design.resources
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.GenerateResource.cache
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CoreCompileInputs.cache
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CopyComplete
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
-C:\Users\2binfo\Desktop\Nova pasta\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaAdestrador.resources
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaPet.resources

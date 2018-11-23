@@ -60,5 +60,36 @@ namespace SistemaPet.repositorio
         {
 
         }
+
+        public void consultarAdestrador(Adestrador adestrador)
+        {
+            try
+            {
+                SqlCommand cmd = new SqlCommand("select " +
+                    "(@nome_adestrador," +
+                    "@telefone_adestrador," +
+                    "@email_adestrador," +
+                    "@rua_adestrador," +
+                    "@numCasa_adestrador," +
+                    "@bairro_adestrador," +
+                    "@cidade_adestrador," +
+                    "@estado_adestrador," +
+                    "@senha_adestrador," +
+                    "@cpf_adestrador); select @@IDENTITY;", conn.conectarBD());
+
+                cmd.Parameters.AddWithValue("@nome_adestrador", adestrador.Nome);
+
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                conn.desconectarBD();
+            }
+            MessageBox.Show("Cadastro efetuado com sucesso!");
+        }
     }
 }

@@ -61,6 +61,19 @@ namespace SistemaPet.tela
 
         private void btnCancelarDono_Click(object sender, EventArgs e)
         {
+            this.Close();
+        }
+
+        private void btnSalvarPet_Click(object sender, EventArgs e)
+        {
+            Pet pet = new Pet();
+            pet.NomePet = txtNomePet.Text;
+            pet.RacaPet = txtRacaPet.Text;
+            pet.GeneroPet = cmbGeneroPet.Text;
+            pet.IdPet = int.Parse(txtIdPet.Text);
+            pet.AvaliacaoPet = rtbAvaliacao.Text;
+
+            controladorCadastro.InserirPet(pet);
 
         }
     }

@@ -38,6 +38,7 @@
             this.btnMenu = new System.Windows.Forms.PictureBox();
             this.pbrestaurar = new System.Windows.Forms.PictureBox();
             this.mpPainelMenu = new MetroFramework.Controls.MetroPanel();
+            this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.btnComprar = new System.Windows.Forms.Button();
             this.btnAdestradores = new System.Windows.Forms.Button();
@@ -152,6 +153,7 @@
             // mpPainelMenu
             // 
             this.mpPainelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.mpPainelMenu.Controls.Add(this.btnCadastrar);
             this.mpPainelMenu.Controls.Add(this.btnSair);
             this.mpPainelMenu.Controls.Add(this.btnComprar);
             this.mpPainelMenu.Controls.Add(this.btnAdestradores);
@@ -172,6 +174,23 @@
             this.mpPainelMenu.VerticalScrollbarBarColor = true;
             this.mpPainelMenu.VerticalScrollbarHighlightOnWheel = false;
             this.mpPainelMenu.VerticalScrollbarSize = 10;
+            // 
+            // btnCadastrar
+            // 
+            this.btnCadastrar.FlatAppearance.BorderSize = 0;
+            this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrar.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrar.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnCadastrar.Image = global::SistemaPet.Properties.Resources.iconCadastrarBranco;
+            this.btnCadastrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCadastrar.Location = new System.Drawing.Point(0, 414);
+            this.btnCadastrar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(210, 55);
+            this.btnCadastrar.TabIndex = 6;
+            this.btnCadastrar.Text = "CADASTRAR";
+            this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // btnSair
             // 
@@ -207,6 +226,7 @@
             this.btnComprar.TabIndex = 4;
             this.btnComprar.Text = "COMPRAR";
             this.btnComprar.UseVisualStyleBackColor = true;
+            this.btnComprar.Click += new System.EventHandler(this.btnComprar_Click);
             this.btnComprar.MouseEnter += new System.EventHandler(this.btnComprar_MouseEnter);
             this.btnComprar.MouseLeave += new System.EventHandler(this.btnComprar_MouseLeave);
             // 
@@ -335,5 +355,6 @@
         private System.Windows.Forms.Button btnAdestradores;
         private System.Windows.Forms.Button btnPets;
         private System.Windows.Forms.Button btnPerfil;
+        private System.Windows.Forms.Button btnCadastrar;
     }
 }

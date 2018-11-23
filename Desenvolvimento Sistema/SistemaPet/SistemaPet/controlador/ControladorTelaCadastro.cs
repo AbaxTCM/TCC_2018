@@ -12,6 +12,7 @@ namespace SistemaPet.controlador
     {
         RepositorioDono repositorioDono = new RepositorioDono();
         RepositorioAdestrador repositorioAdestrador = new RepositorioAdestrador();
+        RepositorioPet repositorioPet = new RepositorioPet();
         public ControladorTelaCadastro()
         {
 
@@ -25,6 +26,9 @@ namespace SistemaPet.controlador
         public void InserirAdestrador(Adestrador adestrador)
         {
             repositorioAdestrador.salvarAdestrador(adestrador);
+        }
+        public void InserirPet(Pet pet) {
+            repositorioPet.salvarPet(pet);
         }
     }
 }

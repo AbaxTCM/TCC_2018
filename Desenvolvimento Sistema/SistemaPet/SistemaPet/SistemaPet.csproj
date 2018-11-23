@@ -126,9 +126,11 @@
     </Compile>
     <EmbeddedResource Include="tela\TelaAdestrador.resx">
       <DependentUpon>TelaAdestrador.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="tela\TelaCadastro.resx">
       <DependentUpon>TelaCadastro.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="tela\TelaLogin.resx">
       <DependentUpon>TelaLogin.cs</DependentUpon>
@@ -154,6 +156,7 @@
     </Compile>
     <EmbeddedResource Include="tela\Design.resx">
       <DependentUpon>Design.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -201,6 +204,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\user-silhouette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconcadastro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_clipboard-note-register-shipping-files_3828104.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\296566-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1243707-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconCadastrarBranco.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

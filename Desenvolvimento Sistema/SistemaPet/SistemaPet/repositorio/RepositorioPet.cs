@@ -18,16 +18,16 @@ namespace SistemaPet.repositorio
         {
             try
             {
-                SqlCommand cmd = new SqlCommand("insert into Pet values " +
-                    "(@nome_pet," +
-                    "@tipo_pet," +
+                SqlCommand cmd = new SqlCommand("insert into Pet values " +"(@id_dono," +
+                    "@nome_pet," +
                     "@raca_pet," +
-                    "@genero_pet); select @@IDENTITY;", conn.conectarBD());
-
+                    "@genero_pet," +
+                    "@avaliacao); select @@IDENTITY;", conn.conectarBD());
+                cmd.Parameters.AddWithValue("@id_dono", pet.IdPet);
                 cmd.Parameters.AddWithValue("@nome_pet", pet.NomePet);
-                cmd.Parameters.AddWithValue("@tipo_pet", pet.TipoPet);
                 cmd.Parameters.AddWithValue("@raca_pet", pet.RacaPet);
                 cmd.Parameters.AddWithValue("@genero_pet", pet.GeneroPet);
+                cmd.Parameters.AddWithValue("@avaliacao", pet.AvaliacaoPet);
 
                 cmd.ExecuteNonQuery();
             }
@@ -71,6 +71,23 @@ namespace SistemaPet.repositorio
         public void deletePet(Pet pet)
         {
 
+        }
+
+        public void consultarPet(Pet pet)
+        {
+            try
+            {
+                SqlCommand cmd = new SqlCommand("select @nome_pet,@raca_pet,@genero_pet,@avaliacao from Pet", conn.conectarBD());
+                SqlDataReader ler = cmd.ExecuteReader();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                conn.desconectarBD();
+            }
         }
     }
 }
