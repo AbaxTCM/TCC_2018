@@ -16,5 +16,10 @@ namespace SistemaPet.tela
         {
             InitializeComponent();
         }
+
+        private void btnCancelarDono_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

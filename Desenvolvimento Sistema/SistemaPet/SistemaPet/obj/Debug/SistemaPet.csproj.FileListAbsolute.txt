@@ -71,3 +71,4 @@ C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\Sistem
 C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
 C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
 C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaCadastroUsuario.resources
+C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaCadastroUsuario.resources

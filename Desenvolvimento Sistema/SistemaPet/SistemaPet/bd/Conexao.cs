@@ -6,7 +6,7 @@ using System.Windows.Forms;
 public class Conexao
 {
 
-    SqlConnection conn = new SqlConnection("User ID=sa;Initial Catalog=db_sistemapet;Data Source=LAB2PC02\\SA;Password=1234567");
+    SqlConnection conn = new SqlConnection("User ID=sa;Initial Catalog=db_sistemapet;Data Source=DESKTOP-9TK1QN1\\SYSPETAPP;Password=1234567");
 
     public SqlConnection conectarBD()
     {

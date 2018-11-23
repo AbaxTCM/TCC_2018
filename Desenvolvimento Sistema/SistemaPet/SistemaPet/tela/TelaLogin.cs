@@ -40,39 +40,40 @@ namespace SistemaPet.tela
         {
             string[] query;
             query = new string[2];
-            query[0] = "select * from Adestrador where email_adestrador = '"+txtLogin.Text+ "'and senha_adestrador = '"+txtSenha.Text+"'";
+            query[0] = "select * from Adestrador where email_adestrador = '" + txtLogin.Text + "'and senha_adestrador = '" + txtSenha.Text + "'";
             query[1] = "select * from Dono where email_dono = '" + txtLogin.Text + "'and senha_dono = '" + txtSenha.Text + "'";
-            SqlDataAdapter sda = new SqlDataAdapter(query[0],conn.conectarBD());
+            SqlDataAdapter sda = new SqlDataAdapter(query[0], conn.conectarBD());
             DataTable dtb = new DataTable();
+            Design telaPrincipal = new Design();
             sda.Fill(dtb);
             try
             {
-                if(dtb.Rows.Count == 1)
+                if (dtb.Rows.Count == 1)
                 {
-                    Design telaPrincipal = new Design();
                     this.Hide();
                     telaPrincipal.Show();
                 }
-            }
-            catch
-            {
-                try
+                else
                 {
+                    conn.desconectarBD();
                     sda = new SqlDataAdapter(query[1], conn.conectarBD());
                     sda.Fill(dtb);
-                }
-                catch
-                {
-                    MessageBox.Show("Erro: Login ou senha inválidos");
+                    if (dtb.Rows.Count == 1)
+                    {
+                        this.Hide();
+                        telaPrincipal.Show();
+                    }
+                    else
+                    {
+                        conn.desconectarBD();
+                        MessageBox.Show("Erro: Login ou senha inválidos");
+                    }
                 }
             }
-            /*if (txtLogin.Text == "admin" && txtSenha.Text == "admin")
+            catch (Exception err)
             {
-                TelaLogin teste = new TelaLogin();
-                Design telaPrincipal = new Design();
-                this.Hide();
-                telaPrincipal.Show();
-            }*/
+                MessageBox.Show("Erro: " + err);
+            }
         }
     }
 }
