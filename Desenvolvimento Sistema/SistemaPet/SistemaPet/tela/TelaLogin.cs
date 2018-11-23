@@ -27,8 +27,8 @@ namespace SistemaPet.tela
 
         private void lklRegistrar_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            TelaCadastro cadastro = new TelaCadastro();
-            cadastro.Show();
+            TelaCadastroUsuario cadastro2 = new TelaCadastroUsuario();
+            cadastro2.Show();
         }
 
         private void pbFechar_Click(object sender, EventArgs e)

@@ -57,7 +57,7 @@
             // btnSalvarPerfil
             // 
             this.btnSalvarPerfil.Location = new System.Drawing.Point(372, 461);
-            this.btnSalvarPerfil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSalvarPerfil.Margin = new System.Windows.Forms.Padding(2);
             this.btnSalvarPerfil.Name = "btnSalvarPerfil";
             this.btnSalvarPerfil.Size = new System.Drawing.Size(104, 38);
             this.btnSalvarPerfil.TabIndex = 30;
@@ -252,7 +252,7 @@
             // btnAlterarPerfil
             // 
             this.btnAlterarPerfil.Location = new System.Drawing.Point(372, 461);
-            this.btnAlterarPerfil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAlterarPerfil.Margin = new System.Windows.Forms.Padding(2);
             this.btnAlterarPerfil.Name = "btnAlterarPerfil";
             this.btnAlterarPerfil.Size = new System.Drawing.Size(104, 38);
             this.btnAlterarPerfil.TabIndex = 29;
@@ -309,7 +309,7 @@
             this.Controls.Add(this.lblCidadePerfil);
             this.Controls.Add(this.txtBairroPerfil);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "TelaPerfil";
             this.Text = "TelaPerfil";
             this.Load += new System.EventHandler(this.TelaPerfil_Load);

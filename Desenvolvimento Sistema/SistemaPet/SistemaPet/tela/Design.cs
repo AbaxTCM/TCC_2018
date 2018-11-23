@@ -36,10 +36,16 @@ namespace SistemaPet.tela
             if(mpPainelMenu.Width == 215)
             {
                 mpPainelMenu.Width = 61;
+                btnMenu.Hide();
+                pcbFecharMenu.Show();
+                
+
             }
             else
             {
                 mpPainelMenu.Width = 215;
+                btnMenu.Hide();
+
             }
         }
 
@@ -290,6 +296,13 @@ namespace SistemaPet.tela
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
             AbrirFormnoPainel<TelaCadastro>();
+        }
+
+        private void pcbFecharMenu_Click(object sender, EventArgs e)
+        {
+            mpPainelMenu.Width = 215;
+            btnMenu.Show();
+            pcbFecharMenu.Hide();
         }
     }
 }

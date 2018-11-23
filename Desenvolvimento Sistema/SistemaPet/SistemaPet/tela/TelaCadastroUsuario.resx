@@ -117,20 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="mbcTelaLogin.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pbFechar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAXtJREFUaEPt2cFugkAQxnHu7bN4abEHm5gAvv9ryJWl17Y7MJ9iwwLCLDtN5p9s
-        Yixl+ysrmjWzLMuyrD2rz+dXfhit78vhhR/GyZXvVVvkdVN9fPJT4tG52zK/uiov+SnZCOGK41dbHn/8
-        RC4GhhENzUFziWMeERiymCECo8P4ufmQbdF6pUs9nOA+ZDBjiNvwS1nsNdNc3k7BiTZiJhExlvAMplkz
-        4e4IJIlJhkASmOQItAWjBoHWYNQh0DMYtQi0BKMegaYx9O7891MBxrKbw65N/9fHhkIEWo5RjEA9JrSU
-        /AdB/zP1CIr+yPBrohv6If3V+OdLazkCw2P83Y5/XUdTCF5m4duvFsz0leiX0OwxqTFLEHzo/LGpMM8g
-        kDrMGgRSg9mCQMkxEgiUDCOJQLtjYiAQn9sFzy2Fmdmg24RAM5ir2AYd7cGObJmKINAYRnTLFD1iZBFo
-        iImCQIShSx0DgTpMkdfRECj6lzC+Pb5MsizLsqx7WfYL0tZHuIC9z1MAAAAASUVORK5CYII=
-</value>
-  </data>
 </root>

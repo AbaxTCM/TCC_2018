@@ -132,7 +132,7 @@
             // 
             this.lblRacaPet.AutoSize = true;
             this.lblRacaPet.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblRacaPet.Location = new System.Drawing.Point(323, 194);
+            this.lblRacaPet.Location = new System.Drawing.Point(323, 192);
             this.lblRacaPet.Name = "lblRacaPet";
             this.lblRacaPet.Size = new System.Drawing.Size(51, 20);
             this.lblRacaPet.TabIndex = 32;
@@ -142,7 +142,7 @@
             // 
             this.lblTipoPet.AutoSize = true;
             this.lblTipoPet.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblTipoPet.Location = new System.Drawing.Point(323, 159);
+            this.lblTipoPet.Location = new System.Drawing.Point(323, 158);
             this.lblTipoPet.Name = "lblTipoPet";
             this.lblTipoPet.Size = new System.Drawing.Size(43, 20);
             this.lblTipoPet.TabIndex = 31;
@@ -225,7 +225,7 @@
             "Pequeno",
             "Médio",
             "Grande"});
-            this.cmbTipoPet.Location = new System.Drawing.Point(400, 156);
+            this.cmbTipoPet.Location = new System.Drawing.Point(400, 149);
             this.cmbTipoPet.Margin = new System.Windows.Forms.Padding(2);
             this.cmbTipoPet.Name = "cmbTipoPet";
             this.cmbTipoPet.Size = new System.Drawing.Size(240, 29);
