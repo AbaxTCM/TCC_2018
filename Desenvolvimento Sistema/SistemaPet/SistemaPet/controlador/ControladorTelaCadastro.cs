@@ -27,8 +27,5 @@ namespace SistemaPet.controlador
         {
             repositorioAdestrador.salvarAdestrador(adestrador);
         }
-        public void InserirPet(Pet pet) {
-            repositorioPet.salvarPet(pet);
-        }
     }
 }

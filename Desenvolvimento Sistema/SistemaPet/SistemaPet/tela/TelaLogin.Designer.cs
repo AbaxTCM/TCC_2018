@@ -49,9 +49,10 @@
             // 
             this.lblLogin.AutoSize = true;
             this.lblLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblLogin.Location = new System.Drawing.Point(95, 166);
+            this.lblLogin.Location = new System.Drawing.Point(127, 204);
+            this.lblLogin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLogin.Name = "lblLogin";
-            this.lblLogin.Size = new System.Drawing.Size(52, 20);
+            this.lblLogin.Size = new System.Drawing.Size(66, 25);
             this.lblLogin.TabIndex = 0;
             this.lblLogin.Text = "Login:";
             // 
@@ -59,36 +60,40 @@
             // 
             this.lblSenha.AutoSize = true;
             this.lblSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblSenha.Location = new System.Drawing.Point(96, 250);
+            this.lblSenha.Location = new System.Drawing.Point(128, 308);
+            this.lblSenha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSenha.Name = "lblSenha";
-            this.lblSenha.Size = new System.Drawing.Size(60, 20);
+            this.lblSenha.Size = new System.Drawing.Size(76, 25);
             this.lblSenha.TabIndex = 1;
             this.lblSenha.Text = "Senha:";
             // 
             // txtLogin
             // 
             this.txtLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtLogin.Location = new System.Drawing.Point(100, 194);
+            this.txtLogin.Location = new System.Drawing.Point(133, 239);
+            this.txtLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtLogin.Name = "txtLogin";
-            this.txtLogin.Size = new System.Drawing.Size(256, 26);
+            this.txtLogin.Size = new System.Drawing.Size(340, 30);
             this.txtLogin.TabIndex = 1;
             // 
             // txtSenha
             // 
             this.txtSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtSenha.Location = new System.Drawing.Point(100, 272);
+            this.txtSenha.Location = new System.Drawing.Point(133, 335);
+            this.txtSenha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.PasswordChar = '●';
-            this.txtSenha.Size = new System.Drawing.Size(256, 26);
+            this.txtSenha.Size = new System.Drawing.Size(340, 30);
             this.txtSenha.TabIndex = 2;
             // 
             // lblWelcome
             // 
             this.lblWelcome.AutoSize = true;
             this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWelcome.Location = new System.Drawing.Point(167, 60);
+            this.lblWelcome.Location = new System.Drawing.Point(223, 74);
+            this.lblWelcome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(129, 25);
+            this.lblWelcome.Size = new System.Drawing.Size(162, 31);
             this.lblWelcome.TabIndex = 4;
             this.lblWelcome.Text = "Bem-Vindo !";
             // 
@@ -100,9 +105,10 @@
             this.lklEsqueciSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lklEsqueciSenha.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.lklEsqueciSenha.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(93)))), ((int)(((byte)(61)))));
-            this.lklEsqueciSenha.Location = new System.Drawing.Point(95, 302);
+            this.lklEsqueciSenha.Location = new System.Drawing.Point(127, 372);
+            this.lklEsqueciSenha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lklEsqueciSenha.Name = "lklEsqueciSenha";
-            this.lklEsqueciSenha.Size = new System.Drawing.Size(127, 20);
+            this.lklEsqueciSenha.Size = new System.Drawing.Size(157, 25);
             this.lklEsqueciSenha.TabIndex = 4;
             this.lklEsqueciSenha.TabStop = true;
             this.lklEsqueciSenha.Text = "Esqueci a senha";
@@ -112,9 +118,10 @@
             // 
             this.lblRegistro.AutoSize = true;
             this.lblRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblRegistro.Location = new System.Drawing.Point(139, 457);
+            this.lblRegistro.Location = new System.Drawing.Point(185, 562);
+            this.lblRegistro.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRegistro.Name = "lblRegistro";
-            this.lblRegistro.Size = new System.Drawing.Size(171, 20);
+            this.lblRegistro.Size = new System.Drawing.Size(211, 25);
             this.lblRegistro.TabIndex = 8;
             this.lblRegistro.Text = "Precisa de uma conta?";
             // 
@@ -126,9 +133,10 @@
             this.lklRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lklRegistrar.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.lklRegistrar.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(93)))), ((int)(((byte)(61)))));
-            this.lklRegistrar.Location = new System.Drawing.Point(187, 476);
+            this.lklRegistrar.Location = new System.Drawing.Point(249, 586);
+            this.lklRegistrar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lklRegistrar.Name = "lklRegistrar";
-            this.lklRegistrar.Size = new System.Drawing.Size(74, 20);
+            this.lklRegistrar.Size = new System.Drawing.Size(89, 25);
             this.lklRegistrar.TabIndex = 5;
             this.lklRegistrar.TabStop = true;
             this.lklRegistrar.Text = "Registrar";
@@ -140,9 +148,10 @@
             this.btnEntrar.DisplayFocus = true;
             this.btnEntrar.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.btnEntrar.FontWeight = MetroFramework.MetroButtonWeight.Regular;
-            this.btnEntrar.Location = new System.Drawing.Point(184, 372);
+            this.btnEntrar.Location = new System.Drawing.Point(245, 458);
+            this.btnEntrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(75, 23);
+            this.btnEntrar.Size = new System.Drawing.Size(100, 28);
             this.btnEntrar.TabIndex = 3;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseSelectable = true;
@@ -157,9 +166,10 @@
             this.pbFechar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pbFechar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbFechar.Image = ((System.Drawing.Image)(resources.GetObject("pbFechar.Image")));
-            this.pbFechar.Location = new System.Drawing.Point(418, 10);
+            this.pbFechar.Location = new System.Drawing.Point(557, 12);
+            this.pbFechar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pbFechar.Name = "pbFechar";
-            this.pbFechar.Size = new System.Drawing.Size(41, 41);
+            this.pbFechar.Size = new System.Drawing.Size(55, 50);
             this.pbFechar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbFechar.TabIndex = 11;
             this.pbFechar.TabStop = false;
@@ -167,9 +177,9 @@
             // 
             // TelaLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(466, 532);
+            this.ClientSize = new System.Drawing.Size(621, 655);
             this.ControlBox = false;
             this.Controls.Add(this.pbFechar);
             this.Controls.Add(this.btnEntrar);
@@ -181,7 +191,9 @@
             this.Controls.Add(this.txtLogin);
             this.Controls.Add(this.lblSenha);
             this.Controls.Add(this.lblLogin);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "TelaLogin";
+            this.Padding = new System.Windows.Forms.Padding(27, 74, 27, 25);
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.AeroShadow;
             this.Load += new System.EventHandler(this.TelaLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mbcTelaLogin)).EndInit();

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,7 @@ namespace SistemaPet.tela
            
         }
 
+        Conexao conn = new Conexao();
         private void TelaLogin_Load(object sender, EventArgs e)
         {
             
@@ -36,13 +38,41 @@ namespace SistemaPet.tela
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            if (txtLogin.Text == "admin" && txtSenha.Text == "admin")
+            string[] query;
+            query = new string[2];
+            query[0] = "select * from Adestrador where email_adestrador = '"+txtLogin.Text+ "'and senha_adestrador = '"+txtSenha.Text+"'";
+            query[1] = "select * from Dono where email_dono = '" + txtLogin.Text + "'and senha_dono = '" + txtSenha.Text + "'";
+            SqlDataAdapter sda = new SqlDataAdapter(query[0],conn.conectarBD());
+            DataTable dtb = new DataTable();
+            sda.Fill(dtb);
+            try
+            {
+                if(dtb.Rows.Count == 1)
+                {
+                    Design telaPrincipal = new Design();
+                    this.Hide();
+                    telaPrincipal.Show();
+                }
+            }
+            catch
+            {
+                try
+                {
+                    sda = new SqlDataAdapter(query[1], conn.conectarBD());
+                    sda.Fill(dtb);
+                }
+                catch
+                {
+                    MessageBox.Show("Erro: Login ou senha inválidos");
+                }
+            }
+            /*if (txtLogin.Text == "admin" && txtSenha.Text == "admin")
             {
                 TelaLogin teste = new TelaLogin();
                 Design telaPrincipal = new Design();
                 this.Hide();
                 telaPrincipal.Show();
-            }
+            }*/
         }
     }
 }

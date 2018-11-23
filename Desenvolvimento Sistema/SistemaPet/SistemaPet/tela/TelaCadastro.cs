@@ -15,6 +15,7 @@ namespace SistemaPet.tela
     public partial class TelaCadastro : Form
     {
         ControladorTelaCadastro controladorCadastro = new ControladorTelaCadastro();
+        ControladorTelaPet controladorPet = new ControladorTelaPet();
         public TelaCadastro()
         {
             InitializeComponent();
@@ -73,8 +74,30 @@ namespace SistemaPet.tela
             pet.IdPet = int.Parse(txtIdPet.Text);
             pet.AvaliacaoPet = rtbAvaliacao.Text;
 
-            controladorCadastro.InserirPet(pet);
+            controladorPet.InserirPet(pet);
 
+        }
+
+        private void txtConfirmarSenhaAdestrador_Leave(object sender, EventArgs e)
+        {
+            if(txtSenhaAdestrador.Text != txtConfirmarSenhaAdestrador.Text)
+            {
+                MessageBox.Show("Senhas Diferentes");
+                txtSenhaAdestrador.Clear();
+                txtConfirmarSenhaAdestrador.Clear();
+                txtSenhaAdestrador.Focus();
+            }
+        }
+
+        private void txtConfirmarSenhaDono_Leave(object sender, EventArgs e)
+        {
+            if(txtSenhaDono.Text != txtConfirmarSenhaDono.Text)
+            {
+                MessageBox.Show("Senhas Diferentes");
+                txtSenhaDono.Clear();
+                txtConfirmarSenhaDono.Clear();
+                txtSenhaDono.Focus();
+            }
         }
     }
 }

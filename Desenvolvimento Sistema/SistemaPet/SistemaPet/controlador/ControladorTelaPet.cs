@@ -16,9 +16,14 @@ namespace SistemaPet.controlador
 
         }
 
-        public void InserirDono(Pet pet)
+        public void InserirPet(Pet pet)
         {
             repositorioPet.salvarPet(pet);
+        }
+
+        public void updatePet(Pet pet)
+        {
+
         }
     }
 }

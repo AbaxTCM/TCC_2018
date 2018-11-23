@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SistemaPet.controlador;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,6 +18,7 @@ namespace SistemaPet.tela
             InitializeComponent();
         }
 
+        ControladorTelaPet controladorPet = new ControladorTelaPet();
         private void btnSalvarPet_Click(object sender, EventArgs e)
         {
             btnSalvarPet.Hide();
