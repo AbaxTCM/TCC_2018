@@ -127,6 +127,9 @@
   <data name="user-silhouette" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user-silhouette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="iconCadastrarBranco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconCadastrarBranco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="opened-door-aperture" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\opened-door-aperture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -160,7 +163,7 @@
   <data name="icon-handshake" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-handshake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconCadastrarBranco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconCadastrarBranco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iconCadastrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconCadastrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

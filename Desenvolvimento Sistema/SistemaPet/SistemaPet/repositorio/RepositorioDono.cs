@@ -22,7 +22,7 @@ namespace SistemaPet.repositorio
                     "@telefone_dono," +
                     "@email_dono," +
                     "@rua_dono," +
-                    "@numero_dono," +
+                    "@numCasa_dono," +
                     "@bairro_dono," +
                     "@cidade_dono," +
                     "@estado_dono," +
@@ -32,7 +32,7 @@ namespace SistemaPet.repositorio
                 cmd.Parameters.AddWithValue("@telefone_dono", dono.Telefone);
                 cmd.Parameters.AddWithValue("@email_dono", dono.Email);
                 cmd.Parameters.AddWithValue("@rua_dono", dono.Rua);
-                cmd.Parameters.AddWithValue("@numero_dono", dono.NumCasa);
+                cmd.Parameters.AddWithValue("@numCasa_dono", dono.NumCasa);
                 cmd.Parameters.AddWithValue("@bairro_dono", dono.Bairro);
                 cmd.Parameters.AddWithValue("@cidade_dono", dono.Cidade);
                 cmd.Parameters.AddWithValue("@estado_dono", dono.Estado);

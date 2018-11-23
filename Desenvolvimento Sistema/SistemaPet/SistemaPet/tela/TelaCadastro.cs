@@ -32,7 +32,7 @@ namespace SistemaPet.tela
             adestrador.Bairro = txtBairroAdestrador.Text;
             adestrador.Cidade = txtCidadeAdestrador.Text;
             adestrador.Estado = cmbEstadoAdestrador.Text;
-            adestrador.Senha = int.Parse(txtSenhaAdestrador.Text);
+            adestrador.Senha = txtSenhaAdestrador.Text;
             adestrador.Cpf = int.Parse(mtbCpfAdestrador.Text);
 
             controladorCadastro.InserirAdestrador(adestrador);
@@ -49,7 +49,7 @@ namespace SistemaPet.tela
             dono.Bairro = txtBairroDono.Text;
             dono.Cidade = txtCidadeDono.Text;
             dono.Estado = cmbEstadoDono.Text;
-            dono.Senha = int.Parse(txtSenhaDono.Text);
+            dono.Senha = txtSenhaDono.Text;
 
             controladorCadastro.InserirDono(dono);
         }

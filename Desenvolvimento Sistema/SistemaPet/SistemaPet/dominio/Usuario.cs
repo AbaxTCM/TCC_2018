@@ -16,7 +16,7 @@ namespace SistemaPet.dominio
         private string bairro;
         private string cidade;
         private string estado;
-        private int senha;
+        private string senha;
 
         public string Nome { get => nome; set => nome = value; }
         public string Telefone { get => telefone; set => telefone = value; }
@@ -26,6 +26,6 @@ namespace SistemaPet.dominio
         public string Bairro { get => bairro; set => bairro = value; }
         public string Cidade { get => cidade; set => cidade = value; }
         public string Estado { get => estado; set => estado = value; }
-        public int Senha { get => senha; set => senha = value; }
+        public string Senha { get => senha; set => senha = value; }
     }
 }

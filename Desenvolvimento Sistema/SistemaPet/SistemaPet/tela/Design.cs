@@ -132,6 +132,19 @@ namespace SistemaPet.tela
             btnSair.Image = Resources.opened_door_aperture_branco;
         }
 
+        private void btnCadastrar_MouseEnter(object sender, EventArgs e)
+        {
+            btnCadastrar.BackColor = Color.FromArgb(0, 148, 187, 27);
+            btnCadastrar.ForeColor = Color.FromArgb(0, 16, 16, 16);
+            btnCadastrar.Image = Resources.iconCadastrar;
+        }
+
+        private void btnCadastrar_MouseLeave(object sender, EventArgs e)
+        {
+            btnCadastrar.ForeColor = Color.FromArgb(0, 255, 255, 255);
+            btnCadastrar.Image = Resources.iconCadastrarBranco;
+        }
+
         #region Funcoes Formulario
 
         private int tolerance = 12;
