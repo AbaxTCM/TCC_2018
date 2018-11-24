@@ -66,4 +66,5 @@ id_adestramento int references Adestramento (id_adestramento),
 data_agenda date
 )
 
+select * from Dono
 select * from Pet

@@ -285,7 +285,9 @@ namespace SistemaPet.tela
 
         private void btnSair_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
+            TelaLogin telaLogin = new TelaLogin();
+            telaLogin.Show();
         }
 
         private void btnComprar_Click(object sender, EventArgs e)

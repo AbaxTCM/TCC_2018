@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static SistemaPet.controlador.ControladorTelaLogin;
 
 namespace SistemaPet.tela
 {
@@ -19,6 +20,7 @@ namespace SistemaPet.tela
         public TelaCadastro()
         {
             InitializeComponent();
+            lblIdDono.Text = ("ID Dono: "+Session.Instance.UserID.ToString());
         }
 
         private void btnSalvarAdestrador_Click(object sender, EventArgs e)
@@ -68,20 +70,20 @@ namespace SistemaPet.tela
         private void btnSalvarPet_Click(object sender, EventArgs e)
         {
             Pet pet = new Pet();
+            pet.IdDono = Session.Instance.UserID;
             pet.NomePet = txtNomePet.Text;
             pet.TipoPet = cmbTipoPet.Text;
             pet.RacaPet = txtRacaPet.Text;
             pet.GeneroPet = cmbGeneroPet.Text;
-            pet.IdPet = int.Parse(txtIdDono.Text);
             pet.AvaliacaoPet = rtbAvaliacao.Text;
 
-            controladorPet.InserirPet(pet);
+            controladorPet.InserirPetDono(pet);
 
         }
 
         private void txtConfirmarSenhaAdestrador_Leave(object sender, EventArgs e)
         {
-            if(txtSenhaAdestrador.Text != txtConfirmarSenhaAdestrador.Text)
+            if(txtConfirmarSenhaAdestrador.Text != txtSenhaAdestrador.Text)
             {
                 MessageBox.Show("Senhas Diferentes");
                 txtSenhaAdestrador.Clear();
@@ -92,7 +94,7 @@ namespace SistemaPet.tela
 
         private void txtConfirmarSenhaDono_Leave(object sender, EventArgs e)
         {
-            if(txtSenhaDono.Text != txtConfirmarSenhaDono.Text)
+            if(txtConfirmarSenhaDono.Text != txtSenhaDono.Text)
             {
                 MessageBox.Show("Senhas Diferentes");
                 txtSenhaDono.Clear();

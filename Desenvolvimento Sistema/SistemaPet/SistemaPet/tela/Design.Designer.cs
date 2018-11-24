@@ -31,11 +31,12 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Design));
             this.mpTopoMeio = new MetroFramework.Controls.MetroPanel();
+            this.btnMenu = new System.Windows.Forms.PictureBox();
             this.pbMinimizar = new System.Windows.Forms.PictureBox();
             this.pbMaximizar = new System.Windows.Forms.PictureBox();
             this.pbFechar = new System.Windows.Forms.PictureBox();
-            this.btnMenu = new System.Windows.Forms.PictureBox();
             this.pbrestaurar = new System.Windows.Forms.PictureBox();
+            this.pcbFecharMenu = new System.Windows.Forms.PictureBox();
             this.mpPainelMenu = new MetroFramework.Controls.MetroPanel();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
@@ -45,17 +46,16 @@
             this.btnPerfil = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.mpPainelConteudo = new MetroFramework.Controls.MetroPanel();
-            this.pcbFecharMenu = new System.Windows.Forms.PictureBox();
             this.msmEstiloMenu = new MetroFramework.Components.MetroStyleManager(this.components);
             this.mpTopoMeio.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbFechar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbrestaurar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbFecharMenu)).BeginInit();
             this.mpPainelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pcbFecharMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.msmEstiloMenu)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,6 +84,18 @@
             this.mpTopoMeio.VerticalScrollbarSize = 10;
             this.mpTopoMeio.Paint += new System.Windows.Forms.PaintEventHandler(this.mpTopoMeio_Paint);
             this.mpTopoMeio.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mpTopoMeio_MouseMove);
+            // 
+            // btnMenu
+            // 
+            this.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
+            this.btnMenu.Location = new System.Drawing.Point(6, 9);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(35, 35);
+            this.btnMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnMenu.TabIndex = 2;
+            this.btnMenu.TabStop = false;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click_1);
             // 
             // pbMinimizar
             // 
@@ -124,18 +136,6 @@
             this.pbFechar.TabStop = false;
             this.pbFechar.Click += new System.EventHandler(this.pbFechar_Click);
             // 
-            // btnMenu
-            // 
-            this.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
-            this.btnMenu.Location = new System.Drawing.Point(6, 9);
-            this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(35, 35);
-            this.btnMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMenu.TabIndex = 2;
-            this.btnMenu.TabStop = false;
-            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click_1);
-            // 
             // pbrestaurar
             // 
             this.pbrestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -148,6 +148,18 @@
             this.pbrestaurar.TabIndex = 3;
             this.pbrestaurar.TabStop = false;
             this.pbrestaurar.Click += new System.EventHandler(this.pbrestaurar_Click);
+            // 
+            // pcbFecharMenu
+            // 
+            this.pcbFecharMenu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pcbFecharMenu.Image = ((System.Drawing.Image)(resources.GetObject("pcbFecharMenu.Image")));
+            this.pcbFecharMenu.Location = new System.Drawing.Point(6, 9);
+            this.pcbFecharMenu.Name = "pcbFecharMenu";
+            this.pcbFecharMenu.Size = new System.Drawing.Size(35, 35);
+            this.pcbFecharMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcbFecharMenu.TabIndex = 5;
+            this.pcbFecharMenu.TabStop = false;
+            this.pcbFecharMenu.Click += new System.EventHandler(this.pcbFecharMenu_Click);
             // 
             // mpPainelMenu
             // 
@@ -178,12 +190,12 @@
             // 
             this.btnCadastrar.FlatAppearance.BorderSize = 0;
             this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCadastrar.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrar.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnCadastrar.Image = global::SistemaPet.Properties.Resources.iconCadastrarBranco;
             this.btnCadastrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCadastrar.Location = new System.Drawing.Point(0, 414);
-            this.btnCadastrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCadastrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(210, 55);
             this.btnCadastrar.TabIndex = 6;
@@ -197,12 +209,12 @@
             // 
             this.btnSair.FlatAppearance.BorderSize = 0;
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSair.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSair.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnSair.Image = global::SistemaPet.Properties.Resources.opened_door_aperture_branco;
             this.btnSair.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSair.Location = new System.Drawing.Point(0, 596);
-            this.btnSair.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSair.Margin = new System.Windows.Forms.Padding(2);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(210, 36);
             this.btnSair.TabIndex = 5;
@@ -216,12 +228,12 @@
             // 
             this.btnComprar.FlatAppearance.BorderSize = 0;
             this.btnComprar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnComprar.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnComprar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnComprar.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnComprar.Image = global::SistemaPet.Properties.Resources.shopping_cart_branco;
             this.btnComprar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnComprar.Location = new System.Drawing.Point(0, 345);
-            this.btnComprar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnComprar.Margin = new System.Windows.Forms.Padding(2);
             this.btnComprar.Name = "btnComprar";
             this.btnComprar.Size = new System.Drawing.Size(210, 55);
             this.btnComprar.TabIndex = 4;
@@ -235,12 +247,12 @@
             // 
             this.btnAdestradores.FlatAppearance.BorderSize = 0;
             this.btnAdestradores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdestradores.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdestradores.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdestradores.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnAdestradores.Image = global::SistemaPet.Properties.Resources.icon_handshake_branco;
             this.btnAdestradores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAdestradores.Location = new System.Drawing.Point(0, 274);
-            this.btnAdestradores.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAdestradores.Margin = new System.Windows.Forms.Padding(2);
             this.btnAdestradores.Name = "btnAdestradores";
             this.btnAdestradores.Size = new System.Drawing.Size(210, 55);
             this.btnAdestradores.TabIndex = 3;
@@ -254,12 +266,12 @@
             // 
             this.btnPets.FlatAppearance.BorderSize = 0;
             this.btnPets.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPets.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPets.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPets.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnPets.Image = global::SistemaPet.Properties.Resources.pet_branco;
             this.btnPets.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPets.Location = new System.Drawing.Point(0, 199);
-            this.btnPets.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPets.Margin = new System.Windows.Forms.Padding(2);
             this.btnPets.Name = "btnPets";
             this.btnPets.Size = new System.Drawing.Size(210, 55);
             this.btnPets.TabIndex = 2;
@@ -273,12 +285,12 @@
             // 
             this.btnPerfil.FlatAppearance.BorderSize = 0;
             this.btnPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPerfil.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPerfil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPerfil.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnPerfil.Image = global::SistemaPet.Properties.Resources.user_silhouette_branco;
             this.btnPerfil.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPerfil.Location = new System.Drawing.Point(2, 129);
-            this.btnPerfil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPerfil.Margin = new System.Windows.Forms.Padding(2);
             this.btnPerfil.Name = "btnPerfil";
             this.btnPerfil.Size = new System.Drawing.Size(210, 55);
             this.btnPerfil.TabIndex = 1;
@@ -312,18 +324,6 @@
             this.mpPainelConteudo.VerticalScrollbarHighlightOnWheel = false;
             this.mpPainelConteudo.VerticalScrollbarSize = 10;
             // 
-            // pcbFecharMenu
-            // 
-            this.pcbFecharMenu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pcbFecharMenu.Image = ((System.Drawing.Image)(resources.GetObject("pcbFecharMenu.Image")));
-            this.pcbFecharMenu.Location = new System.Drawing.Point(6, 9);
-            this.pcbFecharMenu.Name = "pcbFecharMenu";
-            this.pcbFecharMenu.Size = new System.Drawing.Size(35, 35);
-            this.pcbFecharMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pcbFecharMenu.TabIndex = 5;
-            this.pcbFecharMenu.TabStop = false;
-            this.pcbFecharMenu.Click += new System.EventHandler(this.pcbFecharMenu_Click);
-            // 
             // msmEstiloMenu
             // 
             this.msmEstiloMenu.Owner = null;
@@ -344,14 +344,14 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.mpTopoMeio.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMinimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbFechar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbrestaurar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbFecharMenu)).EndInit();
             this.mpPainelMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pcbFecharMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.msmEstiloMenu)).EndInit();
             this.ResumeLayout(false);
 

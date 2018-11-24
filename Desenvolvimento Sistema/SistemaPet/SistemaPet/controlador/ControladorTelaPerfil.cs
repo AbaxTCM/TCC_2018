@@ -14,9 +14,14 @@ namespace SistemaPet.controlador
     class ControladorTelaPerfil
     {
         RepositorioDono repositorioDono = new RepositorioDono();
-        public void obterRegistros(Dono dono,int idUser)
+        RepositorioAdestrador repositorioAdestrador = new RepositorioAdestrador();
+        public void obterRegistrosDono(Dono dono,int idUser)
         {
             repositorioDono.GetDonoTelaPerfil(idUser, dono);
+        }
+        public void obterRegistrosAdestrador(Adestrador adestrador, int idUser)
+        {
+            repositorioAdestrador.GetAdestradorTelaPerfil(idUser, adestrador);
         }
     }
 }

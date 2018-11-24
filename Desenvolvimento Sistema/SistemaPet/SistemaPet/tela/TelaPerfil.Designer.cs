@@ -51,6 +51,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.ptbImagemPerfil = new System.Windows.Forms.PictureBox();
             this.cmbEstadoPerfil = new MetroFramework.Controls.MetroComboBox();
+            this.lblPerfilTexto = new System.Windows.Forms.Label();
+            this.lblPerfil = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ptbImagemPerfil)).BeginInit();
             this.SuspendLayout();
             // 
@@ -310,11 +312,33 @@
             this.cmbEstadoPerfil.TabIndex = 66;
             this.cmbEstadoPerfil.UseSelectable = true;
             // 
+            // lblPerfilTexto
+            // 
+            this.lblPerfilTexto.AutoSize = true;
+            this.lblPerfilTexto.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.lblPerfilTexto.Location = new System.Drawing.Point(312, 22);
+            this.lblPerfilTexto.Name = "lblPerfilTexto";
+            this.lblPerfilTexto.Size = new System.Drawing.Size(76, 31);
+            this.lblPerfilTexto.TabIndex = 67;
+            this.lblPerfilTexto.Text = "Perfil";
+            // 
+            // lblPerfil
+            // 
+            this.lblPerfil.AutoSize = true;
+            this.lblPerfil.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.lblPerfil.Location = new System.Drawing.Point(384, 22);
+            this.lblPerfil.Name = "lblPerfil";
+            this.lblPerfil.Size = new System.Drawing.Size(74, 31);
+            this.lblPerfil.TabIndex = 68;
+            this.lblPerfil.Text = "####";
+            // 
             // TelaPerfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(840, 538);
+            this.Controls.Add(this.lblPerfil);
+            this.Controls.Add(this.lblPerfilTexto);
             this.Controls.Add(this.cmbEstadoPerfil);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAlterarPerfil);
@@ -374,5 +398,7 @@
         private MetroFramework.Controls.MetroButton btnAlterarPerfil;
         private System.Windows.Forms.Label label1;
         private MetroFramework.Controls.MetroComboBox cmbEstadoPerfil;
+        private System.Windows.Forms.Label lblPerfilTexto;
+        private System.Windows.Forms.Label lblPerfil;
     }
 }

@@ -35,6 +35,7 @@ namespace SistemaPet.controlador
 
             }
             public int UserID { get; set; }
+            public string Funcao { get; set; }
 
         }
     }

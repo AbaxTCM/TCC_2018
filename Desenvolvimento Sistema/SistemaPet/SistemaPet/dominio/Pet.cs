@@ -9,6 +9,8 @@ namespace SistemaPet.dominio
     class Pet
     {
         private int idPet;
+        private int idDono;
+        private int idAdestrador;
         private string nomePet;
         private string tipoPet;
         private string racaPet;
@@ -16,6 +18,8 @@ namespace SistemaPet.dominio
         private string avaliacaoPet;
 
         public int IdPet { get => idPet; set => idPet = value; }
+        public int IdDono { get => idDono; set => idDono = value; }
+        public int IdAdestrador { get => idAdestrador; set => idAdestrador = value; }
         public string NomePet { get => nomePet; set => nomePet = value; }
         public string TipoPet { get => tipoPet; set => tipoPet = value; }
         public string RacaPet { get => racaPet; set => racaPet = value; }

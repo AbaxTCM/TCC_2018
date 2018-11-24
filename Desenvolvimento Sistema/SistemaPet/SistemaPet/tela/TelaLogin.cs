@@ -30,8 +30,8 @@ namespace SistemaPet.tela
 
         private void lklRegistrar_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            TelaCadastroUsuario cadastro2 = new TelaCadastroUsuario();
-            cadastro2.Show();
+            TelaApresentacaoRegistro preCadastro = new TelaApresentacaoRegistro();
+            preCadastro.Show();
         }
 
         private void pbFechar_Click(object sender, EventArgs e)
@@ -50,6 +50,7 @@ namespace SistemaPet.tela
             Design telaPrincipal = new Design();
             sda.Fill(dtb);
             int idUser = 0;
+            string funcao = "";
             try
             {
                 if (dtb.Rows.Count == 1)
@@ -62,6 +63,7 @@ namespace SistemaPet.tela
                     while (dr.Read())
                     {
                         idUser = Convert.ToInt16(dr[0]);
+                        funcao = "Adestrador";
                     }
                 }
                 else
@@ -79,6 +81,7 @@ namespace SistemaPet.tela
                         while (dr.Read())
                         {
                             idUser = Convert.ToInt16(dr[0]);
+                            funcao = "Dono";
                         }
                     }
                     else
@@ -95,6 +98,7 @@ namespace SistemaPet.tela
             finally
             {
                 Session.Instance.UserID = idUser;
+                Session.Instance.Funcao = funcao;
             }
         }
     }

@@ -1,6 +1,6 @@
 ﻿namespace SistemaPet.tela
 {
-    partial class TelaCadastroUsuario
+    partial class TelaCadastroDono
     {
         /// <summary>
         /// Required designer variable.
@@ -51,6 +51,7 @@
             this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
             this.txtNomeDono = new MetroFramework.Controls.MetroTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblCadastroAdestrador = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -96,6 +97,7 @@
             this.txtConfirmarSenhaDono.UseSelectable = true;
             this.txtConfirmarSenhaDono.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtConfirmarSenhaDono.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtConfirmarSenhaDono.Leave += new System.EventHandler(this.txtConfirmarSenhaDono_Leave);
             // 
             // lblSenha
             // 
@@ -516,6 +518,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel1.Controls.Add(this.lblCadastroAdestrador);
             this.panel1.Controls.Add(this.lblConfirmarSenha);
             this.panel1.Controls.Add(this.btnCancelarDono);
             this.panel1.Controls.Add(this.txtConfirmarSenhaDono);
@@ -543,7 +546,17 @@
             this.panel1.Size = new System.Drawing.Size(822, 455);
             this.panel1.TabIndex = 68;
             // 
-            // TelaCadastroUsuario
+            // lblCadastroAdestrador
+            // 
+            this.lblCadastroAdestrador.AutoSize = true;
+            this.lblCadastroAdestrador.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.lblCadastroAdestrador.Location = new System.Drawing.Point(323, 25);
+            this.lblCadastroAdestrador.Name = "lblCadastroAdestrador";
+            this.lblCadastroAdestrador.Size = new System.Drawing.Size(150, 31);
+            this.lblCadastroAdestrador.TabIndex = 75;
+            this.lblCadastroAdestrador.Text = "Novo Dono";
+            // 
+            // TelaCadastroDono
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -551,7 +564,7 @@
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "TelaCadastroUsuario";
+            this.Name = "TelaCadastroDono";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastrar";
             this.panel1.ResumeLayout(false);
@@ -585,5 +598,6 @@
         private MetroFramework.Controls.MetroLabel metroLabel9;
         private MetroFramework.Controls.MetroTextBox txtNomeDono;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lblCadastroAdestrador;
     }
 }

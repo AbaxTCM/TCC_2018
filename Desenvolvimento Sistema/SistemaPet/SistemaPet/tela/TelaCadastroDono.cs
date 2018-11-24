@@ -12,10 +12,10 @@ using System.Windows.Forms;
 
 namespace SistemaPet.tela
 {
-    public partial class TelaCadastroUsuario : Form
+    public partial class TelaCadastroDono : Form
     {
         ControladorTelaCadastro controladorCadastro = new ControladorTelaCadastro();
-        public TelaCadastroUsuario()
+        public TelaCadastroDono()
         {
             InitializeComponent();
         }
@@ -40,6 +40,17 @@ namespace SistemaPet.tela
 
             controladorCadastro.InserirDono(dono);
             this.Close();
+        }
+
+        private void txtConfirmarSenhaDono_Leave(object sender, EventArgs e)
+        {
+            if(txtConfirmarSenhaDono.Text != txtSenhaDono.Text)
+            {
+                MessageBox.Show("Senhas Diferentes");
+                txtSenhaDono.Clear();
+                txtConfirmarSenhaDono.Clear();
+                txtSenhaDono.Focus();
+            }
         }
     }
 }

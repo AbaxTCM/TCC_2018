@@ -14,17 +14,19 @@ namespace SistemaPet.repositorio
     {
         Conexao conn = new Conexao();
 
-        public void salvarPet(Pet pet)
+        public void salvarPetDono(Pet pet)
         {
             try
             {
-                SqlCommand cmd = new SqlCommand("insert into Pet values " +"(@id_dono," +
+                SqlCommand cmd = new SqlCommand("insert into Pet (id_dono,nome_pet,tipo_pet,raca_pet,genero_pet,avaliacao) values " +
+                    "(@id_dono," +
                     "@nome_pet," +
                     "@tipo_pet," +
                     "@raca_pet," +
                     "@genero_pet," +
                     "@avaliacao); select @@IDENTITY;", conn.conectarBD());
-                cmd.Parameters.AddWithValue("@id_dono", pet.IdPet);
+
+                cmd.Parameters.AddWithValue("@id_dono", pet.IdDono);
                 cmd.Parameters.AddWithValue("@nome_pet", pet.NomePet);
                 cmd.Parameters.AddWithValue("@tipo_pet", pet.TipoPet);
                 cmd.Parameters.AddWithValue("@raca_pet", pet.RacaPet);
@@ -40,15 +42,15 @@ namespace SistemaPet.repositorio
             finally
             {
                 conn.desconectarBD();
+                MessageBox.Show("Cadastro efetuado com sucesso!");
             }
-            MessageBox.Show("Cadastro efetuado com sucesso!");
         }
 
         public void upgradePet(Pet pet)
         {
             try
             {
-                SqlCommand cmd = new SqlCommand("update Usuario set " +
+                SqlCommand cmd = new SqlCommand("update Pet set " +
                     "NomePet = @nome_pet, " +
                     "TipoPet = @tipo_pet, " +
                     "RacaPet = @raca_pet, " +
@@ -67,6 +69,7 @@ namespace SistemaPet.repositorio
             finally
             {
                 conn.desconectarBD();
+                MessageBox.Show("Cadastro efetuado com Sucesso");
             }
         }
 

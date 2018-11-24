@@ -32,5 +32,10 @@ namespace SistemaPet.controlador
         {
             repositorioDono.updgradeDono(dono);
         }
+
+        public void AlterarAdestrador(Adestrador adestrador)
+        {
+            repositorioAdestrador.upgradeAdestrador(adestrador);
+        }
     }
 }
