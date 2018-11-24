@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static SistemaPet.controlador.ControladorTelaLogin;
 
 namespace SistemaPet.tela
 {
@@ -93,7 +94,7 @@ namespace SistemaPet.tela
             }
             finally
             {
-
+                Session.Instance.UserID = idUser;
             }
         }
     }

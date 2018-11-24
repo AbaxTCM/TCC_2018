@@ -36,7 +36,6 @@
             this.lblNumCasaPerfil = new System.Windows.Forms.Label();
             this.txtCidadePerfil = new System.Windows.Forms.TextBox();
             this.lblRuaPerfil = new System.Windows.Forms.Label();
-            this.txtEstadoPerfil = new System.Windows.Forms.TextBox();
             this.lblBairroPerfil = new System.Windows.Forms.Label();
             this.txtBairroPerfil = new System.Windows.Forms.TextBox();
             this.lblCidadePerfil = new System.Windows.Forms.Label();
@@ -51,6 +50,7 @@
             this.btnAlterarPerfil = new MetroFramework.Controls.MetroButton();
             this.label1 = new System.Windows.Forms.Label();
             this.ptbImagemPerfil = new System.Windows.Forms.PictureBox();
+            this.cmbEstadoPerfil = new MetroFramework.Controls.MetroComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.ptbImagemPerfil)).BeginInit();
             this.SuspendLayout();
             // 
@@ -118,7 +118,7 @@
             // txtCidadePerfil
             // 
             this.txtCidadePerfil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtCidadePerfil.Location = new System.Drawing.Point(252, 296);
+            this.txtCidadePerfil.Location = new System.Drawing.Point(251, 297);
             this.txtCidadePerfil.Name = "txtCidadePerfil";
             this.txtCidadePerfil.ReadOnly = true;
             this.txtCidadePerfil.Size = new System.Drawing.Size(256, 26);
@@ -133,15 +133,6 @@
             this.lblRuaPerfil.Size = new System.Drawing.Size(43, 20);
             this.lblRuaPerfil.TabIndex = 15;
             this.lblRuaPerfil.Text = "Rua:";
-            // 
-            // txtEstadoPerfil
-            // 
-            this.txtEstadoPerfil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtEstadoPerfil.Location = new System.Drawing.Point(252, 267);
-            this.txtEstadoPerfil.Name = "txtEstadoPerfil";
-            this.txtEstadoPerfil.ReadOnly = true;
-            this.txtEstadoPerfil.Size = new System.Drawing.Size(94, 26);
-            this.txtEstadoPerfil.TabIndex = 22;
             // 
             // lblBairroPerfil
             // 
@@ -185,7 +176,7 @@
             // 
             this.lblEstadoPerfil.AutoSize = true;
             this.lblEstadoPerfil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblEstadoPerfil.Location = new System.Drawing.Point(168, 275);
+            this.lblEstadoPerfil.Location = new System.Drawing.Point(168, 272);
             this.lblEstadoPerfil.Name = "lblEstadoPerfil";
             this.lblEstadoPerfil.Size = new System.Drawing.Size(64, 20);
             this.lblEstadoPerfil.TabIndex = 12;
@@ -280,11 +271,51 @@
             this.ptbImagemPerfil.TabIndex = 0;
             this.ptbImagemPerfil.TabStop = false;
             // 
+            // cmbEstadoPerfil
+            // 
+            this.cmbEstadoPerfil.Enabled = false;
+            this.cmbEstadoPerfil.FormattingEnabled = true;
+            this.cmbEstadoPerfil.ItemHeight = 23;
+            this.cmbEstadoPerfil.Items.AddRange(new object[] {
+            "AC",
+            "AL",
+            "AP",
+            "AM",
+            "BA",
+            "CE",
+            "DF",
+            "ES",
+            "GO",
+            "MA",
+            "MT",
+            "MS",
+            "MG",
+            "PA",
+            "PB",
+            "PR",
+            "PE",
+            "PI",
+            "RJ",
+            "RN",
+            "RS",
+            "RO",
+            "RR",
+            "SC",
+            "SP",
+            "SE",
+            "TO"});
+            this.cmbEstadoPerfil.Location = new System.Drawing.Point(251, 265);
+            this.cmbEstadoPerfil.Name = "cmbEstadoPerfil";
+            this.cmbEstadoPerfil.Size = new System.Drawing.Size(94, 29);
+            this.cmbEstadoPerfil.TabIndex = 66;
+            this.cmbEstadoPerfil.UseSelectable = true;
+            // 
             // TelaPerfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(840, 538);
+            this.Controls.Add(this.cmbEstadoPerfil);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAlterarPerfil);
             this.Controls.Add(this.mtbTrocarImagemPerfil);
@@ -303,7 +334,6 @@
             this.Controls.Add(this.txtNumCasaPerfil);
             this.Controls.Add(this.lblRuaPerfil);
             this.Controls.Add(this.lblEstadoPerfil);
-            this.Controls.Add(this.txtEstadoPerfil);
             this.Controls.Add(this.txtRuaPerfil);
             this.Controls.Add(this.lblBairroPerfil);
             this.Controls.Add(this.lblCidadePerfil);
@@ -329,7 +359,6 @@
         private System.Windows.Forms.Label lblNumCasaPerfil;
         private System.Windows.Forms.TextBox txtCidadePerfil;
         private System.Windows.Forms.Label lblRuaPerfil;
-        private System.Windows.Forms.TextBox txtEstadoPerfil;
         private System.Windows.Forms.Label lblBairroPerfil;
         private System.Windows.Forms.TextBox txtBairroPerfil;
         private System.Windows.Forms.Label lblCidadePerfil;
@@ -344,5 +373,6 @@
         private System.Windows.Forms.TextBox txtIdPerfil;
         private MetroFramework.Controls.MetroButton btnAlterarPerfil;
         private System.Windows.Forms.Label label1;
+        private MetroFramework.Controls.MetroComboBox cmbEstadoPerfil;
     }
 }

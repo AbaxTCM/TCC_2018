@@ -27,5 +27,10 @@ namespace SistemaPet.controlador
         {
             repositorioAdestrador.salvarAdestrador(adestrador);
         }
+
+        public void AlterarDono(Dono dono)
+        {
+            repositorioDono.updgradeDono(dono);
+        }
     }
 }

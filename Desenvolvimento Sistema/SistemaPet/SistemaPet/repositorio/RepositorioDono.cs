@@ -55,27 +55,26 @@ namespace SistemaPet.repositorio
         {
             try
             {
-                SqlCommand cmd = new SqlCommand("update Usuario set " +
-                    "Nome = @nome_usuario, " +
-                    "Telefone = @telefone_usuario, " +
-                    "Email = @email_usuario, " +
-                    "Rua = @rua_usuario, " +
-                    "NumCasa = @numero_casaUsuario," +
-                    "Bairro = @bairro_usuario," +
-                    "Cidade = @cidade_usuario," +
-                    "Estado = @estado_usuario," +
-                    "Senha = @senha_usuario");
+                SqlCommand cmd = new SqlCommand("update Dono set " +
+                    "nome_dono = @nome_dono, " +
+                    "telefone_dono = @telefone_dono, " +
+                    "email_dono = @email_dono, " +
+                    "rua_dono = @rua_dono, " +
+                    "numCasa_dono = @numCasa_dono," +
+                    "bairro_dono = @bairro_dono," +
+                    "cidade_dono = @cidade_dono," +
+                    "estado_dono = @estado_dono where id_dono = "+dono.IdDono+";", conn.conectarBD());
+                
+                cmd.Parameters.Add("@nome_dono", SqlDbType.VarChar).Value = dono.Nome;
+                cmd.Parameters.Add("@telefone_dono", SqlDbType.VarChar).Value = dono.Telefone;
+                cmd.Parameters.Add("@email_dono", SqlDbType.VarChar).Value = dono.Email;
+                cmd.Parameters.Add("@rua_dono", SqlDbType.VarChar).Value = dono.Rua;
+                cmd.Parameters.Add("@numCasa_dono", SqlDbType.Int).Value = dono.NumCasa;
+                cmd.Parameters.Add("@bairro_dono", SqlDbType.VarChar).Value = dono.Bairro;
+                cmd.Parameters.Add("@cidade_dono", SqlDbType.VarChar).Value = dono.Cidade;
+                cmd.Parameters.Add("@estado_dono", SqlDbType.VarChar).Value = dono.Estado;
 
-                cmd.Parameters.Add("@id_dono", SqlDbType.VarChar).Value = dono.IdDono;
-                cmd.Parameters.Add("@nome_usuario", SqlDbType.VarChar).Value = dono.Nome;
-                cmd.Parameters.Add("@telefone_usuario", SqlDbType.VarChar).Value = dono.Telefone;
-                cmd.Parameters.Add("@email_usuario", SqlDbType.VarChar).Value = dono.Email;
-                cmd.Parameters.Add("@rua_usuario", SqlDbType.VarChar).Value = dono.Rua;
-                cmd.Parameters.Add("@numero_casaUsuario", SqlDbType.Int).Value = dono.NumCasa;
-                cmd.Parameters.Add("@bairro_usuario", SqlDbType.VarChar).Value = dono.Bairro;
-                cmd.Parameters.Add("@cidade_usuario", SqlDbType.VarChar).Value = dono.Cidade;
-                cmd.Parameters.Add("@estado_usuario", SqlDbType.VarChar).Value = dono.Estado;
-                cmd.Parameters.Add("@senha_usuario", SqlDbType.Int).Value = dono.Senha;
+                cmd.ExecuteNonQuery();
             }
             catch (Exception ex)
             {
@@ -83,6 +82,7 @@ namespace SistemaPet.repositorio
             }
             finally
             {
+                MessageBox.Show("Alterado com Sucesso");
                 conn.desconectarBD();
             }
         }

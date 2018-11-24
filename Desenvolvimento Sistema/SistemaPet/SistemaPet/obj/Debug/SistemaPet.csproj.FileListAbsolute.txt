@@ -97,7 +97,6 @@ C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\Sistema
 C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CopyComplete
 C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
 C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
-C:\Users\Rafael\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csprojAssemblyReference.cache
 C:\Users\Rafael\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaAdestrador.resources
 C:\Users\Rafael\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaCadastro.resources
 C:\Users\Rafael\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaCadastroUsuario.resources
