@@ -1,4 +1,5 @@
 ﻿using SistemaPet.controlador;
+using SistemaPet.dominio;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -92,6 +93,7 @@ namespace SistemaPet.tela
             {
                 ControladorTelaPerfil controladorPerfil = new ControladorTelaPerfil();
                 controladorPerfil.obterRegistros(idUser);
+
             }
         }
     }

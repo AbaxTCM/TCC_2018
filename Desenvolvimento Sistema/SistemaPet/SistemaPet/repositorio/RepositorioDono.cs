@@ -87,6 +87,11 @@ namespace SistemaPet.repositorio
             }
         }
 
+        public void GetDono(Dono dono)
+        {
+
+        }
+
         public void deleteDono(Dono dono)
         {
 
