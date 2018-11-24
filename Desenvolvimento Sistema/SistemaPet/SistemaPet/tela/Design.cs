@@ -1,4 +1,5 @@
-﻿using SistemaPet.Properties;
+﻿using SistemaPet.dominio;
+using SistemaPet.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,13 +18,12 @@ namespace SistemaPet.tela
     public partial class Design : Form
     {
         TelaPerfil telaPerfil = new TelaPerfil();
-        
 
         public Design()
         {
             InitializeComponent();
             
-         }
+        }
         
 
         private void btnMenu_Click(object sender, EventArgs e)

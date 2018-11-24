@@ -39,6 +39,7 @@ namespace SistemaPet.tela
             dono.Senha = txtSenhaDono.Text;
 
             controladorCadastro.InserirDono(dono);
+            this.Close();
         }
     }
 }

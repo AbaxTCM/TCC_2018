@@ -53,6 +53,7 @@ namespace SistemaPet.tela
             {
                 if (dtb.Rows.Count == 1)
                 {
+                    conn.desconectarBD();
                     this.Hide();
                     telaPrincipal.Show();
                     SqlCommand cmd = new SqlCommand("select id_adestrador from Adestrador where email_adestrador = '" + txtLogin.Text + "' and senha_adestrador = '" + txtSenha.Text + "'", conn.conectarBD());
@@ -71,6 +72,7 @@ namespace SistemaPet.tela
                     {
                         this.Hide();
                         telaPrincipal.Show();
+                        conn.desconectarBD();
                         SqlCommand cmd = new SqlCommand("select id_dono from Dono where email_dono = '" + txtLogin.Text + "' and senha_dono = '" + txtSenha.Text + "'", conn.conectarBD());
                         SqlDataReader dr = cmd.ExecuteReader();
                         while (dr.Read())
@@ -91,8 +93,6 @@ namespace SistemaPet.tela
             }
             finally
             {
-                ControladorTelaPerfil controladorPerfil = new ControladorTelaPerfil();
-                controladorPerfil.obterRegistros(idUser);
 
             }
         }
