@@ -75,6 +75,30 @@ namespace SistemaPet.repositorio
 
         public void deletePet(Pet pet)
         {
+            string sql = "DELETE FROM CLIENTE WHERE id_pet = txtIdPet.txt";
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandType = CommandType.Text;
+            conn.conectarBD();
+
+            try
+            {
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                    MessageBox.Show("Registro excluído com sucesso!");
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro: " + ex.ToString());
+            }
+
+            finally
+            {
+                conn.desconectarBD();
+            }
+
+
+
 
         }
 

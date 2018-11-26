@@ -276,6 +276,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TelaPet";
             this.Text = "TelaPet";
+            this.Load += new System.EventHandler(this.TelaPet_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ptbImagemPet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

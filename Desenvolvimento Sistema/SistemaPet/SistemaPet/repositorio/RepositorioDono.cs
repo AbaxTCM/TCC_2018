@@ -109,7 +109,27 @@ namespace SistemaPet.repositorio
 
         public void deleteDono(Dono dono)
         {
+            string sql = "DELETE FROM CLIENTE WHERE id_dono = txtIdDono.txt";
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandType = CommandType.Text;
+            conn.conectarBD();
 
+            try
+            {
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                    MessageBox.Show("Registro excluído com sucesso!");
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro: " + ex.ToString());
+            }
+
+            finally
+            {
+                conn.desconectarBD();
+            }
         }
     }
 }

@@ -199,7 +199,7 @@
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(210, 55);
             this.btnCadastrar.TabIndex = 6;
-            this.btnCadastrar.Text = "CADASTRAR";
+            this.btnCadastrar.Text = "      CADASTRAR";
             this.btnCadastrar.UseVisualStyleBackColor = true;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             this.btnCadastrar.MouseEnter += new System.EventHandler(this.btnCadastrar_MouseEnter);
@@ -237,7 +237,7 @@
             this.btnComprar.Name = "btnComprar";
             this.btnComprar.Size = new System.Drawing.Size(210, 55);
             this.btnComprar.TabIndex = 4;
-            this.btnComprar.Text = "COMPRAR";
+            this.btnComprar.Text = "  COMPRAR";
             this.btnComprar.UseVisualStyleBackColor = true;
             this.btnComprar.Click += new System.EventHandler(this.btnComprar_Click);
             this.btnComprar.MouseEnter += new System.EventHandler(this.btnComprar_MouseEnter);
@@ -257,6 +257,7 @@
             this.btnAdestradores.Size = new System.Drawing.Size(210, 55);
             this.btnAdestradores.TabIndex = 3;
             this.btnAdestradores.Text = "     ADESTRADORES";
+            this.btnAdestradores.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAdestradores.UseVisualStyleBackColor = true;
             this.btnAdestradores.Click += new System.EventHandler(this.btnAdestradores_Click);
             this.btnAdestradores.MouseEnter += new System.EventHandler(this.btnAdestradores_MouseEnter);
@@ -275,7 +276,7 @@
             this.btnPets.Name = "btnPets";
             this.btnPets.Size = new System.Drawing.Size(210, 55);
             this.btnPets.TabIndex = 2;
-            this.btnPets.Text = "MEUS PETS";
+            this.btnPets.Text = "      MEUS PETS";
             this.btnPets.UseVisualStyleBackColor = true;
             this.btnPets.Click += new System.EventHandler(this.btnPets_Click);
             this.btnPets.MouseEnter += new System.EventHandler(this.btnPets_MouseEnter);
