@@ -80,6 +80,7 @@
     <Compile Include="dominio\Usuario.cs" />
     <Compile Include="repositorio\RepositorioAdestrador.cs" />
     <Compile Include="repositorio\RepositorioDono.cs" />
+    <Compile Include="repositorio\RepositorioFuncionario.cs" />
     <Compile Include="repositorio\RepositorioPet.cs" />
     <Compile Include="tela\TelaAdestrador.cs">
       <SubType>Form</SubType>

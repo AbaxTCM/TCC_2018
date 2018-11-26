@@ -20,6 +20,7 @@ namespace SistemaPet.tela
         ControladorTelaCadastro controladorCadastro = new ControladorTelaCadastro();
         Dono dono = new Dono();
         Adestrador adestrador = new Adestrador();
+        Funcionario funcionario = new Funcionario();
         ControladorTelaPerfil controladorPerfil = new ControladorTelaPerfil();
         public TelaPerfil()
         {
@@ -28,6 +29,11 @@ namespace SistemaPet.tela
             if (funcao == "Dono")
             {
                 controladorPerfil.obterRegistrosDono(dono, ID);
+                if (txtCargoPerfil.Visible != false)
+                {
+                    lblCargoPerfil.Hide();
+                    txtCargoPerfil.Hide();
+                }
 
                 InitializeComponent();
                 txtIdPerfil.Text = dono.IdDono.ToString();
@@ -44,6 +50,11 @@ namespace SistemaPet.tela
             else if(funcao == "Adestrador")
             {
                 controladorPerfil.obterRegistrosAdestrador(adestrador, ID);
+                if (txtCargoPerfil.Visible != false)
+                {
+                    lblCargoPerfil.Hide();
+                    txtCargoPerfil.Hide();
+                }
 
                 InitializeComponent();
                 txtIdPerfil.Text = adestrador.IdAdestrador.ToString();
@@ -55,6 +66,26 @@ namespace SistemaPet.tela
                 txtBairroPerfil.Text = adestrador.Bairro;
                 txtRuaPerfil.Text = adestrador.Rua;
                 txtNumCasaPerfil.Text = adestrador.NumCasa.ToString();
+                lblPerfil.Text = funcao;
+            }
+            else if (funcao == "Funcionario")
+            {
+                controladorPerfil.obterRegistrosFuncionario(funcionario, ID);
+                if(txtCargoPerfil.Visible != true)
+                {
+                    lblCargoPerfil.Visible = true;
+                    txtCargoPerfil.Visible = true;
+                }
+                txtCargoPerfil.Text = funcionario.CargoFuncionario;
+                txtIdPerfil.Text = funcionario.IdFuncionario.ToString();
+                txtNomePerfil.Text = funcionario.Nome;
+                txtEmailPerfil.Text = funcionario.Email;
+                txtTelefonePerfil.Text = funcionario.Telefone;
+                cmbEstadoPerfil.Text = funcionario.Estado;
+                txtCidadePerfil.Text = funcionario.Cidade;
+                txtBairroPerfil.Text = funcionario.Bairro;
+                txtRuaPerfil.Text = funcionario.Rua;
+                txtNumCasaPerfil.Text = funcionario.NumCasa.ToString();
                 lblPerfil.Text = funcao;
             }
         }
@@ -120,6 +151,20 @@ namespace SistemaPet.tela
                 adestrador.NumCasa = int.Parse(txtNumCasaPerfil.Text);
 
                 controladorCadastro.AlterarAdestrador(adestrador);
+            }
+            else if(funcao == "Funcionario")
+            {
+                funcionario.Nome = txtNomePerfil.Text;
+                funcionario.CargoFuncionario = txtCargoPerfil.Text;
+                funcionario.Email = txtEmailPerfil.Text;
+                funcionario.Telefone = txtTelefonePerfil.Text;
+                funcionario.Estado = cmbEstadoPerfil.Text;
+                funcionario.Cidade = txtCidadePerfil.Text;
+                funcionario.Bairro = txtBairroPerfil.Text;
+                funcionario.Rua = txtRuaPerfil.Text;
+                funcionario.NumCasa = int.Parse(txtNumCasaPerfil.Text);
+
+                controladorCadastro.AlterarFuncionario(funcionario);
             }
         }
     }

@@ -15,6 +15,7 @@ namespace SistemaPet.controlador
     {
         RepositorioDono repositorioDono = new RepositorioDono();
         RepositorioAdestrador repositorioAdestrador = new RepositorioAdestrador();
+        RepositorioFuncionario repositorioFuncionario = new RepositorioFuncionario();
         public void obterRegistrosDono(Dono dono,int idUser)
         {
             repositorioDono.GetDonoTelaPerfil(idUser, dono);
@@ -22,6 +23,10 @@ namespace SistemaPet.controlador
         public void obterRegistrosAdestrador(Adestrador adestrador, int idUser)
         {
             repositorioAdestrador.GetAdestradorTelaPerfil(idUser, adestrador);
+        }
+        public void obterRegistrosFuncionario(Funcionario funcionario, int idUser)
+        {
+            repositorioFuncionario.GetFuncTelaPerfil(idUser, funcionario);
         }
     }
 }

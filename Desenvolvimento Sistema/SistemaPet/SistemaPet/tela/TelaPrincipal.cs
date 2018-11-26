@@ -270,7 +270,7 @@ namespace SistemaPet.tela
 
         private void btnPerfil_Click(object sender, EventArgs e)
         {
-            AbrirFormnoPainel<TelaPerfil>();
+                AbrirFormnoPainel<TelaPerfil>();
         }
 
         private void btnPets_Click(object sender, EventArgs e)
