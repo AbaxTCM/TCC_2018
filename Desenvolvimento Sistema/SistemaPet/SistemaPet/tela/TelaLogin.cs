@@ -19,13 +19,13 @@ namespace SistemaPet.tela
         public TelaLogin()
         {
             InitializeComponent();
-           
+
         }
 
         Conexao conn = new Conexao();
         private void TelaLogin_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void lklRegistrar_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -42,12 +42,13 @@ namespace SistemaPet.tela
         private void btnEntrar_Click(object sender, EventArgs e)
         {
             string[] query;
-            query = new string[2];
+            query = new string[3];
             query[0] = "select * from Adestrador where email_adestrador = '" + txtLogin.Text + "'and senha_adestrador = '" + txtSenha.Text + "'";
             query[1] = "select * from Dono where email_dono = '" + txtLogin.Text + "'and senha_dono = '" + txtSenha.Text + "'";
+            query[2] = "select * from Funcionario where email_func ='" + txtLogin.Text + "' and senha_func ='" + txtSenha.Text + "'";
             SqlDataAdapter sda = new SqlDataAdapter(query[0], conn.conectarBD());
             DataTable dtb = new DataTable();
-            Design telaPrincipal = new Design();
+            TelaPrincipal telaPrincipal = new TelaPrincipal();
             sda.Fill(dtb);
             int idUser = 0;
             string funcao = "";
@@ -87,7 +88,26 @@ namespace SistemaPet.tela
                     else
                     {
                         conn.desconectarBD();
-                        MessageBox.Show("Erro: Login ou senha inválidos");
+                        sda = new SqlDataAdapter(query[2], conn.conectarBD());
+                        sda.Fill(dtb);
+                        if (dtb.Rows.Count == 1)
+                        {
+                            this.Hide();
+                            telaPrincipal.Show();
+                            conn.desconectarBD();
+                            SqlCommand cmd = new SqlCommand("select * from Funcionario where email_func ='" + txtLogin.Text + "' and senha_func ='" + txtSenha.Text + "'", conn.conectarBD());
+                            SqlDataReader dr = cmd.ExecuteReader();
+                            while (dr.Read())
+                            {
+                                idUser = Convert.ToUInt16(dr[0]);
+                                funcao = "Funcionario";
+                            }
+                        }
+                        else
+                        {
+                            conn.desconectarBD();
+                            MessageBox.Show("Erro: Login ou senha inválidos");
+                        }
                     }
                 }
             }

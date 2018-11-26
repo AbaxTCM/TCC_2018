@@ -43,9 +43,10 @@
             // 
             this.lblCadastroAdestrador.AutoSize = true;
             this.lblCadastroAdestrador.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.lblCadastroAdestrador.Location = new System.Drawing.Point(77, 9);
+            this.lblCadastroAdestrador.Location = new System.Drawing.Point(103, 11);
+            this.lblCadastroAdestrador.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCadastroAdestrador.Name = "lblCadastroAdestrador";
-            this.lblCadastroAdestrador.Size = new System.Drawing.Size(363, 31);
+            this.lblCadastroAdestrador.Size = new System.Drawing.Size(457, 39);
             this.lblCadastroAdestrador.TabIndex = 75;
             this.lblCadastroAdestrador.Text = "Bem Vindo ao nosso sistema";
             // 
@@ -53,9 +54,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.label1.Location = new System.Drawing.Point(95, 52);
+            this.label1.Location = new System.Drawing.Point(127, 64);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(327, 24);
+            this.label1.Size = new System.Drawing.Size(423, 29);
             this.label1.TabIndex = 76;
             this.label1.Text = "Qual tipo de Cadastro deseja realizar?";
             // 
@@ -68,9 +70,9 @@
             this.btnDonoCadastro.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnDonoCadastro.Image = global::SistemaPet.Properties.Resources.user_silhouette_branco;
             this.btnDonoCadastro.Location = new System.Drawing.Point(0, -1);
-            this.btnDonoCadastro.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDonoCadastro.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDonoCadastro.Name = "btnDonoCadastro";
-            this.btnDonoCadastro.Size = new System.Drawing.Size(237, 100);
+            this.btnDonoCadastro.Size = new System.Drawing.Size(316, 123);
             this.btnDonoCadastro.TabIndex = 77;
             this.btnDonoCadastro.Text = "DONO";
             this.btnDonoCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -87,10 +89,10 @@
             this.btnAdestradorCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdestradorCadastro.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnAdestradorCadastro.Image = global::SistemaPet.Properties.Resources.user_silhouette_branco;
-            this.btnAdestradorCadastro.Location = new System.Drawing.Point(275, -1);
-            this.btnAdestradorCadastro.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAdestradorCadastro.Location = new System.Drawing.Point(367, -1);
+            this.btnAdestradorCadastro.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAdestradorCadastro.Name = "btnAdestradorCadastro";
-            this.btnAdestradorCadastro.Size = new System.Drawing.Size(237, 100);
+            this.btnAdestradorCadastro.Size = new System.Drawing.Size(316, 123);
             this.btnAdestradorCadastro.TabIndex = 78;
             this.btnAdestradorCadastro.Text = "ADESTRADOR";
             this.btnAdestradorCadastro.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -104,9 +106,10 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.panel1.Controls.Add(this.btnAdestradorCadastro);
             this.panel1.Controls.Add(this.btnDonoCadastro);
-            this.panel1.Location = new System.Drawing.Point(-1, 79);
+            this.panel1.Location = new System.Drawing.Point(-1, 97);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(512, 99);
+            this.panel1.Size = new System.Drawing.Size(683, 122);
             this.panel1.TabIndex = 79;
             // 
             // pbFechar
@@ -114,9 +117,10 @@
             this.pbFechar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pbFechar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbFechar.Image = ((System.Drawing.Image)(resources.GetObject("pbFechar.Image")));
-            this.pbFechar.Location = new System.Drawing.Point(466, 3);
+            this.pbFechar.Location = new System.Drawing.Point(621, 4);
+            this.pbFechar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pbFechar.Name = "pbFechar";
-            this.pbFechar.Size = new System.Drawing.Size(41, 41);
+            this.pbFechar.Size = new System.Drawing.Size(55, 50);
             this.pbFechar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbFechar.TabIndex = 80;
             this.pbFechar.TabStop = false;
@@ -124,15 +128,17 @@
             // 
             // TelaApresentacaoRegistro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(510, 177);
+            this.ClientSize = new System.Drawing.Size(680, 218);
             this.Controls.Add(this.pbFechar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblCadastroAdestrador);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "TelaApresentacaoRegistro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaApresentacaoRegistro";

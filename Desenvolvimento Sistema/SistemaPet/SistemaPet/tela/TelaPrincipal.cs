@@ -10,18 +10,22 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using static SistemaPet.controlador.ControladorTelaLogin;
 
 namespace SistemaPet.tela
 {
     
-    public partial class Design : Form
+    public partial class TelaPrincipal : Form
     {
         TelaPerfil telaPerfil = new TelaPerfil();
 
         
-        public Design()
+        public TelaPrincipal()
         {
+            if (Session.Instance.Funcao == "Adestrador")
+            {
+                //NÃO CONSIGO SETAR A VISIBILIDADE AQUI DE ACORDO COM O PERFIL.
+            }
             InitializeComponent();
             
         }

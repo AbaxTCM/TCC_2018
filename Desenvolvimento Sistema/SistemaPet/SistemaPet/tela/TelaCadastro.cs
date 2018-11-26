@@ -21,6 +21,11 @@ namespace SistemaPet.tela
         {
             InitializeComponent();
             lblIdDono.Text = ("ID Dono: "+Session.Instance.UserID.ToString());
+            if (Session.Instance.Funcao == "Dono")
+            {
+                tbcUsuario.TabPages.Remove(tbpAdestrador);
+                tbcUsuario.TabPages.Remove(tbpDono);
+            }
         }
 
         private void btnSalvarAdestrador_Click(object sender, EventArgs e)

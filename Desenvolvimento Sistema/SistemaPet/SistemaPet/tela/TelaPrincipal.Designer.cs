@@ -1,6 +1,6 @@
 ﻿namespace SistemaPet.tela
 {
-    partial class Design
+    partial class TelaPrincipal
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Design));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPrincipal));
             this.mpTopoMeio = new MetroFramework.Controls.MetroPanel();
             this.btnMenu = new System.Windows.Forms.PictureBox();
             this.pbMinimizar = new System.Windows.Forms.PictureBox();
@@ -71,17 +71,18 @@
             this.mpTopoMeio.Dock = System.Windows.Forms.DockStyle.Top;
             this.mpTopoMeio.HorizontalScrollbarBarColor = true;
             this.mpTopoMeio.HorizontalScrollbarHighlightOnWheel = false;
-            this.mpTopoMeio.HorizontalScrollbarSize = 10;
-            this.mpTopoMeio.Location = new System.Drawing.Point(215, 0);
+            this.mpTopoMeio.HorizontalScrollbarSize = 12;
+            this.mpTopoMeio.Location = new System.Drawing.Point(287, 0);
+            this.mpTopoMeio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mpTopoMeio.Name = "mpTopoMeio";
-            this.mpTopoMeio.Size = new System.Drawing.Size(969, 60);
+            this.mpTopoMeio.Size = new System.Drawing.Size(1292, 74);
             this.mpTopoMeio.TabIndex = 2;
             this.mpTopoMeio.UseCustomBackColor = true;
             this.mpTopoMeio.UseCustomForeColor = true;
             this.mpTopoMeio.UseStyleColors = true;
             this.mpTopoMeio.VerticalScrollbarBarColor = true;
             this.mpTopoMeio.VerticalScrollbarHighlightOnWheel = false;
-            this.mpTopoMeio.VerticalScrollbarSize = 10;
+            this.mpTopoMeio.VerticalScrollbarSize = 13;
             this.mpTopoMeio.Paint += new System.Windows.Forms.PaintEventHandler(this.mpTopoMeio_Paint);
             this.mpTopoMeio.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mpTopoMeio_MouseMove);
             // 
@@ -89,9 +90,10 @@
             // 
             this.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
-            this.btnMenu.Location = new System.Drawing.Point(6, 9);
+            this.btnMenu.Location = new System.Drawing.Point(8, 11);
+            this.btnMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(35, 35);
+            this.btnMenu.Size = new System.Drawing.Size(47, 43);
             this.btnMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMenu.TabIndex = 2;
             this.btnMenu.TabStop = false;
@@ -102,9 +104,10 @@
             this.pbMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pbMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("pbMinimizar.Image")));
-            this.pbMinimizar.Location = new System.Drawing.Point(830, 3);
+            this.pbMinimizar.Location = new System.Drawing.Point(1107, 4);
+            this.pbMinimizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pbMinimizar.Name = "pbMinimizar";
-            this.pbMinimizar.Size = new System.Drawing.Size(41, 41);
+            this.pbMinimizar.Size = new System.Drawing.Size(55, 50);
             this.pbMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbMinimizar.TabIndex = 3;
             this.pbMinimizar.TabStop = false;
@@ -115,9 +118,10 @@
             this.pbMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pbMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("pbMaximizar.Image")));
-            this.pbMaximizar.Location = new System.Drawing.Point(877, 3);
+            this.pbMaximizar.Location = new System.Drawing.Point(1169, 4);
+            this.pbMaximizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pbMaximizar.Name = "pbMaximizar";
-            this.pbMaximizar.Size = new System.Drawing.Size(41, 41);
+            this.pbMaximizar.Size = new System.Drawing.Size(55, 50);
             this.pbMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbMaximizar.TabIndex = 4;
             this.pbMaximizar.TabStop = false;
@@ -128,9 +132,10 @@
             this.pbFechar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pbFechar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbFechar.Image = ((System.Drawing.Image)(resources.GetObject("pbFechar.Image")));
-            this.pbFechar.Location = new System.Drawing.Point(925, 3);
+            this.pbFechar.Location = new System.Drawing.Point(1233, 4);
+            this.pbFechar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pbFechar.Name = "pbFechar";
-            this.pbFechar.Size = new System.Drawing.Size(41, 41);
+            this.pbFechar.Size = new System.Drawing.Size(55, 50);
             this.pbFechar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbFechar.TabIndex = 2;
             this.pbFechar.TabStop = false;
@@ -141,9 +146,10 @@
             this.pbrestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pbrestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbrestaurar.Image = ((System.Drawing.Image)(resources.GetObject("pbrestaurar.Image")));
-            this.pbrestaurar.Location = new System.Drawing.Point(877, 3);
+            this.pbrestaurar.Location = new System.Drawing.Point(1169, 4);
+            this.pbrestaurar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pbrestaurar.Name = "pbrestaurar";
-            this.pbrestaurar.Size = new System.Drawing.Size(41, 41);
+            this.pbrestaurar.Size = new System.Drawing.Size(55, 50);
             this.pbrestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbrestaurar.TabIndex = 3;
             this.pbrestaurar.TabStop = false;
@@ -153,9 +159,10 @@
             // 
             this.pcbFecharMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pcbFecharMenu.Image = ((System.Drawing.Image)(resources.GetObject("pcbFecharMenu.Image")));
-            this.pcbFecharMenu.Location = new System.Drawing.Point(6, 9);
+            this.pcbFecharMenu.Location = new System.Drawing.Point(8, 11);
+            this.pcbFecharMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pcbFecharMenu.Name = "pcbFecharMenu";
-            this.pcbFecharMenu.Size = new System.Drawing.Size(35, 35);
+            this.pcbFecharMenu.Size = new System.Drawing.Size(47, 43);
             this.pcbFecharMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pcbFecharMenu.TabIndex = 5;
             this.pcbFecharMenu.TabStop = false;
@@ -174,17 +181,18 @@
             this.mpPainelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.mpPainelMenu.HorizontalScrollbarBarColor = true;
             this.mpPainelMenu.HorizontalScrollbarHighlightOnWheel = false;
-            this.mpPainelMenu.HorizontalScrollbarSize = 10;
+            this.mpPainelMenu.HorizontalScrollbarSize = 12;
             this.mpPainelMenu.Location = new System.Drawing.Point(0, 0);
+            this.mpPainelMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mpPainelMenu.Name = "mpPainelMenu";
-            this.mpPainelMenu.Size = new System.Drawing.Size(215, 634);
+            this.mpPainelMenu.Size = new System.Drawing.Size(287, 780);
             this.mpPainelMenu.TabIndex = 4;
             this.mpPainelMenu.UseCustomBackColor = true;
             this.mpPainelMenu.UseCustomForeColor = true;
             this.mpPainelMenu.UseStyleColors = true;
             this.mpPainelMenu.VerticalScrollbarBarColor = true;
             this.mpPainelMenu.VerticalScrollbarHighlightOnWheel = false;
-            this.mpPainelMenu.VerticalScrollbarSize = 10;
+            this.mpPainelMenu.VerticalScrollbarSize = 13;
             // 
             // btnCadastrar
             // 
@@ -194,10 +202,10 @@
             this.btnCadastrar.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnCadastrar.Image = global::SistemaPet.Properties.Resources.iconCadastrarBranco;
             this.btnCadastrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCadastrar.Location = new System.Drawing.Point(0, 414);
-            this.btnCadastrar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCadastrar.Location = new System.Drawing.Point(0, 510);
+            this.btnCadastrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(210, 55);
+            this.btnCadastrar.Size = new System.Drawing.Size(280, 68);
             this.btnCadastrar.TabIndex = 6;
             this.btnCadastrar.Text = "      CADASTRAR";
             this.btnCadastrar.UseVisualStyleBackColor = true;
@@ -213,10 +221,10 @@
             this.btnSair.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnSair.Image = global::SistemaPet.Properties.Resources.opened_door_aperture_branco;
             this.btnSair.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSair.Location = new System.Drawing.Point(0, 596);
-            this.btnSair.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSair.Location = new System.Drawing.Point(0, 734);
+            this.btnSair.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(210, 36);
+            this.btnSair.Size = new System.Drawing.Size(280, 44);
             this.btnSair.TabIndex = 5;
             this.btnSair.Text = "SAIR";
             this.btnSair.UseVisualStyleBackColor = true;
@@ -232,10 +240,10 @@
             this.btnComprar.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnComprar.Image = global::SistemaPet.Properties.Resources.shopping_cart_branco;
             this.btnComprar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnComprar.Location = new System.Drawing.Point(0, 345);
-            this.btnComprar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnComprar.Location = new System.Drawing.Point(0, 425);
+            this.btnComprar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnComprar.Name = "btnComprar";
-            this.btnComprar.Size = new System.Drawing.Size(210, 55);
+            this.btnComprar.Size = new System.Drawing.Size(280, 68);
             this.btnComprar.TabIndex = 4;
             this.btnComprar.Text = "  COMPRAR";
             this.btnComprar.UseVisualStyleBackColor = true;
@@ -251,10 +259,10 @@
             this.btnAdestradores.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnAdestradores.Image = global::SistemaPet.Properties.Resources.icon_handshake_branco;
             this.btnAdestradores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdestradores.Location = new System.Drawing.Point(0, 274);
-            this.btnAdestradores.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAdestradores.Location = new System.Drawing.Point(0, 337);
+            this.btnAdestradores.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAdestradores.Name = "btnAdestradores";
-            this.btnAdestradores.Size = new System.Drawing.Size(210, 55);
+            this.btnAdestradores.Size = new System.Drawing.Size(280, 68);
             this.btnAdestradores.TabIndex = 3;
             this.btnAdestradores.Text = "     ADESTRADORES";
             this.btnAdestradores.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -271,10 +279,10 @@
             this.btnPets.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnPets.Image = global::SistemaPet.Properties.Resources.pet_branco;
             this.btnPets.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPets.Location = new System.Drawing.Point(0, 199);
-            this.btnPets.Margin = new System.Windows.Forms.Padding(2);
+            this.btnPets.Location = new System.Drawing.Point(0, 245);
+            this.btnPets.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnPets.Name = "btnPets";
-            this.btnPets.Size = new System.Drawing.Size(210, 55);
+            this.btnPets.Size = new System.Drawing.Size(280, 68);
             this.btnPets.TabIndex = 2;
             this.btnPets.Text = "      MEUS PETS";
             this.btnPets.UseVisualStyleBackColor = true;
@@ -290,10 +298,10 @@
             this.btnPerfil.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btnPerfil.Image = global::SistemaPet.Properties.Resources.user_silhouette_branco;
             this.btnPerfil.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPerfil.Location = new System.Drawing.Point(2, 129);
-            this.btnPerfil.Margin = new System.Windows.Forms.Padding(2);
+            this.btnPerfil.Location = new System.Drawing.Point(3, 159);
+            this.btnPerfil.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnPerfil.Name = "btnPerfil";
-            this.btnPerfil.Size = new System.Drawing.Size(210, 55);
+            this.btnPerfil.Size = new System.Drawing.Size(280, 68);
             this.btnPerfil.TabIndex = 1;
             this.btnPerfil.Text = "PERFIL";
             this.btnPerfil.UseVisualStyleBackColor = true;
@@ -305,8 +313,9 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(215, 70);
+            this.pictureBox1.Size = new System.Drawing.Size(287, 86);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -316,32 +325,35 @@
             this.mpPainelConteudo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mpPainelConteudo.HorizontalScrollbarBarColor = true;
             this.mpPainelConteudo.HorizontalScrollbarHighlightOnWheel = false;
-            this.mpPainelConteudo.HorizontalScrollbarSize = 10;
-            this.mpPainelConteudo.Location = new System.Drawing.Point(215, 60);
+            this.mpPainelConteudo.HorizontalScrollbarSize = 12;
+            this.mpPainelConteudo.Location = new System.Drawing.Point(287, 74);
+            this.mpPainelConteudo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mpPainelConteudo.Name = "mpPainelConteudo";
-            this.mpPainelConteudo.Size = new System.Drawing.Size(969, 574);
+            this.mpPainelConteudo.Size = new System.Drawing.Size(1292, 706);
             this.mpPainelConteudo.TabIndex = 5;
             this.mpPainelConteudo.VerticalScrollbarBarColor = true;
             this.mpPainelConteudo.VerticalScrollbarHighlightOnWheel = false;
-            this.mpPainelConteudo.VerticalScrollbarSize = 10;
+            this.mpPainelConteudo.VerticalScrollbarSize = 13;
             // 
             // msmEstiloMenu
             // 
             this.msmEstiloMenu.Owner = null;
             // 
-            // Design
+            // TelaPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(239)))));
-            this.ClientSize = new System.Drawing.Size(1184, 634);
+            this.ClientSize = new System.Drawing.Size(1579, 780);
             this.ControlBox = false;
             this.Controls.Add(this.mpPainelConteudo);
             this.Controls.Add(this.mpTopoMeio);
             this.Controls.Add(this.mpPainelMenu);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(1100, 599);
-            this.Name = "Design";
+            this.MinimumSize = new System.Drawing.Size(1461, 733);
+            this.Name = "TelaPrincipal";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.mpTopoMeio.ResumeLayout(false);

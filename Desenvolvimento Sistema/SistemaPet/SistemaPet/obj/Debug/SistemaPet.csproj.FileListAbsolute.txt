@@ -40,7 +40,6 @@ C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\Sistema
 C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaPet.resources
 C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.TelaSplash.resources
 C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.Properties.Resources.resources
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.Design.resources
 C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.GenerateResource.cache
 C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CoreCompileInputs.cache
 C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CopyComplete
@@ -70,7 +69,6 @@ C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\Sistem
 C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.csproj.CopyComplete
 C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.exe
 C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.pdb
-C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaCadastroUsuario.resources
 C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe.config
 C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.exe
 C:\Users\2binfo\Desktop\Rafa\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\bin\Debug\SistemaPet.pdb
@@ -126,3 +124,7 @@ C:\Users\Rafael\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\Siste
 C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaApresentacaoRegistro.resources
 C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaCadastroAdestrador.resources
 C:\Users\Ricardo\Desktop\TCC2\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaCadastroDono.resources
+C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaApresentacaoRegistro.resources
+C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaCadastroAdestrador.resources
+C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaCadastroDono.resources
+C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaPrincipal.resources

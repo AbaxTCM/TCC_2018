@@ -137,11 +137,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="tela\Design.cs">
+    <Compile Include="tela\TelaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="tela\Design.Designer.cs">
-      <DependentUpon>Design.cs</DependentUpon>
+    <Compile Include="tela\TelaPrincipal.Designer.cs">
+      <DependentUpon>TelaPrincipal.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="tela\TelaAdestrador.resx">
       <DependentUpon>TelaAdestrador.cs</DependentUpon>
@@ -182,8 +182,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="tela\Design.resx">
-      <DependentUpon>Design.cs</DependentUpon>
+    <EmbeddedResource Include="tela\TelaPrincipal.resx">
+      <DependentUpon>TelaPrincipal.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="packages.config" />
