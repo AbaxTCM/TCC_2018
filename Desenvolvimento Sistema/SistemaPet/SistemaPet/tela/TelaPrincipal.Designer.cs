@@ -31,13 +31,16 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPrincipal));
             this.mpTopoMeio = new MetroFramework.Controls.MetroPanel();
+            this.mpPainelMenu = new MetroFramework.Controls.MetroPanel();
+            this.mpPainelConteudo = new MetroFramework.Controls.MetroPanel();
+            this.msmEstiloMenu = new MetroFramework.Components.MetroStyleManager(this.components);
             this.btnMenu = new System.Windows.Forms.PictureBox();
             this.pbMinimizar = new System.Windows.Forms.PictureBox();
             this.pbMaximizar = new System.Windows.Forms.PictureBox();
             this.pbFechar = new System.Windows.Forms.PictureBox();
             this.pbrestaurar = new System.Windows.Forms.PictureBox();
             this.pcbFecharMenu = new System.Windows.Forms.PictureBox();
-            this.mpPainelMenu = new MetroFramework.Controls.MetroPanel();
+            this.btnConsultar = new System.Windows.Forms.Button();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.btnComprar = new System.Windows.Forms.Button();
@@ -45,18 +48,16 @@
             this.btnPets = new System.Windows.Forms.Button();
             this.btnPerfil = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.mpPainelConteudo = new MetroFramework.Controls.MetroPanel();
-            this.msmEstiloMenu = new MetroFramework.Components.MetroStyleManager(this.components);
             this.mpTopoMeio.SuspendLayout();
+            this.mpPainelMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.msmEstiloMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbFechar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbrestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbFecharMenu)).BeginInit();
-            this.mpPainelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.msmEstiloMenu)).BeginInit();
             this.SuspendLayout();
             // 
             // mpTopoMeio
@@ -73,7 +74,7 @@
             this.mpTopoMeio.HorizontalScrollbarHighlightOnWheel = false;
             this.mpTopoMeio.HorizontalScrollbarSize = 12;
             this.mpTopoMeio.Location = new System.Drawing.Point(287, 0);
-            this.mpTopoMeio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mpTopoMeio.Margin = new System.Windows.Forms.Padding(4);
             this.mpTopoMeio.Name = "mpTopoMeio";
             this.mpTopoMeio.Size = new System.Drawing.Size(1292, 74);
             this.mpTopoMeio.TabIndex = 2;
@@ -86,12 +87,60 @@
             this.mpTopoMeio.Paint += new System.Windows.Forms.PaintEventHandler(this.mpTopoMeio_Paint);
             this.mpTopoMeio.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mpTopoMeio_MouseMove);
             // 
+            // mpPainelMenu
+            // 
+            this.mpPainelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.mpPainelMenu.Controls.Add(this.btnConsultar);
+            this.mpPainelMenu.Controls.Add(this.btnCadastrar);
+            this.mpPainelMenu.Controls.Add(this.btnSair);
+            this.mpPainelMenu.Controls.Add(this.btnComprar);
+            this.mpPainelMenu.Controls.Add(this.btnAdestradores);
+            this.mpPainelMenu.Controls.Add(this.btnPets);
+            this.mpPainelMenu.Controls.Add(this.btnPerfil);
+            this.mpPainelMenu.Controls.Add(this.pictureBox1);
+            this.mpPainelMenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.mpPainelMenu.HorizontalScrollbarBarColor = true;
+            this.mpPainelMenu.HorizontalScrollbarHighlightOnWheel = false;
+            this.mpPainelMenu.HorizontalScrollbarSize = 12;
+            this.mpPainelMenu.Location = new System.Drawing.Point(0, 0);
+            this.mpPainelMenu.Margin = new System.Windows.Forms.Padding(4);
+            this.mpPainelMenu.Name = "mpPainelMenu";
+            this.mpPainelMenu.Size = new System.Drawing.Size(287, 780);
+            this.mpPainelMenu.TabIndex = 4;
+            this.mpPainelMenu.UseCustomBackColor = true;
+            this.mpPainelMenu.UseCustomForeColor = true;
+            this.mpPainelMenu.UseStyleColors = true;
+            this.mpPainelMenu.VerticalScrollbarBarColor = true;
+            this.mpPainelMenu.VerticalScrollbarHighlightOnWheel = false;
+            this.mpPainelMenu.VerticalScrollbarSize = 13;
+            this.mpPainelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.mpPainelMenu_Paint);
+            // 
+            // mpPainelConteudo
+            // 
+            this.mpPainelConteudo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mpPainelConteudo.HorizontalScrollbarBarColor = true;
+            this.mpPainelConteudo.HorizontalScrollbarHighlightOnWheel = false;
+            this.mpPainelConteudo.HorizontalScrollbarSize = 12;
+            this.mpPainelConteudo.Location = new System.Drawing.Point(287, 74);
+            this.mpPainelConteudo.Margin = new System.Windows.Forms.Padding(4);
+            this.mpPainelConteudo.Name = "mpPainelConteudo";
+            this.mpPainelConteudo.Size = new System.Drawing.Size(1292, 706);
+            this.mpPainelConteudo.TabIndex = 5;
+            this.mpPainelConteudo.VerticalScrollbarBarColor = true;
+            this.mpPainelConteudo.VerticalScrollbarHighlightOnWheel = false;
+            this.mpPainelConteudo.VerticalScrollbarSize = 13;
+            this.mpPainelConteudo.Paint += new System.Windows.Forms.PaintEventHandler(this.mpPainelConteudo_Paint);
+            // 
+            // msmEstiloMenu
+            // 
+            this.msmEstiloMenu.Owner = null;
+            // 
             // btnMenu
             // 
             this.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
             this.btnMenu.Location = new System.Drawing.Point(8, 11);
-            this.btnMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMenu.Margin = new System.Windows.Forms.Padding(4);
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(47, 43);
             this.btnMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -105,7 +154,7 @@
             this.pbMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("pbMinimizar.Image")));
             this.pbMinimizar.Location = new System.Drawing.Point(1107, 4);
-            this.pbMinimizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbMinimizar.Margin = new System.Windows.Forms.Padding(4);
             this.pbMinimizar.Name = "pbMinimizar";
             this.pbMinimizar.Size = new System.Drawing.Size(55, 50);
             this.pbMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -119,7 +168,7 @@
             this.pbMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("pbMaximizar.Image")));
             this.pbMaximizar.Location = new System.Drawing.Point(1169, 4);
-            this.pbMaximizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbMaximizar.Margin = new System.Windows.Forms.Padding(4);
             this.pbMaximizar.Name = "pbMaximizar";
             this.pbMaximizar.Size = new System.Drawing.Size(55, 50);
             this.pbMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -133,7 +182,7 @@
             this.pbFechar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbFechar.Image = ((System.Drawing.Image)(resources.GetObject("pbFechar.Image")));
             this.pbFechar.Location = new System.Drawing.Point(1233, 4);
-            this.pbFechar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbFechar.Margin = new System.Windows.Forms.Padding(4);
             this.pbFechar.Name = "pbFechar";
             this.pbFechar.Size = new System.Drawing.Size(55, 50);
             this.pbFechar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -147,7 +196,7 @@
             this.pbrestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbrestaurar.Image = ((System.Drawing.Image)(resources.GetObject("pbrestaurar.Image")));
             this.pbrestaurar.Location = new System.Drawing.Point(1169, 4);
-            this.pbrestaurar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbrestaurar.Margin = new System.Windows.Forms.Padding(4);
             this.pbrestaurar.Name = "pbrestaurar";
             this.pbrestaurar.Size = new System.Drawing.Size(55, 50);
             this.pbrestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -160,7 +209,7 @@
             this.pcbFecharMenu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pcbFecharMenu.Image = ((System.Drawing.Image)(resources.GetObject("pcbFecharMenu.Image")));
             this.pcbFecharMenu.Location = new System.Drawing.Point(8, 11);
-            this.pcbFecharMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pcbFecharMenu.Margin = new System.Windows.Forms.Padding(4);
             this.pcbFecharMenu.Name = "pcbFecharMenu";
             this.pcbFecharMenu.Size = new System.Drawing.Size(47, 43);
             this.pcbFecharMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -168,31 +217,24 @@
             this.pcbFecharMenu.TabStop = false;
             this.pcbFecharMenu.Click += new System.EventHandler(this.pcbFecharMenu_Click);
             // 
-            // mpPainelMenu
+            // btnConsultar
             // 
-            this.mpPainelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.mpPainelMenu.Controls.Add(this.btnCadastrar);
-            this.mpPainelMenu.Controls.Add(this.btnSair);
-            this.mpPainelMenu.Controls.Add(this.btnComprar);
-            this.mpPainelMenu.Controls.Add(this.btnAdestradores);
-            this.mpPainelMenu.Controls.Add(this.btnPets);
-            this.mpPainelMenu.Controls.Add(this.btnPerfil);
-            this.mpPainelMenu.Controls.Add(this.pictureBox1);
-            this.mpPainelMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.mpPainelMenu.HorizontalScrollbarBarColor = true;
-            this.mpPainelMenu.HorizontalScrollbarHighlightOnWheel = false;
-            this.mpPainelMenu.HorizontalScrollbarSize = 12;
-            this.mpPainelMenu.Location = new System.Drawing.Point(0, 0);
-            this.mpPainelMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.mpPainelMenu.Name = "mpPainelMenu";
-            this.mpPainelMenu.Size = new System.Drawing.Size(287, 780);
-            this.mpPainelMenu.TabIndex = 4;
-            this.mpPainelMenu.UseCustomBackColor = true;
-            this.mpPainelMenu.UseCustomForeColor = true;
-            this.mpPainelMenu.UseStyleColors = true;
-            this.mpPainelMenu.VerticalScrollbarBarColor = true;
-            this.mpPainelMenu.VerticalScrollbarHighlightOnWheel = false;
-            this.mpPainelMenu.VerticalScrollbarSize = 13;
+            this.btnConsultar.FlatAppearance.BorderSize = 0;
+            this.btnConsultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConsultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultar.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.btnConsultar.Image = global::SistemaPet.Properties.Resources.magnifier_branco;
+            this.btnConsultar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnConsultar.Location = new System.Drawing.Point(0, 592);
+            this.btnConsultar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnConsultar.Name = "btnConsultar";
+            this.btnConsultar.Size = new System.Drawing.Size(280, 68);
+            this.btnConsultar.TabIndex = 7;
+            this.btnConsultar.Text = "      CONSULTAR";
+            this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
+            this.btnConsultar.MouseEnter += new System.EventHandler(this.btnConsultar_MouseEnter);
+            this.btnConsultar.MouseLeave += new System.EventHandler(this.btnConsultar_MouseLeave);
             // 
             // btnCadastrar
             // 
@@ -264,8 +306,7 @@
             this.btnAdestradores.Name = "btnAdestradores";
             this.btnAdestradores.Size = new System.Drawing.Size(280, 68);
             this.btnAdestradores.TabIndex = 3;
-            this.btnAdestradores.Text = "     ADESTRADORES";
-            this.btnAdestradores.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAdestradores.Text = "                ADESTRADORES";
             this.btnAdestradores.UseVisualStyleBackColor = true;
             this.btnAdestradores.Click += new System.EventHandler(this.btnAdestradores_Click);
             this.btnAdestradores.MouseEnter += new System.EventHandler(this.btnAdestradores_MouseEnter);
@@ -313,31 +354,12 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(287, 86);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
-            // 
-            // mpPainelConteudo
-            // 
-            this.mpPainelConteudo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mpPainelConteudo.HorizontalScrollbarBarColor = true;
-            this.mpPainelConteudo.HorizontalScrollbarHighlightOnWheel = false;
-            this.mpPainelConteudo.HorizontalScrollbarSize = 12;
-            this.mpPainelConteudo.Location = new System.Drawing.Point(287, 74);
-            this.mpPainelConteudo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.mpPainelConteudo.Name = "mpPainelConteudo";
-            this.mpPainelConteudo.Size = new System.Drawing.Size(1292, 706);
-            this.mpPainelConteudo.TabIndex = 5;
-            this.mpPainelConteudo.VerticalScrollbarBarColor = true;
-            this.mpPainelConteudo.VerticalScrollbarHighlightOnWheel = false;
-            this.mpPainelConteudo.VerticalScrollbarSize = 13;
-            // 
-            // msmEstiloMenu
-            // 
-            this.msmEstiloMenu.Owner = null;
             // 
             // TelaPrincipal
             // 
@@ -350,22 +372,22 @@
             this.Controls.Add(this.mpTopoMeio);
             this.Controls.Add(this.mpPainelMenu);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(1461, 733);
             this.Name = "TelaPrincipal";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.mpTopoMeio.ResumeLayout(false);
+            this.mpPainelMenu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.msmEstiloMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMinimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbFechar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbrestaurar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbFecharMenu)).EndInit();
-            this.mpPainelMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.msmEstiloMenu)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -388,5 +410,6 @@
         private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.PictureBox pcbFecharMenu;
         private MetroFramework.Components.MetroStyleManager msmEstiloMenu;
+        private System.Windows.Forms.Button btnConsultar;
     }
 }

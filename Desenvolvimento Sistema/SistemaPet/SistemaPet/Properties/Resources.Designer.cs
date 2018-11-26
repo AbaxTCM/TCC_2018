@@ -23,7 +23,7 @@ namespace SistemaPet.Properties {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
-        internal static readonly object fechada;
+        
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
@@ -136,6 +136,26 @@ namespace SistemaPet.Properties {
         internal static System.Drawing.Bitmap iconfinder_clipboard_note_register_shipping_files_3828104 {
             get {
                 object obj = ResourceManager.GetObject("iconfinder_clipboard-note-register-shipping-files_3828104", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap magnifier {
+            get {
+                object obj = ResourceManager.GetObject("magnifier", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap magnifier_branco {
+            get {
+                object obj = ResourceManager.GetObject("magnifier-branco", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

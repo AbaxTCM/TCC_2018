@@ -118,8 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="iconCadastrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconCadastrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="shopping-cart_branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shopping-cart_branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user-silhouette-branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-silhouette-branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pet" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,11 +139,11 @@
   <data name="opened-door-aperture" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\opened-door-aperture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user-silhouette-branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user-silhouette-branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="296566-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\296566-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-handshake-branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-handshake-branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="shopping-cart" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shopping-cart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,8 +154,8 @@
   <data name="opened-door-aperture-branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\opened-door-aperture-branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon-handshake-branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-handshake-branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1243707-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1243707-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pet-branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pet-branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,13 +163,13 @@
   <data name="iconfinder_clipboard-note-register-shipping-files_3828104" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder_clipboard-note-register-shipping-files_3828104.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1243707-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1243707-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icon-handshake" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-handshake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconCadastrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconCadastrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="magnifier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\magnifier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magnifier-branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\magnifier-branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

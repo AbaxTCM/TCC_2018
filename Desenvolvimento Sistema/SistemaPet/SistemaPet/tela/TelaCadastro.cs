@@ -26,40 +26,93 @@ namespace SistemaPet.tela
                 tbcUsuario.TabPages.Remove(tbpAdestrador);
                 tbcUsuario.TabPages.Remove(tbpDono);
             }
+            else if(Session.Instance.Funcao == "Adestrador")
+            {
+                tbcUsuario.TabPages.Remove(tbpAdestrador);
+                tbcUsuario.TabPages.Remove(tbpDono);
+                tbcUsuario.TabPages.Remove(tbpPet);
+            }
+            else
+            {
+                tbcUsuario.TabPages.Remove(tbpPet);
+            }
         }
 
         private void btnSalvarAdestrador_Click(object sender, EventArgs e)
         {
-            Adestrador adestrador = new Adestrador();
+            if (txtNomeAdestrador.Text == "" || txtTelAdestrador.Text == "" || txtEmailAdestrador.Text == "" || txtRuaAdestrador.Text == "" || txtBairroAdestrador.Text == "" || txtCidadeAdestrador.Text == "" || cmbEstadoAdestrador.Text == "" || mtbCpfAdestrador.Text == "")
+            {
+                MessageBox.Show("Campos em branco, Por favor digite novamente");
+                txtNomeAdestrador.Clear();
+                txtTelAdestrador.Clear();
+                txtEmailAdestrador.Clear();
+                txtRuaAdestrador.Clear();
+                txtBairroAdestrador.Clear();
+                txtCidadeAdestrador.Clear();
+                mtbCpfAdestrador.Clear();
+                txtNomeAdestrador.Focus();
+            }
+            int numero;
+            if (int.TryParse(txtTelAdestrador.Text, out numero))
+            {
+                Adestrador adestrador = new Adestrador();
 
-            adestrador.Nome = txtNomeAdestrador.Text;
-            adestrador.Telefone = txtTelAdestrador.Text;
-            adestrador.Email = txtEmailAdestrador.Text;
-            adestrador.Rua = txtRuaAdestrador.Text;
-            adestrador.NumCasa = int.Parse(txtNumAdestrador.Text);
-            adestrador.Bairro = txtBairroAdestrador.Text;
-            adestrador.Cidade = txtCidadeAdestrador.Text;
-            adestrador.Estado = cmbEstadoAdestrador.Text;
-            adestrador.Senha = txtSenhaAdestrador.Text;
-            adestrador.Cpf = int.Parse(mtbCpfAdestrador.Text);
+                adestrador.Nome = txtNomeAdestrador.Text;
+                adestrador.Telefone = txtTelAdestrador.Text;
+                adestrador.Email = txtEmailAdestrador.Text;
+                adestrador.Rua = txtRuaAdestrador.Text;
+                adestrador.NumCasa = int.Parse(txtNumAdestrador.Text);
+                adestrador.Bairro = txtBairroAdestrador.Text;
+                adestrador.Cidade = txtCidadeAdestrador.Text;
+                adestrador.Estado = cmbEstadoAdestrador.Text;
+                adestrador.Senha = txtSenhaAdestrador.Text;
+                adestrador.Cpf = int.Parse(mtbCpfAdestrador.Text);
 
-            controladorCadastro.InserirAdestrador(adestrador);
+                controladorCadastro.InserirAdestrador(adestrador);
+            }
+            else
+            {
+                MessageBox.Show("Telefone inválido");
+                txtTelAdestrador.Clear();
+                txtTelAdestrador.Focus();
+            }
         }
 
         private void btnSalvarDono_Click(object sender, EventArgs e)
         {
-            Dono dono = new Dono();
-            dono.Nome = txtNomeDono.Text;
-            dono.Telefone = txtTelDono.Text;
-            dono.Email = txtEmailDono.Text;
-            dono.Rua = txtRuaDono.Text;
-            dono.NumCasa = int.Parse(txtNumDono.Text);
-            dono.Bairro = txtBairroDono.Text;
-            dono.Cidade = txtCidadeDono.Text;
-            dono.Estado = cmbEstadoDono.Text;
-            dono.Senha = txtSenhaDono.Text;
+            if(txtNomeDono.Text == "" || txtTelDono.Text == "" || txtEmailDono.Text == "" || txtRuaDono.Text == "" || txtBairroDono.Text == "" || txtCidadeDono.Text == "" || cmbEstadoDono.Text == "")
+            {
+                MessageBox.Show("Campos em branco, Por favor digite novamente");
+                txtNomeDono.Clear();
+                txtTelDono.Clear();
+                txtEmailDono.Clear();
+                txtRuaDono.Clear();
+                txtBairroDono.Clear();
+                txtCidadeDono.Clear();
+                txtNomeDono.Focus();
+            }
+            int numero;
+            if (int.TryParse(txtTelDono.Text,out numero))
+            {
+                Dono dono = new Dono();
+                dono.Nome = txtNomeDono.Text;
+                dono.Telefone = txtTelDono.Text;
+                dono.Email = txtEmailDono.Text;
+                dono.Rua = txtRuaDono.Text;
+                dono.NumCasa = int.Parse(txtNumDono.Text);
+                dono.Bairro = txtBairroDono.Text;
+                dono.Cidade = txtCidadeDono.Text;
+                dono.Estado = cmbEstadoDono.Text;
+                dono.Senha = txtSenhaDono.Text;
 
-            controladorCadastro.InserirDono(dono);
+                controladorCadastro.InserirDono(dono);
+            }
+            else
+            {
+                MessageBox.Show("Telefone inválido");
+                txtTelDono.Clear();
+                txtTelDono.Focus();
+            }
         }
 
         private void btnCancelarAdestrador_Click(object sender, EventArgs e)
@@ -74,15 +127,25 @@ namespace SistemaPet.tela
 
         private void btnSalvarPet_Click(object sender, EventArgs e)
         {
-            Pet pet = new Pet();
-            pet.IdDono = Session.Instance.UserID;
-            pet.NomePet = txtNomePet.Text;
-            pet.TipoPet = cmbTipoPet.Text;
-            pet.RacaPet = txtRacaPet.Text;
-            pet.GeneroPet = cmbGeneroPet.Text;
-            pet.AvaliacaoPet = rtbAvaliacao.Text;
+            if (txtNomePet.Text == "" || cmbTipoPet.Text == "" || txtRacaPet.Text == "" || cmbGeneroPet.Text == "")
+            {
+                MessageBox.Show("Campos em branco, Por favor digite novamente");
+                txtNomePet.Clear();
+                txtRacaPet.Clear();
+                txtNomePet.Focus();
+            }
+            else
+            {
+                Pet pet = new Pet();
+                pet.IdDono = Session.Instance.UserID;
+                pet.NomePet = txtNomePet.Text;
+                pet.TipoPet = cmbTipoPet.Text;
+                pet.RacaPet = txtRacaPet.Text;
+                pet.GeneroPet = cmbGeneroPet.Text;
+                pet.AvaliacaoPet = rtbAvaliacao.Text;
 
-            controladorPet.InserirPetDono(pet);
+                controladorPet.InserirPetDono(pet);
+            }
 
         }
 

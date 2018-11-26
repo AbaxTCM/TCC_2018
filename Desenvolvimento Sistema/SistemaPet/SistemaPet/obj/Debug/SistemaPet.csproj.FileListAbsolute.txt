@@ -128,3 +128,4 @@ C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\Sistema
 C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaCadastroAdestrador.resources
 C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaCadastroDono.resources
 C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaPrincipal.resources
+C:\Users\Rafael.Teixeira\Desktop\Rafael\TCC_2018\Desenvolvimento Sistema\SistemaPet\SistemaPet\obj\Debug\SistemaPet.tela.TelaConsulta.resources

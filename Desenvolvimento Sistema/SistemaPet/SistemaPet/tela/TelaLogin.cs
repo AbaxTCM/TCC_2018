@@ -19,6 +19,7 @@ namespace SistemaPet.tela
         public TelaLogin()
         {
             InitializeComponent();
+            txtLogin.Focus();
 
         }
 
@@ -107,6 +108,9 @@ namespace SistemaPet.tela
                         {
                             conn.desconectarBD();
                             MessageBox.Show("Erro: Login ou senha inválidos");
+                            txtLogin.Clear();
+                            txtSenha.Clear();
+                            txtLogin.Focus();
                         }
                     }
                 }

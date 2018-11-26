@@ -27,19 +27,43 @@ namespace SistemaPet.tela
 
         private void btnSalvarAdestrador_Click(object sender, EventArgs e)
         {
-            Adestrador adestrador = new Adestrador();
-            adestrador.Nome = txtNomeAdestrador.Text;
-            adestrador.Telefone = txtTelAdestrador.Text;
-            adestrador.Email = txtEmailAdestrador.Text;
-            adestrador.Rua = txtRuaAdestrador.Text;
-            adestrador.NumCasa = int.Parse(txtNumAdestrador.Text);
-            adestrador.Bairro = txtBairroAdestrador.Text;
-            adestrador.Cidade = txtCidadeAdestrador.Text;
-            adestrador.Estado = cmbEstadoAdestrador.Text;
-            adestrador.Senha = txtSenhaAdestrador.Text;
+            if (txtNomeAdestrador.Text == "" || txtTelAdestrador.Text == "" || txtEmailAdestrador.Text == "" || txtRuaAdestrador.Text == "" || txtBairroAdestrador.Text == "" || txtCidadeAdestrador.Text == "" || cmbEstadoAdestrador.Text == "" || mtbCpfAdestrador.Text == "")
+            {
+                MessageBox.Show("Campos em branco, Por favor digite novamente");
+                txtNomeAdestrador.Clear();
+                txtTelAdestrador.Clear();
+                txtEmailAdestrador.Clear();
+                txtRuaAdestrador.Clear();
+                txtBairroAdestrador.Clear();
+                txtCidadeAdestrador.Clear();
+                mtbCpfAdestrador.Clear();
+                txtNomeAdestrador.Focus();
+            }
+            int numero;
+            if (int.TryParse(txtTelAdestrador.Text, out numero))
+            {
+                Adestrador adestrador = new Adestrador();
 
-            controladorCadastro.InserirAdestrador(adestrador);
-            this.Close();
+                adestrador.Nome = txtNomeAdestrador.Text;
+                adestrador.Telefone = txtTelAdestrador.Text;
+                adestrador.Email = txtEmailAdestrador.Text;
+                adestrador.Rua = txtRuaAdestrador.Text;
+                adestrador.NumCasa = int.Parse(txtNumAdestrador.Text);
+                adestrador.Bairro = txtBairroAdestrador.Text;
+                adestrador.Cidade = txtCidadeAdestrador.Text;
+                adestrador.Estado = cmbEstadoAdestrador.Text;
+                adestrador.Senha = txtSenhaAdestrador.Text;
+                adestrador.Cpf = int.Parse(mtbCpfAdestrador.Text);
+
+                controladorCadastro.InserirAdestrador(adestrador);
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Telefone inválido");
+                txtTelAdestrador.Clear();
+                txtTelAdestrador.Focus();
+            }
         }
 
         private void txtConfirmarSenhaAdestrador_Leave(object sender, EventArgs e)

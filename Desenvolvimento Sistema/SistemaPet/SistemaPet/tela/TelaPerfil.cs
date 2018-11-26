@@ -28,14 +28,14 @@ namespace SistemaPet.tela
             string funcao = Session.Instance.Funcao;
             if (funcao == "Dono")
             {
+                InitializeComponent();
                 controladorPerfil.obterRegistrosDono(dono, ID);
-                if (txtCargoPerfil.Visible != false)
+
+                if (txtCargoPerfil.Visible == true)
                 {
                     lblCargoPerfil.Hide();
                     txtCargoPerfil.Hide();
                 }
-
-                InitializeComponent();
                 txtIdPerfil.Text = dono.IdDono.ToString();
                 txtNomePerfil.Text = dono.Nome;
                 txtEmailPerfil.Text = dono.Email;
@@ -50,13 +50,13 @@ namespace SistemaPet.tela
             else if(funcao == "Adestrador")
             {
                 controladorPerfil.obterRegistrosAdestrador(adestrador, ID);
-                if (txtCargoPerfil.Visible != false)
+
+                InitializeComponent();
+                if (txtCargoPerfil.Visible == true)
                 {
                     lblCargoPerfil.Hide();
                     txtCargoPerfil.Hide();
                 }
-
-                InitializeComponent();
                 txtIdPerfil.Text = adestrador.IdAdestrador.ToString();
                 txtNomePerfil.Text = adestrador.Nome;
                 txtEmailPerfil.Text = adestrador.Email;
@@ -71,10 +71,11 @@ namespace SistemaPet.tela
             else if (funcao == "Funcionario")
             {
                 controladorPerfil.obterRegistrosFuncionario(funcionario, ID);
-                if(txtCargoPerfil.Visible != true)
+                InitializeComponent();
+                if (txtCargoPerfil.Visible == false)
                 {
-                    lblCargoPerfil.Visible = true;
-                    txtCargoPerfil.Visible = true;
+                    lblCargoPerfil.Show();
+                    txtCargoPerfil.Show();
                 }
                 txtCargoPerfil.Text = funcionario.CargoFuncionario;
                 txtIdPerfil.Text = funcionario.IdFuncionario.ToString();

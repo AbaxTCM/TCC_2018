@@ -22,12 +22,8 @@ namespace SistemaPet.tela
         
         public TelaPrincipal()
         {
-            if (Session.Instance.Funcao == "Adestrador")
-            {
-                //NÃO CONSIGO SETAR A VISIBILIDADE AQUI DE ACORDO COM O PERFIL.
-            }
             InitializeComponent();
-            
+
         }
         
 
@@ -136,6 +132,12 @@ namespace SistemaPet.tela
             btnSair.ForeColor = Color.FromArgb(0, 16, 16, 16);
             btnSair.Image = Resources.opened_door_aperture;
         }
+        private void btnConsultar_MouseEnter(object sender, EventArgs e)
+        {
+            btnConsultar.BackColor = Color.FromArgb(0, 148, 187, 27);
+            btnConsultar.ForeColor = Color.FromArgb(0, 16, 16, 16);
+            btnConsultar.Image = Resources.magnifier;
+        }
 
         private void btnSair_MouseLeave(object sender, EventArgs e)
         {
@@ -156,6 +158,11 @@ namespace SistemaPet.tela
             btnCadastrar.Image = Resources.iconCadastrarBranco;
         }
 
+        private void btnConsultar_MouseLeave(object sender, EventArgs e)
+        {
+            btnConsultar.ForeColor = Color.FromArgb(0, 255, 255, 255);
+            btnConsultar.Image = Resources.magnifier_branco;
+        }
         #region Funcoes Formulario
 
         private int tolerance = 12;
@@ -297,12 +304,19 @@ namespace SistemaPet.tela
 
         private void btnComprar_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Função em construção");
         }
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-            AbrirFormnoPainel<TelaCadastro>();
+            if (Session.Instance.Funcao == "Adestrador")
+            {
+                MessageBox.Show("Função cadastro do Adestrador ainda em construção");
+            }
+            else
+            {
+                AbrirFormnoPainel<TelaCadastro>();
+            }
         }
 
         private void pcbFecharMenu_Click(object sender, EventArgs e)
@@ -310,6 +324,28 @@ namespace SistemaPet.tela
             mpPainelMenu.Width = 215;
             btnMenu.Show();
             pcbFecharMenu.Hide();
+        }
+
+        private void mpPainelMenu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void mpPainelConteudo_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnConsultar_Click(object sender, EventArgs e)
+        {
+            if (Session.Instance.Funcao == "Funcionario")
+            {
+                AbrirFormnoPainel<TelaConsulta>();
+            }
+            else
+            {
+                MessageBox.Show("Acesso Negado!\n\nSomente Funcionários tem acesso as consultas.");
+            }
         }
     }
 }

@@ -73,6 +73,31 @@
     <Compile Include="controlador\ControladorTelaLogin.cs" />
     <Compile Include="controlador\ControladorTelaPerfil.cs" />
     <Compile Include="controlador\ControladorTelaPet.cs" />
+    <Compile Include="db_sistemapetDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_sistemapetDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="db_sistemapetDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_sistemapetDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="db_sistemapetDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_sistemapetDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="db_sistemapetDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_sistemapetDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="db_sistemapetDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_sistemapetDataSet4.xsd</DependentUpon>
+    </Compile>
     <Compile Include="dominio\Adestrador.cs" />
     <Compile Include="dominio\Dono.cs" />
     <Compile Include="dominio\Funcionario.cs" />
@@ -111,6 +136,12 @@
     </Compile>
     <Compile Include="tela\TelaCadastroDono.Designer.cs">
       <DependentUpon>TelaCadastroDono.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tela\TelaConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tela\TelaConsulta.Designer.cs">
+      <DependentUpon>TelaConsulta.cs</DependentUpon>
     </Compile>
     <Compile Include="tela\TelaLogin.cs">
       <SubType>Form</SubType>
@@ -161,6 +192,9 @@
     <EmbeddedResource Include="tela\TelaCadastroDono.resx">
       <DependentUpon>TelaCadastroDono.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="tela\TelaConsulta.resx">
+      <DependentUpon>TelaConsulta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="tela\TelaLogin.resx">
       <DependentUpon>TelaLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -187,6 +221,61 @@
       <DependentUpon>TelaPrincipal.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <None Include="db_sistemapetDataSet1.xsc">
+      <DependentUpon>db_sistemapetDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="db_sistemapetDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db_sistemapetDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db_sistemapetDataSet1.xss">
+      <DependentUpon>db_sistemapetDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="db_sistemapetDataSet11.xsc">
+      <DependentUpon>db_sistemapetDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="db_sistemapetDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db_sistemapetDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db_sistemapetDataSet11.xss">
+      <DependentUpon>db_sistemapetDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="db_sistemapetDataSet2.xsc">
+      <DependentUpon>db_sistemapetDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="db_sistemapetDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db_sistemapetDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db_sistemapetDataSet2.xss">
+      <DependentUpon>db_sistemapetDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="db_sistemapetDataSet3.xsc">
+      <DependentUpon>db_sistemapetDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="db_sistemapetDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db_sistemapetDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db_sistemapetDataSet3.xss">
+      <DependentUpon>db_sistemapetDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="db_sistemapetDataSet4.xsc">
+      <DependentUpon>db_sistemapetDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="db_sistemapetDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db_sistemapetDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db_sistemapetDataSet4.xss">
+      <DependentUpon>db_sistemapetDataSet4.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -255,6 +344,8 @@
   <ItemGroup>
     <Content Include="Resources\aberta.png" />
     <Content Include="Resources\fechada.png" />
+    <None Include="Resources\magnifier.png" />
+    <None Include="Resources\magnifier-branco.png" />
     <Content Include="Resources\maximizar.png" />
     <Content Include="Resources\minimizar.png" />
     <Content Include="Resources\restaurar.png" />
